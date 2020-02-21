@@ -1,0 +1,55 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<sounds defaultAnsiColor="&#27;[34m">
+
+	<sound pattern="(.+) has given birth to ((a horse foal)|(horse foals))\." threshold="3">
+		<soundFile fileName="18229__dobroide__20060419horse.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound pattern="An animal has grown to become a Stray Horse\." threshold="4">
+		<soundFile fileName="59569__3bagbrew__horse.mp3" randomBalance="true" />
+	</sound>
+
+	<sound pattern="(.+) has given birth to ((a donkey foal)|(donkey foals))\." threshold="3">
+		<soundFile fileName="19489__acclivity__Donkey3.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound pattern="(.+) has grown to become a Stray Donkey\." threshold="4">
+		<soundFile fileName="16933__acclivity__Donkey.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound pattern="(.+) has grown to become a Donkey\." threshold="4">
+		<soundFile fileName="16933__acclivity__Donkey.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound pattern="(.+) has given birth to a two-humped camel calf\." threshold="3">
+		<soundFile fileName="camelborn.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound pattern="An animal has grown to become a Stray Two-humped Camel\." threshold="4">
+		<soundFile fileName="camelmature.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound pattern="(.+) has given birth to a one-humped camel calf\." threshold="3">
+		<soundFile fileName="camelborn.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound pattern="An animal has grown to become a Stray One-humped Camel\." threshold="4">
+		<soundFile fileName="camelmature.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound pattern="(.+) has given birth to ((a ((cow)|(bull)) calf)|(((cow)|(bull)) calves))\." threshold="3">
+		<soundFile fileName="58277__Benboncan__Cow.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound pattern="An animal has grown to become a Stray ((Cow)|(Bull))\." threshold="4">
+		<soundFile fileName="57791__reinsamba__1192_cow_close.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound pattern="(.+) has grown to become a ((Cow)|(Bull))\." threshold="4">
+		<soundFile fileName="57791__reinsamba__1192_cow_close.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound pattern="(.+) has grown to become a Stray Mule\." threshold="4">
+	</sound>
+
+</sounds>

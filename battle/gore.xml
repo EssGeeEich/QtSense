@@ -1,0 +1,213 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<sounds>
+
+	<!-- gore -->
+	
+	<sound pattern="A (.+) has been severed!" concurrency="4" timeout="500" threshold="4">
+		<soundFile fileName="gore/tearheavygore1.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore2.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore3.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore4.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore5.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore6.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore7.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore8.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore9.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound pattern="A (.+) has been torn!" concurrency="4" timeout="500" threshold="4">
+		<soundFile fileName="gore/tearheavygore1.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore2.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore3.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore4.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore5.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore6.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore7.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore8.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore9.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound pattern="An (.+) has been opened by the strike and a (.+) has been torn!" concurrency="4" timeout="500" threshold="4">
+		<soundFile fileName="gore/tearheavygore1.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore2.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore3.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore4.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore5.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore6.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore7.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore8.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore9.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound pattern="The (.+) has lodged firmly in the wound!" concurrency="5" timeout="250" threshold="4">
+		<soundFile fileName="hit/ranged/arrowHit01.mp3" randomBalance="true" />
+		<soundFile fileName="hit/ranged/arrowHit02.mp3" randomBalance="true" />
+		<soundFile fileName="hit/ranged/arrowHit03.mp3" randomBalance="true" />
+		<soundFile fileName="hit/ranged/arrowHit04.mp3" randomBalance="true" />
+		<soundFile fileName="hit/ranged/arrowHit05.mp3" randomBalance="true" />
+		<soundFile fileName="hit/ranged/arrowHit06.mp3" randomBalance="true" />
+		<soundFile fileName="hit/ranged/arrowHit07.mp3" randomBalance="true" />
+		<soundFile fileName="hit/ranged/arrowHit08.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound pattern="(.+) twists the embedded (.+) around in (.+)'s (.+)!" concurrency="4" timeout="500" threshold="4">
+		<soundFile fileName="gore/tearheavygore1.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore2.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore3.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore4.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore5.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore6.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore7.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore8.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore9.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound pattern="(.+) pulls on the embedded (.+)\." concurrency="4" timeout="500" threshold="4">
+		<soundFile fileName="gore/tearheavygore1.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore2.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore3.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore4.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore5.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore6.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore7.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore8.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore9.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound pattern="(.+) pulls out and releases the (.+)\." concurrency="4" timeout="500" threshold="4">
+		<soundFile fileName="gore/tearheavygore1.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore2.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore3.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore4.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore5.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore6.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore7.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore8.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore9.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound pattern="((An artery)|(A major artery)) has been opened by the ((strike)|(attack))(.*)!" concurrency="4" timeout="500" threshold="4">
+		<soundFile fileName="gore/tearheavygore1.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore2.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore3.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore4.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore5.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore6.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore7.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore8.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore9.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound pattern="An artery in the (.+) has been opened by the ((strike)|(attack))(.*)!" concurrency="4" timeout="500" threshold="4">
+		<soundFile fileName="gore/tearheavygore1.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore2.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore3.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore4.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore5.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore6.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore7.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore8.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore9.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound pattern="A major artery in the (.+) has been opened by the ((strike)|(attack))!" concurrency="4" timeout="500" threshold="4">
+		<soundFile fileName="gore/tearheavygore1.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore2.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore3.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore4.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore5.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore6.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore7.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore8.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore9.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound pattern="The guts pops out of the wound!" concurrency="4" timeout="500" threshold="4">
+		<soundFile fileName="gore/tearheavygore1.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore2.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore3.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore4.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore5.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore6.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore7.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore8.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore9.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound pattern="Many nerves have been severed(.*)!" concurrency="4" timeout="500">
+	</sound>
+	
+	<sound pattern="A tendon has been strained!">
+	</sound>
+	
+	<sound pattern="A tendon in the (.+) has been bruised!" concurrency="5" timeout="250" threshold="4">
+		<soundFile fileName="gore/bruise1.mp3" randomBalance="true" />
+		<soundFile fileName="gore/bruise2.mp3" randomBalance="true" />
+		<soundFile fileName="gore/bruise3.mp3" randomBalance="true" />
+		<soundFile fileName="gore/bruise4.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound pattern="A ligament in (.+) has been (.+)!">
+	</sound>
+	
+	<sound pattern="(.+) takes the full force of the impact!" concurrency="5" timeout="250" threshold="4">
+		<soundFile fileName="hit/bash/bash1.mp3" randomBalance="true" />
+		<soundFile fileName="hit/bash/bash2.mp3" randomBalance="true" />
+		<soundFile fileName="hit/bash/bash3.mp3" randomBalance="true" />
+		<soundFile fileName="hit/bash/bash4.mp3" randomBalance="true" />
+		<soundFile fileName="hit/bash/bash5.mp3" randomBalance="true" />
+		<soundFile fileName="hit/bash/bash6.mp3" randomBalance="true" />
+		<soundFile fileName="hit/bash/bash7.mp3" randomBalance="true" />
+		<soundFile fileName="hit/bash/bash8.mp3" randomBalance="true" />
+		<soundFile fileName="hit/bash/bash9.mp3" randomBalance="true" />
+		<soundFile fileName="hit/bash/bash10.mp3" randomBalance="true" />
+		<soundFile fileName="hit/bash/bash11.mp3" randomBalance="true" />
+		<soundFile fileName="hit/bash/bash12.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound pattern="(.+) takes the full force of the impact and the part splits in gore!" concurrency="5" timeout="250" threshold="4">
+		<soundFile fileName="hit/bash/bash1.mp3" randomBalance="true" />
+		<soundFile fileName="hit/bash/bash2.mp3" randomBalance="true" />
+		<soundFile fileName="hit/bash/bash3.mp3" randomBalance="true" />
+		<soundFile fileName="hit/bash/bash4.mp3" randomBalance="true" />
+		<soundFile fileName="hit/bash/bash5.mp3" randomBalance="true" />
+		<soundFile fileName="hit/bash/bash6.mp3" randomBalance="true" />
+		<soundFile fileName="hit/bash/bash7.mp3" randomBalance="true" />
+		<soundFile fileName="hit/bash/bash8.mp3" randomBalance="true" />
+		<soundFile fileName="hit/bash/bash9.mp3" randomBalance="true" />
+		<soundFile fileName="hit/bash/bash10.mp3" randomBalance="true" />
+		<soundFile fileName="hit/bash/bash11.mp3" randomBalance="true" />
+		<soundFile fileName="hit/bash/bash12.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound pattern="(.+) takes the full force of the impact and the part is smashed into the (.+), an unrecognizable mass!" concurrency="5" timeout="250" threshold="4">
+		<soundFile fileName="hit/bash/bash1.mp3" randomBalance="true" />
+		<soundFile fileName="hit/bash/bash2.mp3" randomBalance="true" />
+		<soundFile fileName="hit/bash/bash3.mp3" randomBalance="true" />
+		<soundFile fileName="hit/bash/bash4.mp3" randomBalance="true" />
+		<soundFile fileName="hit/bash/bash5.mp3" randomBalance="true" />
+		<soundFile fileName="hit/bash/bash6.mp3" randomBalance="true" />
+		<soundFile fileName="hit/bash/bash7.mp3" randomBalance="true" />
+		<soundFile fileName="hit/bash/bash8.mp3" randomBalance="true" />
+		<soundFile fileName="hit/bash/bash9.mp3" randomBalance="true" />
+		<soundFile fileName="hit/bash/bash10.mp3" randomBalance="true" />
+		<soundFile fileName="hit/bash/bash11.mp3" randomBalance="true" />
+		<soundFile fileName="hit/bash/bash12.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound pattern="(.+) in the (.+) with (.+) and the injured part is cloven asunder!" concurrency="5" timeout="250" threshold="4">
+		<soundFile fileName="hit/bash/bash1.mp3" randomBalance="true" />
+		<soundFile fileName="hit/bash/bash2.mp3" randomBalance="true" />
+		<soundFile fileName="hit/bash/bash3.mp3" randomBalance="true" />
+		<soundFile fileName="hit/bash/bash4.mp3" randomBalance="true" />
+		<soundFile fileName="hit/bash/bash5.mp3" randomBalance="true" />
+		<soundFile fileName="hit/bash/bash6.mp3" randomBalance="true" />
+		<soundFile fileName="hit/bash/bash7.mp3" randomBalance="true" />
+		<soundFile fileName="hit/bash/bash8.mp3" randomBalance="true" />
+		<soundFile fileName="hit/bash/bash9.mp3" randomBalance="true" />
+		<soundFile fileName="hit/bash/bash10.mp3" randomBalance="true" />
+		<soundFile fileName="hit/bash/bash11.mp3" randomBalance="true" />
+		<soundFile fileName="hit/bash/bash12.mp3" randomBalance="true" />
+	</sound>
+	
+</sounds>

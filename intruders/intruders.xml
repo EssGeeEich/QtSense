@@ -1,0 +1,219 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<sounds defaultAnsiFormat="&#27;[31m">
+
+	<sound pattern="The Forgotten Beast (.+) has come!  ((A)|(An)) (.+)" channel="music" threshold="1">
+		<!-- http://opengameart.org/content/radakan-dramatic-event-2 -->	
+		<soundFile fileName="Radakan - Dramatic event 2.mp3" />
+		<!-- http://opengameart.org/content/radakan-game-lost -->
+		<soundFile fileName="Radakan - Game Lost.mp3" />	
+	</sound>
+	
+	<sound pattern="The (.+) Titan (.+) has come!  ((A)|(An)) (.+)" channel="music" threshold="1">
+		<!-- http://opengameart.org/content/radakan-dramatic-event-2 -->	
+		<soundFile fileName="Radakan - Dramatic event 2.mp3" />
+		<!-- http://opengameart.org/content/radakan-game-lost -->
+		<soundFile fileName="Radakan - Game Lost.mp3" />	
+	</sound>
+
+	<!-- megabeast -->
+	<sound pattern="The (.+) has come!  ((A)|(An)) (.+)" channel="music" threshold="1">
+		<!-- http://opengameart.org/content/radakan-dramatic-event-2 -->	
+		<soundFile fileName="Radakan - Dramatic event 2.mp3" />
+		<!-- http://opengameart.org/content/radakan-game-lost -->
+		<soundFile fileName="Radakan - Game Lost.mp3" />
+	</sound>
+	
+	<!-- necromancer siege -->
+	<sound pattern="The dead walk\.  Hide while you still can!" channel="music" threshold="1">
+		<soundFile fileName="../seasons/Musopen.Com  Arvo Part-Magnificat.mp3" />
+	</sound>
+
+	<sound pattern="A vile force of darkness has arrived!" channel="music" threshold="1">
+		<soundFile fileName="../seasons/Musopen.Com  Arvo Part-Magnificat.mp3" />
+	</sound>
+	
+	<sound pattern="An ambush!  Curse them!" channel="music" haltOnMatch="false" threshold="1">
+		<!-- http://opengameart.org/content/radakan-dramatic-event-2 -->	
+		<soundFile fileName="Radakan - Dramatic event 2.mp3" />
+		<!-- http://opengameart.org/content/radakan-game-lost -->
+		<soundFile fileName="Radakan - Game Lost.mp3" />
+	</sound>
+	
+	<sound pattern="An ambush!  Drive them out!" channel="music" haltOnMatch="false" threshold="1">
+		<!-- http://opengameart.org/content/radakan-dramatic-event-2 -->	
+		<soundFile fileName="Radakan - Dramatic event 2.mp3" />
+		<!-- http://opengameart.org/content/radakan-game-lost -->
+		<soundFile fileName="Radakan - Game Lost.mp3" />
+	</sound>
+	
+	<sound pattern="Ambush!" channel="music" haltOnMatch="false" threshold="1">
+		<!-- http://opengameart.org/content/radakan-dramatic-event-2 -->	
+		<soundFile fileName="Radakan - Dramatic event 2.mp3" />
+		<!-- http://opengameart.org/content/radakan-game-lost -->
+		<soundFile fileName="Radakan - Game Lost.mp3" />
+	</sound>
+	
+	<sound pattern="An ambush!  Curse them!" threshold="2">
+		<soundFile fileName="goblin/ambush1.mp3" />
+		<soundFile fileName="goblin/ambush2.mp3" />
+		<soundFile fileName="goblin/ambush3.mp3" />
+		<soundFile fileName="goblin/ambush4.mp3" />
+		<soundFile fileName="goblin/ambush5.mp3" />
+		<soundFile fileName="goblin/ambush6.mp3" />
+	</sound>
+
+	<sound pattern="A kidnapper has made off with (.+)!" threshold="2">
+		<soundFile fileName="goblin_snatched1.mp3" />
+		<soundFile fileName="goblin_snatched2.mp3" />
+		<soundFile fileName="goblin_snatched3.mp3" />
+	</sound>
+
+	<sound pattern="Snatcher!( ?) Protect the children!" haltOnMatch="false" threshold="1">
+		<!-- http://soundbible.com/71-Dog-Growling-And-Barking.html -->
+		<soundFile fileName="Dog Growling And Barking-SoundBible.com-883632423.mp3" />
+	</sound>
+	
+	<sound pattern="Snatcher!( ?) Protect the children!" threshold="2">
+		<soundFile fileName="goblin_snatcher_foiled1.mp3" />
+		<soundFile fileName="goblin_snatcher_foiled2.mp3" />
+		<soundFile fileName="goblin_snatcher_foiled3.mp3" />
+	</sound>
+	
+	<!-- gremlin -->
+	<sound pattern="A (.+)!  Drive it away!" threshold="1">
+		<soundFile fileName="Dog Growling And Barking-SoundBible.com-883632423.mp3" />
+	</sound>
+
+	<!-- kobold thief -->
+	<sound pattern="Thief!  Protect the hoard from skulking filth!" haltOnMatch="false" threshold="1">
+		<!-- http://soundbible.com/71-Dog-Growling-And-Barking.html -->
+		<soundFile fileName="Dog Growling And Barking-SoundBible.com-883632423.mp3" />
+	</sound>
+	
+	<sound pattern="Thief!  Protect the hoard from skulking filth!" threshold="2"> 
+		<soundFile fileName="kobold/thiefdetected1.mp3" />
+		<soundFile fileName="kobold/thiefdetected2.mp3" />
+		<soundFile fileName="kobold/thiefdetected3.mp3" />
+		<soundFile fileName="kobold/thiefdetected4.mp3" />
+		<soundFile fileName="kobold/thiefdetected5.mp3" />
+		<soundFile fileName="kobold/thiefdetected6.mp3" />
+		<soundFile fileName="kobold/thiefdetected7.mp3" />
+	</sound>
+	
+	<sound pattern="(.+) has stolen (.+)!" threshold="3">
+		<soundFile fileName="kobold/stole1.mp3" />
+		<soundFile fileName="kobold/stole2.mp3" />
+		<soundFile fileName="kobold/stole3.mp3" />
+		<soundFile fileName="kobold/stole4.mp3" />
+		<soundFile fileName="kobold/stole5.mp3" />
+		<soundFile fileName="kobold/stole6.mp3" />
+	</sound>
+	
+	<sound pattern="(.+) is throwing a tantrum!" timeout="2000" threshold="3">
+		<soundFile fileName="Tantruming/Tantruming1.mp3" />
+		<soundFile fileName="Tantruming/Tantruming2.mp3" />
+		<soundFile fileName="Tantruming/Tantruming3.mp3" />
+		<soundFile fileName="Tantruming/Tantruming4.mp3" />
+		<soundFile fileName="Tantruming/Tantruming5.mp3" />
+		<soundFile fileName="Tantruming/Tantruming6.mp3" />
+	</sound>
+	
+	<sound pattern="(.+) has calmed down\." concurrency="2" timeout="3000" threshold="4" ansiFormat="&#27;[34m">
+		<soundFile fileName="TantrumingNoLonger/TantrumingNoLonger1.mp3" />
+		<soundFile fileName="TantrumingNoLonger/TantrumingNoLonger2.mp3" />
+		<soundFile fileName="TantrumingNoLonger/TantrumingNoLonger3.mp3" />
+		<soundFile fileName="TantrumingNoLonger/TantrumingNoLonger4.mp3" />
+		<soundFile fileName="TantrumingNoLonger/TantrumingNoLonger5.mp3" />
+		<soundFile fileName="TantrumingNoLonger/TantrumingNoLonger6.mp3" />
+		<soundFile fileName="TantrumingNoLonger/TantrumingNoLonger7.mp3" />
+	</sound>
+	
+	<sound pattern="(.+) cancels (.+): Throwing tantrum\." concurrency="2" timeout="3000" propability="90" threshold="4" ansiFormat="&#27;[39m">
+		<soundFile fileName="Tantruming/Tantruming1.mp3" />
+		<soundFile fileName="Tantruming/Tantruming2.mp3" />
+		<soundFile fileName="Tantruming/Tantruming3.mp3" />
+		<soundFile fileName="Tantruming/Tantruming4.mp3" />
+		<soundFile fileName="Tantruming/Tantruming5.mp3" />
+		<soundFile fileName="Tantruming/Tantruming6.mp3" />
+	</sound>
+	
+	<sound pattern="(.+) destroyed by (.+)\." concurrency="2" timeout="500" threshold="3">
+		<!-- http://www.freesound.org/people/CGEffex/sounds/104828/ -->
+		<!-- http://www.freesound.org/people/CGEffex/sounds/104829/ -->
+		<soundFile fileName="breaking/104828__cgeffex__lego-fall-apart2.mp3" randomBalance="true" />
+		<soundFile fileName="breaking/104829__cgeffex__lego-fall-apart3.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound pattern="(.+) toppled by (.+)\." concurrency="2" timeout="500" threshold="3">
+		<!-- http://www.freesound.org/people/CGEffex/sounds/104828/ -->
+		<!-- http://www.freesound.org/people/CGEffex/sounds/104829/ -->
+		<soundFile fileName="breaking/104828__cgeffex__lego-fall-apart2.mp3" randomBalance="true" />
+		<soundFile fileName="breaking/104829__cgeffex__lego-fall-apart3.mp3" randomBalance="true" />
+	</sound>
+	
+	<!-- ghosts -->
+	
+	<sound pattern="(.+) has risen and is haunting the fortress!" threshold="2">
+		<soundFile fileName="ghost/14570__oscillator__Ghost_Fx.mp3" randomBalance="true" />
+		<soundFile fileName="ghost/60571__gabemiller74__BreathOfDeath.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound pattern="(.+) can be heard howling throughout the fortress!" threshold="2">
+		<soundFile fileName="ghost/14570__oscillator__Ghost_Fx.mp3" randomBalance="true" />
+		<soundFile fileName="ghost/60571__gabemiller74__BreathOfDeath.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound pattern="(.+) has been put to rest\." threshold="3" ansiFormat="&#27;[39m">
+		<soundFile fileName="ghost/33501__CosmicD__dreamyghost.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound pattern="(.+) has grown to become a Ghostly (.+) Child\." threshold="4" ansiFormat="&#27;[39m">
+		<soundFile fileName="ghost/14570__oscillator__Ghost_Fx.mp3" randomBalance="true" />
+		<soundFile fileName="ghost/60571__gabemiller74__BreathOfDeath.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound pattern="(.+) has grown to become a Ghost\." threshold="4" ansiFormat="&#27;[39m">
+		<soundFile fileName="ghost/14570__oscillator__Ghost_Fx.mp3" randomBalance="true" />
+		<soundFile fileName="ghost/60571__gabemiller74__BreathOfDeath.mp3" randomBalance="true" />
+	</sound>
+	
+	<!-- ghost batters -->
+	<sound pattern="(.+) batters (.+)!" threshold="3">
+		<soundFile fileName="8891__patchen__0_STABscrapes.mp3" randomBalance="true">
+			<attribution url="http://www.freesound.org/people/patchen/sounds/8891/" license="CC BY 3.0" author="patchen" description="0 STABscrapes.ogg" />
+		</soundFile>
+		<soundFile fileName="8891__patchen__0_STABscrapes_rev.mp3" randomBalance="true">
+			<attribution url="http://www.freesound.org/people/patchen/sounds/8891/" license="CC BY 3.0" author="patchen" description="0 STABscrapes.ogg" />
+		</soundFile>
+	</sound>
+	
+	<!-- ghost follows -->
+	<sound pattern="(.+) is following (.+)!" threshold="3" ansiFormat="&#27;[39m">
+		<soundFile fileName="8891__patchen__0_STABscrapes.mp3" randomBalance="true">
+			<attribution url="http://www.freesound.org/people/patchen/sounds/8891/" license="CC BY 3.0" author="patchen" description="0 STABscrapes.ogg" />
+		</soundFile>
+		<soundFile fileName="8891__patchen__0_STABscrapes_rev.mp3" randomBalance="true">
+			<attribution url="http://www.freesound.org/people/patchen/sounds/8891/" license="CC BY 3.0" author="patchen" description="0 STABscrapes.ogg" />
+		</soundFile>
+	</sound>
+	
+	<sound pattern="a (.+) has been misplaced.  No doubt (.+), Ghostly (.+) is to blame!" threshold="3" ansiFormat="&#27;[39m">
+		<soundFile fileName="8891__patchen__0_STABscrapes.mp3" randomBalance="true">
+			<attribution url="http://www.freesound.org/people/patchen/sounds/8891/" license="CC BY 3.0" author="patchen" description="0 STABscrapes.ogg" />
+		</soundFile>
+		<soundFile fileName="8891__patchen__0_STABscrapes_rev.mp3" randomBalance="true">
+			<attribution url="http://www.freesound.org/people/patchen/sounds/8891/" license="CC BY 3.0" author="patchen" description="0 STABscrapes.ogg" />
+		</soundFile>
+	</sound>
+
+	<sound pattern="(.+) is throwing a tantrum, possessed by (.+), Ghostly (.+)!" threshold="3" ansiFormat="&#27;[39m">
+		<soundFile fileName="8891__patchen__0_STABscrapes.mp3" randomBalance="true">
+			<attribution url="http://www.freesound.org/people/patchen/sounds/8891/" license="CC BY 3.0" author="patchen" description="0 STABscrapes.ogg" />
+		</soundFile>
+		<soundFile fileName="8891__patchen__0_STABscrapes_rev.mp3" randomBalance="true">
+			<attribution url="http://www.freesound.org/people/patchen/sounds/8891/" license="CC BY 3.0" author="patchen" description="0 STABscrapes.ogg" />
+		</soundFile>
+	</sound>
+
+
+</sounds>
