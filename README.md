@@ -25,6 +25,31 @@ $ qmake
 $ make && echo You may want to run 'make install' as root now, or './QtSense' without root.
 ```
 
+### Installing Sounds
+
+Sounds may be anywhere on your system (you will need to set up the path in QtSense's Settings page).
+
+Please note that **traditional SoundSense files will not work**.
+
+You can, however, download modern SoundSense files and XML files from the following links:
+
+* [XML files](https://github.com/EssGeeEich/QtSense/zipball/sounds/)
+* [Sound files](https://github.com/EssGeeEich/QtSense/releases/download/Latest/packs.zip)
+
+#### Why different files?
+
+The difference stems from the fact that this project aims to integrate in a much deeper way into Dwarf Fortress. As such, most XML files will need to be edited to support new features.
+
+I took this opportunity to fix most typos in those XML files and to define in a much clearer way the range of some values.
+
+#### Why different links?
+
+Git is not made for binary files. As such, binary files are uploaded as binary release files.
+
+XML files are text files and are easily versionable.
+
+The [sounds](https://github.com/EssGeeEich/QtSense/tree/sounds) repository is dedicated to those XML files and allows for easier community contributions.
+
 ### Usage
 
 By default QtSense will need to be configured to read Dwarf Fortress' gamelog.txt file.
