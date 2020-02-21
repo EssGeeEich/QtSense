@@ -59,6 +59,8 @@ void MainWindow::onLineProcessed(QString s)
 
 void MainWindow::onCommandProcessed(QStringList args)
 {
+	if(args.isEmpty() || args[0] == "MSG")
+		return;
 	onLineProcessed("NET: " + args.join(QChar(' ')));
 }
 
