@@ -35,6 +35,8 @@ void QtSense::addMonitor(QString filename)
 
 void QtSense::monitorLineFeed(QString line)
 {
+	if(m_skipping)
+		return;
 	processCommand(QStringList() << "MSG" << line);
 }
 
@@ -342,8 +344,6 @@ void QtSense::processCommand(QStringList args)
 
 void QtSense::processLine(QString line)
 {
-	if(m_skipping)
-		return;
 	for(auto it = m_loadedPacks.begin(); it != m_loadedPacks.end(); ++it)
 	{
 		if(!it->m_enabled || !it->m_valid)
