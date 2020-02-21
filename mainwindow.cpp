@@ -126,13 +126,12 @@ void MainWindow::onSettingsChanged()
 	if(m_sense->isReady())
 	{
 		ui->statusBar->showMessage(tr("Ready."), 5000);
-
-		m_sense->skipAll();
 	}
 	else
 	{
 		ui->statusBar->showMessage(tr("Not ready. Missing file/folder."), 5000);
 	}
+	m_sense->skipAll();
 }
 
 void MainWindow::onPacksChanged()
