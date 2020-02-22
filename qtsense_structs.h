@@ -45,7 +45,6 @@ struct GameLineInfo {
 	int m_concurrency; // 0-N [ <=0 : disabled ]
 	int m_timeout; // !ignored!
 	int m_probability; // 0-100
-	bool m_haltOnMatch; // !ignored!
 
 	RandomInt m_rngProbability;
 	RandomInt m_rngVariant;

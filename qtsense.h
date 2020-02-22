@@ -30,7 +30,7 @@ public:
 public slots:
 	void update();
 	void skipAll();
-	void processLine(QString);
+	void processMessage(QString);
 	void processCommand(QStringList);
 	void reloadPacks();
 	void stopAllSounds();
@@ -40,7 +40,6 @@ signals:
 	void onPacksReloaded();
 	void onNewSounds();
 	void onUpdate();
-	void onLineProcessed(QString);
 	void onCommandProcessed(QStringList);
 
 private:

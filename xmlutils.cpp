@@ -4,6 +4,7 @@
 #include <QDomElement>
 #include <QDomNode>
 #include <QFile>
+#include <QDir>
 #include <iostream>
 
 int domElInt(QDomElement& el, QString const& key, int defval)
@@ -34,12 +35,75 @@ bool domElBool(QDomElement& el, QString const& key, bool defval, QStringList con
 	return (s == "true" || trues.contains(s));
 }
 
-void SaveXMLPack(PackListInfo const&, PackProperties const&)
+bool SaveXMLPack(PackListInfo const& pack, PackProperties const& pp)
 {
-	std::cerr << "SaveXMLPack: Not implemented" << std::endl;
+	QDir basePath(pack.m_basepath);
+	try {
+		QFile xmlFile(pp.m_basepath + '/' + pp.m_filename);
+		if(!xmlFile.open(QFile::WriteOnly | QFile::Text))
+			throw std::runtime_error("Cannot create the XML file.");
+		QDomDocument xml(pack.m_displayname);
+		
+		QDomElement sounds = xml.createElement("sounds");
+		
+		for(GameLineInfo const& gli : pp.m_lineinfos)
+		{
+			QDomElement sound = xml.createElement("sound");
+			sound.setAttribute("pattern", gli.m_regex.pattern());
+			sound.setAttribute("channel", gli.m_channel);
+			if(gli.m_loop)
+				sound.setAttribute("loop", "true");
+			if(gli.m_threshold != TH_DEFAULT)
+				sound.setAttribute("threshold", static_cast<int>(gli.m_threshold));
+			if(gli.m_delay != 0)
+				sound.setAttribute("delay", gli.m_delay);
+			if(gli.m_concurrency > 0)
+				sound.setAttribute("concurrency", gli.m_concurrency);
+			if(gli.m_timeout > 0)
+				sound.setAttribute("timeout", gli.m_timeout);
+			if(gli.m_probability < 100)
+				sound.setAttribute("probability", gli.m_probability);
+			
+			for(SoundVariant const& variant : gli.m_variants)
+			{
+				QDomElement soundFile = xml.createElement("soundFile");
+				
+				soundFile.setAttribute("fileName", basePath.relativeFilePath(variant.m_filename));
+				if(variant.m_weight != DEFAULT_SOUND_WEIGHT)
+					soundFile.setAttribute("weight", variant.m_weight);
+				if(variant.m_volume != 1.f)
+					soundFile.setAttribute("volume", variant.m_volume);
+				if(variant.m_balance != 0.f)
+					soundFile.setAttribute("balance", variant.m_balance);
+				if(variant.m_rngBalance.get())
+					soundFile.setAttribute("randomBalance", "true");
+				
+				sound.appendChild(soundFile);
+			}
+			
+			sounds.appendChild(sound);
+		}
+		
+		xml.appendChild(sounds);
+		QTextStream textStream(&xmlFile);
+		textStream << xml.toString();
+		if(textStream.status() != QTextStream::Ok)
+			throw std::runtime_error("Error writing data to the XML file.");
+	}  catch (std::exception& e) {
+		std::cerr << "Exception saving to an XML file: " << e.what() << std::endl
+				  << "(Pack '" << pack.m_displayname.toStdString() << "')"
+				  << std::endl;
+		return false;
+	} catch(...) {
+		std::cerr << "Unknown exception saving to an XML file." << std::endl
+				  << "(Pack '" << pack.m_displayname.toStdString() << "')"
+				  << std::endl;
+		return false;
+	}
+	return true;
 }
 
-void ParseXMLPack(PackListInfo const& pack, PackProperties& pp)
+bool ParseXMLPack(PackListInfo const& pack, PackProperties& pp, bool loadAll)
 {
 	pp.m_enabled = Set::boolSetting(pack.m_displayname, true);
 	pp.m_basepath = pack.m_basepath;
@@ -79,7 +143,7 @@ void ParseXMLPack(PackListInfo const& pack, PackProperties& pp)
 
 				GameLineInfo gli;
 				gli.m_regex.setPattern(logPattern);
-				if(!gli.m_regex.isValid())
+				if(!loadAll && !gli.m_regex.isValid())
 				{
 					std::cerr << "Invalid regex pattern: '" << logPattern.toStdString()
 							  << "' in pack '" << pack.m_displayname.toStdString()
@@ -136,7 +200,7 @@ void ParseXMLPack(PackListInfo const& pack, PackProperties& pp)
 					fullweight += variant.m_weight;
 					gli.m_variants.push_back(variant);
 				}
-				if(gli.m_variants.isEmpty())
+				if(!loadAll && gli.m_variants.isEmpty())
 				{
 					std::cerr << "No valid variants for the pattern: '" << logPattern.toStdString()
 							  << "' in pack '" << pack.m_displayname.toStdString()
@@ -155,14 +219,20 @@ void ParseXMLPack(PackListInfo const& pack, PackProperties& pp)
 				  << "Pack '" << pack.m_displayname.toStdString()
 					<< "' will be disabled." << std::endl;
 		pp.m_lineinfos.clear();
+		pp.m_valid = false;
+		return false;
 	}
 	catch(...) {
 		std::cerr << "Unknown exception parsing an XML file." << std::endl
 				  << "Pack '" << pack.m_displayname.toStdString()
 					<< "' will be disabled." << std::endl;
 		pp.m_lineinfos.clear();
+		pp.m_valid = false;
+		return false;
 	}
 
-	if(pp.m_lineinfos.isEmpty())
+	if(!loadAll && pp.m_lineinfos.isEmpty())
 		pp.m_valid = false;
+	
+	return pp.m_valid;
 }

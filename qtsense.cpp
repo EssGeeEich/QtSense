@@ -11,7 +11,12 @@ QtSense::QtSense(QObject *parent)
 	: QObject(parent),
 	  m_threshold(Nothing),
 	  m_skipping(false)
-{}
+{
+	QTimer* updateTimer = new QTimer(this);
+	connect(updateTimer, &QTimer::timeout,
+			this, &QtSense::update);
+	updateTimer->start(200);
+}
 
 void QtSense::addMonitor(QString filename)
 {
@@ -176,14 +181,14 @@ void QtSense::processCommand(QStringList args)
 	{
 		for(int i = 1; i < args.size(); ++i)
 		{
-			processLine(args[i]);
+			processMessage(args[i]);
 		}
 	}
 	
 	emit onCommandProcessed(args);
 }
 
-void QtSense::processLine(QString line)
+void QtSense::processMessage(QString line)
 {
 	for(auto it = m_loadedPacks.begin(); it != m_loadedPacks.end(); ++it)
 	{
@@ -262,5 +267,4 @@ void QtSense::processLine(QString line)
 			}
 		}
 	}
-	emit onLineProcessed(line);
 }

@@ -3,8 +3,6 @@
 #include "settings.h"
 #include "soundlistener.h"
 #include "sounddevice.h"
-#include <QTimer>
-#include <chrono>
 
 MainWindow::MainWindow(QWidget *parent)
 	: QMainWindow(parent),
@@ -28,35 +26,30 @@ MainWindow::MainWindow(QWidget *parent)
 		ui->tabWidget->removeTab(ui->tabWidget->indexOf(ui->debugTab));
 	}
 	
-	//
+	// *
 	{
 		ui->editorTab->setEnabled(false);
 		ui->editorTab->setVisible(false);
 		ui->tabWidget->removeTab(ui->tabWidget->indexOf(ui->editorTab));
 	}
 	
+	// */
 	
-	QTimer* updateTimer = new QTimer(this);
-
+	
 	connect(m_sense, &QtSense::onPacksReloaded,
-			this, &MainWindow::onPacksChanged);
-	connect(updateTimer, &QTimer::timeout,
-			m_sense, &QtSense::update);
+			this, &MainWindow::packsChanged);
 	connect(ui->packsListWidget, &QListWidget::itemChanged,
-			this, &MainWindow::onPackListItemChanged);
+			this, &MainWindow::packListItemChanged);
 	connect(g_soundDevice->channelMgr(), &SoundChannelManager::onChannelDiscovered,
 			this, &MainWindow::prepareChannelSlider);
 	connect(m_network, &NetworkAccess::newEvent,
 			m_sense, &QtSense::processCommand);
 	
-	connect(m_sense, &QtSense::onLineProcessed,
-			this, &MainWindow::onLineProcessed);
 	connect(m_sense, &QtSense::onCommandProcessed,
-			this, &MainWindow::onCommandProcessed);
+			this, &MainWindow::commandProcessed);
 	
-	onSettingsChanged();
+	settingsChanged();
 	m_sense->reloadPacks();
-	updateTimer->start(std::chrono::milliseconds(200));
 }
 
 MainWindow::~MainWindow()
@@ -65,25 +58,23 @@ MainWindow::~MainWindow()
 	delete ui;
 }
 
-void MainWindow::onLineProcessed(QString s)
-{
-	if(m_logging && m_logging->insertRow(m_logging->rowCount()))
-	{
-		QModelIndex index = m_logging->index(m_logging->rowCount() - 1, 0);
-		m_logging->setData(index, s);
-		
-		ui->logText->scrollToBottom();
-	}
-}
-
-void MainWindow::onCommandProcessed(QStringList args)
+void MainWindow::commandProcessed(QStringList args)
 {
 	if(args.isEmpty() || args[0] == "MSG")
 		return;
-	onLineProcessed("NET: " + args.join(QChar(' ')));
+	for(int i = 1; i < args.size(); ++i)
+	{
+		if(m_logging && m_logging->insertRow(m_logging->rowCount()))
+		{
+			QModelIndex index = m_logging->index(m_logging->rowCount() - 1, 0);
+			m_logging->setData(index, args[i]);
+			
+			ui->logText->scrollToBottom();
+		}
+	}
 }
 
-void MainWindow::onSettingsChanged()
+void MainWindow::settingsChanged()
 {
 	Set::g_settings.beginGroup("Paths");
 	QString gamelog = Set::stringSetting("Gamelog");
@@ -159,7 +150,7 @@ void MainWindow::onSettingsChanged()
 	m_sense->skipAll();
 }
 
-void MainWindow::onPacksChanged()
+void MainWindow::packsChanged()
 {
 	ui->packsListWidget->clear();
 
@@ -188,12 +179,12 @@ void MainWindow::onPacksChanged()
 	return;
 }
 
-void MainWindow::onPackListItemChanged(QListWidgetItem* item)
+void MainWindow::packListItemChanged(QListWidgetItem* item)
 {
 	m_sense->SetPackEnabled(item->text(), item->checkState() == Qt::Checked);
 }
 
-void MainWindow::onPackListItemChangedExternally(QString item, bool status)
+void MainWindow::packListItemChangedExternally(QString item, bool status)
 {
 	auto items = ui->packsListWidget->findItems(item, Qt::MatchExactly);
 	for(auto item : items)
@@ -206,7 +197,7 @@ void MainWindow::on_actionSettings_triggered()
 {
 	Settings* s = new Settings(this);
 	s->show();
-	connect(s, &QDialog::finished, this, &MainWindow::onSettingsChanged);
+	connect(s, &QDialog::finished, this, &MainWindow::settingsChanged);
 }
 
 void MainWindow::on_actionReload_Packs_triggered()
@@ -245,7 +236,7 @@ void MainWindow::createChannelSlider(QString ch, int position)
 	MainWindow* mw = this;
 	connect(nSlider, &QSlider::valueChanged,
 	[=](int position){
-		mw->onSliderValueChanged(ch, position);
+		mw->sliderValueChanged(ch, position);
 	});
 }
 
@@ -260,7 +251,7 @@ void MainWindow::prepareChannelSlider(QString ch)
 	createChannelSlider(std::move(ch), position);
 }
 
-void MainWindow::onSliderValueChanged(QString const& ch, int position)
+void MainWindow::sliderValueChanged(QString const& ch, int position)
 {
 	g_soundDevice->channelMgr()->SetChannelVolume(ch, static_cast<float>(position) * 0.01f);
 	
