@@ -288,8 +288,13 @@ void QtSense::setThreshold(Threshold thres)
 
 bool QtSense::isReady() const
 {
-	return QFile(m_gamelog).exists()
-			&& QDir(m_packs).exists();
+	return QDir(m_packs).exists();
+}
+
+bool QtSense::isModern() const
+{
+	return (!QFile(m_gamelog).exists())
+			&& !(QFile(m_gamelog_extra).exists());
 }
 
 void QtSense::update()

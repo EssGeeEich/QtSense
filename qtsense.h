@@ -74,7 +74,9 @@ public:
 	void updatePaths(QString gamelog,
 					 QString gamelogExtra,
 					 QString packs);
+	
 	bool isReady() const;
+	bool isModern() const;
 
 	QMap<QString, PackProperties> const& Packs() const;
 	void SetPackEnabled(QString const&, bool);

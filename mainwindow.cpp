@@ -11,11 +11,23 @@ MainWindow::MainWindow(QWidget *parent)
 	  ui(new Ui::MainWindow),
 	  m_sense(new QtSense(this)),
 	  m_network(new NetworkAccess(this)),
-	  m_logging(new QStringListModel(this)),
+	  m_logging(nullptr),
 	  m_loadingChannels(false)
 {
 	ui->setupUi(this);
+	
+#ifdef DEBU
+	m_logging = new QStringListModel(this);
 	ui->logText->setModel(m_logging);
+#endif
+	
+	if(!m_logging)
+	{
+		ui->debugTab->setEnabled(false);
+		ui->debugTab->setVisible(false);
+		ui->tabWidget->removeTab(ui->tabWidget->indexOf(ui->debugTab));
+	}
+	
 	
 	QTimer* updateTimer = new QTimer(this);
 
@@ -48,7 +60,7 @@ MainWindow::~MainWindow()
 
 void MainWindow::onLineProcessed(QString s)
 {
-	if(m_logging->insertRow(m_logging->rowCount()))
+	if(m_logging && m_logging->insertRow(m_logging->rowCount()))
 	{
 		QModelIndex index = m_logging->index(m_logging->rowCount() - 1, 0);
 		m_logging->setData(index, s);
@@ -125,13 +137,17 @@ void MainWindow::onSettingsChanged()
 	m_sense->updatePaths(gamelog, gamelog_extra, packs);
 
 	ui->statusBar->clearMessage();
-	if(m_sense->isReady())
+	if(!m_sense->isReady())
 	{
-		ui->statusBar->showMessage(tr("Ready."), 5000);
+		ui->statusBar->showMessage(tr("Not Ready: Missing Sounds folder."), 5000);
+	}
+	else if(m_sense->isModern())
+	{
+		ui->statusBar->showMessage(tr("Ready: Modern Mode."), 5000);
 	}
 	else
 	{
-		ui->statusBar->showMessage(tr("Not ready. Missing file/folder."), 5000);
+		ui->statusBar->showMessage(tr("Ready: Legacy/Hybrid Mode."), 5000);
 	}
 	m_sense->skipAll();
 }
@@ -200,12 +216,12 @@ void MainWindow::createChannelSlider(QString ch, int position)
 {
 	int row = ui->formLayout_2->rowCount();
 	
-	QLabel* nLabel = new QLabel(ui->tab_3);
+	QLabel* nLabel = new QLabel(ui->volumeTab);
 	nLabel->setObjectName(QString::fromUtf8("Ch_%1_Label").arg(ch));
 	nLabel->setText(ch);
 	ui->formLayout_2->setWidget(row, QFormLayout::LabelRole, nLabel);
 	
-	QSlider* nSlider = new QSlider(ui->tab_3);
+	QSlider* nSlider = new QSlider(ui->volumeTab);
 	nSlider->setObjectName(QString::fromUtf8("Ch_%1_Slider").arg(ch));
 	nSlider->setMaximum(100);
 	nSlider->setValue(position);

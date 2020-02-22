@@ -30,12 +30,12 @@
     <item>
      <widget class="QTabWidget" name="tabWidget">
       <property name="currentIndex">
-       <number>2</number>
+       <number>0</number>
       </property>
       <property name="documentMode">
        <bool>true</bool>
       </property>
-      <widget class="QWidget" name="tab_3">
+      <widget class="QWidget" name="volumeTab">
        <attribute name="title">
         <string>Volume</string>
        </attribute>
@@ -75,7 +75,7 @@
         </item>
        </layout>
       </widget>
-      <widget class="QWidget" name="tab">
+      <widget class="QWidget" name="packsTab">
        <attribute name="title">
         <string>Packs</string>
        </attribute>
@@ -85,7 +85,7 @@
         </item>
        </layout>
       </widget>
-      <widget class="QWidget" name="tab_2">
+      <widget class="QWidget" name="debugTab">
        <attribute name="title">
         <string>Debug</string>
        </attribute>
