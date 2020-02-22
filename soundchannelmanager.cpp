@@ -70,6 +70,7 @@ void SoundChannelManager::PlaySound(SoundInstance* si, QString const& ch)
 		{
 			chprop->m_sounds.push_back(si);
 		}
+		si->setLooping(false);
 		si->forcePlayNow();
 		return;
 	}

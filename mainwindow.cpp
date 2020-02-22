@@ -1,6 +1,6 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
-#include "Settings.h"
+#include "settings.h"
 #include "soundlistener.h"
 #include "sounddevice.h"
 #include <QTimer>
@@ -16,7 +16,7 @@ MainWindow::MainWindow(QWidget *parent)
 {
 	ui->setupUi(this);
 	
-#ifdef DEBU
+#ifdef DEBUG
 	m_logging = new QStringListModel(this);
 	ui->logText->setModel(m_logging);
 #endif
@@ -26,6 +26,13 @@ MainWindow::MainWindow(QWidget *parent)
 		ui->debugTab->setEnabled(false);
 		ui->debugTab->setVisible(false);
 		ui->tabWidget->removeTab(ui->tabWidget->indexOf(ui->debugTab));
+	}
+	
+	//
+	{
+		ui->editorTab->setEnabled(false);
+		ui->editorTab->setVisible(false);
+		ui->tabWidget->removeTab(ui->tabWidget->indexOf(ui->editorTab));
 	}
 	
 	

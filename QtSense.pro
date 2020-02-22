@@ -24,13 +24,14 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    Settings.cpp \
     main.cpp \
     mainwindow.cpp \
+    mainwindow_editor.cpp \
     networkaccess.cpp \
     qtsense.cpp \
     qtsensefilemonitor.cpp \
     random.cpp \
+    settings.cpp \
     sound.cpp \
     sound_shared.cpp \
     soundchannelmanager.cpp \
@@ -39,15 +40,18 @@ SOURCES += \
     soundfademanager.cpp \
     soundinstance.cpp \
     soundlistener.cpp \
-    soundloader.cpp
+    soundloader.cpp \
+    xmlutils.cpp
 
 HEADERS += \
-    Settings.h \
     mainwindow.h \
+    mainwindow_editor.h \
     networkaccess.h \
     qtsense.h \
+    qtsense_structs.h \
     qtsensefilemonitor.h \
     random.h \
+    settings.h \
     sound.h \
     sound_shared.h \
     soundchannelmanager.h \
@@ -56,11 +60,12 @@ HEADERS += \
     soundfademanager.h \
     soundinstance.h \
     soundlistener.h \
-    soundloader.h
+    soundloader.h \
+    xmlutils.h
 
 FORMS += \
-    Settings.ui \
-    mainwindow.ui
+    mainwindow.ui \
+    settings.ui
 
 TRANSLATIONS += \
     QtSense_en_US.ts

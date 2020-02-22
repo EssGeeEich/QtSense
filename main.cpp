@@ -1,7 +1,7 @@
 #include "mainwindow.h"
 #include "sounddevice.h"
 #include "sounddeviceenumerator.h"
-#include "Settings.h"
+#include "settings.h"
 
 #include <QApplication>
 #include <QMessageBox>

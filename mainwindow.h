@@ -6,6 +6,7 @@
 #include <QStringListModel>
 #include "qtsense.h"
 #include "networkaccess.h"
+#include "mainwindow_editor.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -36,12 +37,19 @@ private slots:
 	void on_testGamelogPushButton_clicked();
 	void on_masterSlider_valueChanged(int value);
 	
+	void on_actionSave_Pack_triggered();
+	
+	void on_browseSoundPackButton_clicked();
+	
+	void on_loadButton_clicked();
+	
 private:
 	Ui::MainWindow *ui;
 
 	QtSense* m_sense;
 	NetworkAccess* m_network;
 	QStringListModel* m_logging;
+	std::unique_ptr<EditorData> m_editorData;
 	bool m_loadingChannels;
 };
 #endif // MAINWINDOW_H

@@ -1,4 +1,4 @@
-#include "Settings.h"
+#include "settings.h"
 #include "ui_Settings.h"
 #include <QFileDialog>
 #include "qtsense.h"
