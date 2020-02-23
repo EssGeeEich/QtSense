@@ -1,10 +1,5 @@
-<?xml version="1.1" encoding="UTF-8"?>
-<sounds defaultAnsiColor="&#27;[34m">
-
-	<sound pattern="(.+) has grown to become a ((Billy)|(Nanny)) Goat\.">
-	</sound>
-	
-	<sound pattern="(.+) has given birth to a goat kid\.">
-	</sound>
-
+<!DOCTYPE EDITOR>
+<sounds>
+ <sound pattern="(.+) has grown to become a ((Billy)|(Nanny)) Goat\." channel="sfx"/>
+ <sound pattern="(.+) has given birth to a goat kid\." channel="sfx"/>
 </sounds>

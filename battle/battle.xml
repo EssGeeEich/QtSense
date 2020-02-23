@@ -1,570 +1,457 @@
-<?xml version="1.1" encoding="UTF-8"?>
+<!DOCTYPE EDITOR>
 <sounds>
-
-	<!-- movement -->
-
-	<sound pattern="(.+) is propelled away by the force of the blow!" concurrency="4" timeout="500" threshold="4">
-		<soundFile fileName="hit/bash/bash1.mp3" randomBalance="true" />
-		<soundFile fileName="hit/bash/bash2.mp3" randomBalance="true" />
-		<soundFile fileName="hit/bash/bash3.mp3" randomBalance="true" />
-		<soundFile fileName="hit/bash/bash4.mp3" randomBalance="true" />
-		<soundFile fileName="hit/bash/bash5.mp3" randomBalance="true" />
-		<soundFile fileName="hit/bash/bash6.mp3" randomBalance="true" />
-		<soundFile fileName="hit/bash/bash7.mp3" randomBalance="true" />
-		<soundFile fileName="hit/bash/bash8.mp3" randomBalance="true" />
-		<soundFile fileName="hit/bash/bash9.mp3" randomBalance="true" />
-		<soundFile fileName="hit/bash/bash10.mp3" randomBalance="true" />
-		<soundFile fileName="hit/bash/bash11.mp3" randomBalance="true" />
-		<soundFile fileName="hit/bash/bash12.mp3" randomBalance="true" />
-	</sound>
-
-	<sound pattern="The (.+) collides with (.+)!" concurrency="4" timeout="500" threshold="4">
-		<soundFile fileName="hit/strike/strike1.mp3" />
-		<soundFile fileName="hit/strike/strike2.mp3" />
-		<soundFile fileName="hit/strike/strike3.mp3" />
-	</sound>
-
-	<sound pattern="The (.+) is knocked over!" concurrency="2" timeout="1000" threshold="4">
-		<soundFile fileName="wrestling/bodyfall1.mp3" randomBalance="true" />
-		<soundFile fileName="wrestling/bodyfall2.mp3" randomBalance="true" />
-	</sound>
-
-	<sound pattern="The (.+) falls over\." concurrency="2" timeout="1000" threshold="4">
-		<soundFile fileName="wrestling/bodyfall1.mp3" randomBalance="true" />
-		<soundFile fileName="wrestling/bodyfall2.mp3" randomBalance="true" />
-		<soundFile fileName="wrestling/bodyfall3.mp3" randomBalance="true" />
-	</sound>
-
-	<sound pattern="The (.+) attacks The (.+) but ((He)|(She)|(It)) jumps away!" concurrency="4" timeout="500" threshold="4">
-		<soundFile fileName="wrestling/swingfist1.mp3" />
-		<soundFile fileName="wrestling/swingfist2.mp3" />
-		<soundFile fileName="wrestling/swingfist3.mp3" />
-		<soundFile fileName="wrestling/swingfist4.mp3" />
-	</sound>
-
-	<sound pattern="(((.+) jumps)|(You jump)) away from The flying (.+)!" concurrency="4" timeout="500" threshold="4">
-		<soundFile fileName="wrestling/swingfist1.mp3" />
-		<soundFile fileName="wrestling/swingfist2.mp3" />
-		<soundFile fileName="wrestling/swingfist3.mp3" />
-		<soundFile fileName="wrestling/swingfist4.mp3" />
-	</sound>
-	
-	<sound pattern="(.+) jumps out of (.+)'s flight path!" concurrency="4" timeout="500" threshold="4">
-		<soundFile fileName="wrestling/swingfist1.mp3" />
-		<soundFile fileName="wrestling/swingfist2.mp3" />
-		<soundFile fileName="wrestling/swingfist3.mp3" />
-		<soundFile fileName="wrestling/swingfist4.mp3" />
-	</sound>
-
-	<sound pattern="(((.+) jumps)|(You jump)) away from the (.+)!" concurrency="4" timeout="500" threshold="4">
-		<soundFile fileName="wrestling/swingfist1.mp3" />
-		<soundFile fileName="wrestling/swingfist2.mp3" />
-		<soundFile fileName="wrestling/swingfist3.mp3" />
-		<soundFile fileName="wrestling/swingfist4.mp3" />
-	</sound>
-
-	<sound pattern="The (.+) stands up\." concurrency="1" timeout="2500" threshold="4">
-		<soundFile fileName="wrestling/standup1.mp3" />
-		<soundFile fileName="wrestling/standup2.mp3" />
-		<soundFile fileName="wrestling/standup3.mp3" />
-		<soundFile fileName="wrestling/standup4.mp3" />
-		<soundFile fileName="wrestling/standup5.mp3" />
-		<soundFile fileName="wrestling/standup6.mp3" />
-	</sound>
-
-	<sound pattern="The (.+) attacks (.+) but ((He)|(She)|(It)) rolls away!" concurrency="1" timeout="2500" threshold="4">
-		<soundFile fileName="movement/28301__HerbertBoland__HeavySkirtMovement.mp3" volume="0.3" randomBalance="true" />
-		<soundFile fileName="movement/28301__HerbertBoland__HeavySkirtMovement2.mp3" volume="0.3" randomBalance="true" />
-		<soundFile fileName="movement/28301__HerbertBoland__HeavySkirtMovement3.mp3" volume="0.3" randomBalance="true" />
-		<soundFile fileName="movement/28301__HerbertBoland__HeavySkirtMovement4.mp3" volume="0.3" randomBalance="true" />
-		<soundFile fileName="movement/28301__HerbertBoland__HeavySkirtMovement5.mp3" volume="0.3" randomBalance="true" />
-	</sound>
-
-	<sound pattern="(.+) attacks (.+) but ((He)|(She)|(It)) scrambles away!" concurrency="1" timeout="2500" threshold="4">
-		<soundFile fileName="movement/28301__HerbertBoland__HeavySkirtMovement.mp3" volume="0.3" randomBalance="true" />
-		<soundFile fileName="movement/28301__HerbertBoland__HeavySkirtMovement2.mp3" volume="0.3" randomBalance="true" />
-		<soundFile fileName="movement/28301__HerbertBoland__HeavySkirtMovement3.mp3" volume="0.3" randomBalance="true" />
-		<soundFile fileName="movement/28301__HerbertBoland__HeavySkirtMovement4.mp3" volume="0.3" randomBalance="true" />
-		<soundFile fileName="movement/28301__HerbertBoland__HeavySkirtMovement5.mp3" volume="0.3" randomBalance="true" />
-	</sound>
-
-	<sound pattern="(.+) rolls away from The flying (.+)!" concurrency="1" timeout="2500" threshold="4">
-		<soundFile fileName="movement/28301__HerbertBoland__HeavySkirtMovement.mp3" volume="0.3" randomBalance="true" />
-		<soundFile fileName="movement/28301__HerbertBoland__HeavySkirtMovement2.mp3" volume="0.3" randomBalance="true" />
-		<soundFile fileName="movement/28301__HerbertBoland__HeavySkirtMovement3.mp3" volume="0.3" randomBalance="true" />
-		<soundFile fileName="movement/28301__HerbertBoland__HeavySkirtMovement4.mp3" volume="0.3" randomBalance="true" />
-		<soundFile fileName="movement/28301__HerbertBoland__HeavySkirtMovement5.mp3" volume="0.3" randomBalance="true" />
-	</sound>
-
-	<sound pattern="(.+) counterstrikes!" concurrency="5" timeout="250" threshold="4">
-		<soundFile fileName="blocked/blocked1.mp3" />
-		<soundFile fileName="blocked/blocked2.mp3" />
-		<soundFile fileName="blocked/blocked3.mp3" />
-		<soundFile fileName="blocked/blocked4.mp3" />
-		<soundFile fileName="blocked/blocked5.mp3" />
-	</sound>
-
-	<!-- TODO: steps/walking/running etc sounds -->
-	<sound pattern="The (.+) jumps away!">
-	</sound>
-
-	<sound pattern="The (.+) charges at (.+)!">
-		<soundFile fileName="movement/steps1.mp3" randomBalance="true">
-			<attribution author="kgatto" url="http://www.freesound.org/people/kgatto/sounds/240277/" license="CC BY 3.0" description="steps.wav" />
-		</soundFile>
-		<soundFile fileName="movement/steps2.mp3" randomBalance="true">
-			<attribution author="kgatto" url="http://www.freesound.org/people/kgatto/sounds/240277/" license="CC BY 3.0" description="steps.wav" />
-		</soundFile>
-		<soundFile fileName="movement/steps3.mp3" randomBalance="true">
-			<attribution author="kgatto" url="http://www.freesound.org/people/kgatto/sounds/240277/" license="CC BY 3.0" description="steps.wav" />
-		</soundFile>
-	</sound>
-
-	<sound pattern="The (.+) manages to stop where The (.+) used to be\.">
-		<soundFile fileName="movement/steps1.mp3" randomBalance="true">
-			<attribution author="kgatto" url="http://www.freesound.org/people/kgatto/sounds/240277/" license="CC BY 3.0" description="steps.wav" />
-		</soundFile>
-		<soundFile fileName="movement/steps2.mp3" randomBalance="true">
-			<attribution author="kgatto" url="http://www.freesound.org/people/kgatto/sounds/240277/" license="CC BY 3.0" description="steps.wav" />
-		</soundFile>
-		<soundFile fileName="movement/steps3.mp3" randomBalance="true">
-			<attribution author="kgatto" url="http://www.freesound.org/people/kgatto/sounds/240277/" license="CC BY 3.0" description="steps.wav" />
-		</soundFile>
-	</sound>
-
-	<sound pattern="The (.+) rushes by The (.+)!">
-		<soundFile fileName="movement/steps1.mp3" randomBalance="true">
-			<attribution author="kgatto" url="http://www.freesound.org/people/kgatto/sounds/240277/" license="CC BY 3.0" description="steps.wav" />
-		</soundFile>
-		<soundFile fileName="movement/steps2.mp3" randomBalance="true">
-			<attribution author="kgatto" url="http://www.freesound.org/people/kgatto/sounds/240277/" license="CC BY 3.0" description="steps.wav" />
-		</soundFile>
-		<soundFile fileName="movement/steps3.mp3" randomBalance="true">
-			<attribution author="kgatto" url="http://www.freesound.org/people/kgatto/sounds/240277/" license="CC BY 3.0" description="steps.wav" />
-		</soundFile>
-	</sound>
-
-	<sound pattern="The (.+) is knocked over and tumbles backward!" concurrency="1" timeout="2500" threshold="4">
-		<soundFile fileName="movement/28301__HerbertBoland__HeavySkirtMovement.mp3" volume="0.3" randomBalance="true" />
-		<soundFile fileName="movement/28301__HerbertBoland__HeavySkirtMovement2.mp3" volume="0.3" randomBalance="true" />
-		<soundFile fileName="movement/28301__HerbertBoland__HeavySkirtMovement3.mp3" volume="0.3" randomBalance="true" />
-		<soundFile fileName="movement/28301__HerbertBoland__HeavySkirtMovement4.mp3" volume="0.3" randomBalance="true" />
-		<soundFile fileName="movement/28301__HerbertBoland__HeavySkirtMovement5.mp3" volume="0.3" randomBalance="true" />
-	</sound>
-
-	<sound pattern="The (.+) looks surprised by the ferocity of ((The (.+)'s)|(Your)) onslaught!" concurrency="4" timeout="500" threshold="4">
-		<soundFile fileName="UnitSurprised/UnitSurprised1.mp3" randomBalance="true" />
-		<soundFile fileName="UnitSurprised/UnitSurprised2.mp3" randomBalance="true" />
-		<soundFile fileName="UnitSurprised/UnitSurprised3.mp3" randomBalance="true" />
-		<soundFile fileName="UnitSurprised/UnitSurprised4.mp3" randomBalance="true" />
-		<soundFile fileName="UnitSurprised/UnitSurprised5.mp3" randomBalance="true" />
-		<soundFile fileName="UnitSurprised/UnitSurprised6.mp3" randomBalance="true" />
-		<soundFile fileName="UnitSurprised/UnitSurprised7.mp3" randomBalance="true" />
-		<soundFile fileName="UnitSurprised/UnitSurprised8.mp3" randomBalance="true" />
-		<soundFile fileName="UnitSurprised/UnitSurprised9.mp3" randomBalance="true" />
-		<soundFile fileName="UnitSurprised/UnitSurprised10.mp3" randomBalance="true" />
-		<soundFile fileName="UnitSurprised/UnitSurprised11.mp3" randomBalance="true" />
-		<soundFile fileName="UnitSurprised/UnitSurprised12.mp3" randomBalance="true" />
-	</sound>
-
-	<sound pattern="They tangle together and fall over!" concurrency="1" timeout="2500" threshold="4">
-		<soundFile fileName="movement/28301__HerbertBoland__HeavySkirtMovement.mp3" volume="0.3" randomBalance="true" />
-		<soundFile fileName="movement/28301__HerbertBoland__HeavySkirtMovement2.mp3" volume="0.3" randomBalance="true" />
-		<soundFile fileName="movement/28301__HerbertBoland__HeavySkirtMovement3.mp3" volume="0.3" randomBalance="true" />
-		<soundFile fileName="movement/28301__HerbertBoland__HeavySkirtMovement4.mp3" volume="0.3" randomBalance="true" />
-		<soundFile fileName="movement/28301__HerbertBoland__HeavySkirtMovement5.mp3" volume="0.3" randomBalance="true" />
-	</sound>
-
-	<sound pattern="They tangle together and tumble forward!" concurrency="1" timeout="2500" threshold="4">
-		<soundFile fileName="movement/28301__HerbertBoland__HeavySkirtMovement.mp3" volume="0.3" randomBalance="true" />
-		<soundFile fileName="movement/28301__HerbertBoland__HeavySkirtMovement2.mp3" volume="0.3" randomBalance="true" />
-		<soundFile fileName="movement/28301__HerbertBoland__HeavySkirtMovement3.mp3" volume="0.3" randomBalance="true" />
-		<soundFile fileName="movement/28301__HerbertBoland__HeavySkirtMovement4.mp3" volume="0.3" randomBalance="true" />
-		<soundFile fileName="movement/28301__HerbertBoland__HeavySkirtMovement5.mp3" volume="0.3" randomBalance="true" />
-	</sound>
-
-	<sound pattern="The (.+) bounces backward!" concurrency="5" timeout="250" threshold="4">
-		<soundFile fileName="wrestling/swingfist1.mp3" />
-		<soundFile fileName="wrestling/swingfist2.mp3" />
-		<soundFile fileName="wrestling/swingfist3.mp3" />
-		<soundFile fileName="wrestling/swingfist4.mp3" />
-	</sound>
-
-	<sound pattern="The (.+) leaps at The (.+)!" concurrency="5" timeout="250" threshold="4">
-		<soundFile fileName="wrestling/swingfist1.mp3" />
-		<soundFile fileName="wrestling/swingfist2.mp3" />
-		<soundFile fileName="wrestling/swingfist3.mp3" />
-		<soundFile fileName="wrestling/swingfist4.mp3" />
-	</sound>
-
-	<sound pattern="The (.+) slams into an obstacle!" concurrency="5" timeout="250" threshold="4">
-		<soundFile fileName="hit/punch/punch1.mp3" randomBalance="true" />
-		<soundFile fileName="hit/punch/punch2.mp3" randomBalance="true" />
-		<soundFile fileName="hit/punch/punch3.mp3" randomBalance="true" />
-		<soundFile fileName="hit/punch/punch4.mp3" randomBalance="true" />
-		<soundFile fileName="hit/punch/punch5.mp3" randomBalance="true" />
-		<soundFile fileName="hit/punch/punch6.mp3" randomBalance="true" />
-		<soundFile fileName="hit/punch/punch7.mp3" randomBalance="true" />
-	</sound>
-
-	<sound pattern="The (.+) slams into an obstacle and falls over!" concurrency="5" timeout="250" threshold="4">
-		<soundFile fileName="hit/punch/punch1.mp3" randomBalance="true" />
-		<soundFile fileName="hit/punch/punch2.mp3" randomBalance="true" />
-		<soundFile fileName="hit/punch/punch3.mp3" randomBalance="true" />
-		<soundFile fileName="hit/punch/punch4.mp3" randomBalance="true" />
-		<soundFile fileName="hit/punch/punch5.mp3" randomBalance="true" />
-		<soundFile fileName="hit/punch/punch6.mp3" randomBalance="true" />
-		<soundFile fileName="hit/punch/punch7.mp3" randomBalance="true" />
-	</sound>
-
-	<sound pattern="The (.+) slams into the (.+)!" concurrency="4" timeout="500" threshold="4">
-		<soundFile fileName="hit/punch/punch1.mp3" randomBalance="true" />
-		<soundFile fileName="hit/punch/punch2.mp3" randomBalance="true" />
-		<soundFile fileName="hit/punch/punch3.mp3" randomBalance="true" />
-		<soundFile fileName="hit/punch/punch4.mp3" randomBalance="true" />
-		<soundFile fileName="hit/punch/punch5.mp3" randomBalance="true" />
-		<soundFile fileName="hit/punch/punch6.mp3" randomBalance="true" />
-		<soundFile fileName="hit/punch/punch7.mp3" randomBalance="true" />
-	</sound>
-
-	<!-- statuses -->
-
-	<sound pattern="(.+) pulls out and drops the (.+)\." concurrency="5" timeout="250" threshold="4">
-		<soundFile fileName="dropitem/dropitem1.mp3" randomBalance="true" />
-		<soundFile fileName="dropitem/dropitem2.mp3" randomBalance="true" />
-		<soundFile fileName="dropitem/dropitem3.mp3" randomBalance="true" />
-		<soundFile fileName="dropitem/dropitem4.mp3" randomBalance="true" />
-		<soundFile fileName="dropitem/dropitem5.mp3" randomBalance="true" />
-		<soundFile fileName="dropitem/dropitem6.mp3" randomBalance="true" />
-		<soundFile fileName="dropitem/dropitem7.mp3" randomBalance="true" />
-		<soundFile fileName="dropitem/dropitem8.mp3" randomBalance="true" />
-		<soundFile fileName="dropitem/dropitem9.mp3" randomBalance="true" />
-	</sound>
-
-	<sound pattern="(.+) lets the (.+) (.+) drop away as ((He)|(She)|(It)) attacks\." concurrency="5" timeout="250" threshold="4">
-		<soundFile fileName="dropitem/dropitem1.mp3" randomBalance="true" />
-		<soundFile fileName="dropitem/dropitem2.mp3" randomBalance="true" />
-		<soundFile fileName="dropitem/dropitem3.mp3" randomBalance="true" />
-		<soundFile fileName="dropitem/dropitem4.mp3" randomBalance="true" />
-		<soundFile fileName="dropitem/dropitem5.mp3" randomBalance="true" />
-		<soundFile fileName="dropitem/dropitem6.mp3" randomBalance="true" />
-		<soundFile fileName="dropitem/dropitem7.mp3" randomBalance="true" />
-		<soundFile fileName="dropitem/dropitem8.mp3" randomBalance="true" />
-		<soundFile fileName="dropitem/dropitem9.mp3" randomBalance="true" />
-	</sound>
-
-	<sound pattern="(.+) loses hold of the (.+)\." concurrency="5" timeout="250" threshold="4">
-		<soundFile fileName="dropitem/dropitem1.mp3" randomBalance="true" />
-		<soundFile fileName="dropitem/dropitem2.mp3" randomBalance="true" />
-		<soundFile fileName="dropitem/dropitem3.mp3" randomBalance="true" />
-		<soundFile fileName="dropitem/dropitem4.mp3" randomBalance="true" />
-		<soundFile fileName="dropitem/dropitem5.mp3" randomBalance="true" />
-		<soundFile fileName="dropitem/dropitem6.mp3" randomBalance="true" />
-		<soundFile fileName="dropitem/dropitem7.mp3" randomBalance="true" />
-		<soundFile fileName="dropitem/dropitem8.mp3" randomBalance="true" />
-		<soundFile fileName="dropitem/dropitem9.mp3" randomBalance="true" />
-	</sound>
-
-	<!-- wrestling -->
-
-	<sound pattern="The (.+) grabs The (.+) by the (.+) with ((his)|(her)|(its)) (.+)!" concurrency="5" timeout="250" threshold="4">
-		<soundFile fileName="wrestling/swingfist1.mp3" />
-		<soundFile fileName="wrestling/swingfist2.mp3" />
-		<soundFile fileName="wrestling/swingfist3.mp3" />
-		<soundFile fileName="wrestling/swingfist4.mp3" />
-	</sound>
-
-	<sound pattern="The (.+) locks The (.+)'s (.+) with The (.+)'s (.+)!" concurrency="5" timeout="250" threshold="4">
-		<soundFile fileName="wrestling/swingfist1.mp3" />
-		<soundFile fileName="wrestling/swingfist2.mp3" />
-		<soundFile fileName="wrestling/swingfist3.mp3" />
-		<soundFile fileName="wrestling/swingfist4.mp3" />
-	</sound>
-
-	<sound pattern="The (.+) adjusts the grip of The (.+) on The (.+)\." concurrency="5" timeout="250" threshold="4">
-		<soundFile fileName="wrestling/swingfist1.mp3" />
-		<soundFile fileName="wrestling/swingfist2.mp3" />
-		<soundFile fileName="wrestling/swingfist3.mp3" />
-		<soundFile fileName="wrestling/swingfist4.mp3" />
-	</sound>
-
-	<sound pattern="The (.+) releases the grip of The (.+)'s (.+) from The (.+)'s (.+)\." concurrency="5" timeout="250" threshold="4">
-		<soundFile fileName="wrestling/swingfist1.mp3" />
-		<soundFile fileName="wrestling/swingfist2.mp3" />
-		<soundFile fileName="wrestling/swingfist3.mp3" />
-		<soundFile fileName="wrestling/swingfist4.mp3" />
-	</sound>
-
-	<sound pattern="The (.+) releases the grip of The (.+) on The (.+)\." concurrency="5" timeout="250" threshold="4">
-		<soundFile fileName="wrestling/swingfist1.mp3" />
-		<soundFile fileName="wrestling/swingfist2.mp3" />
-		<soundFile fileName="wrestling/swingfist3.mp3" />
-		<soundFile fileName="wrestling/swingfist4.mp3" />
-	</sound>
-
-	<sound pattern="The (.+) releases the joint lock of The (.+)'s (.+) on The (.+)'s (.+)\." concurrency="5" timeout="250" threshold="4">
-		<soundFile fileName="wrestling/swingfist1.mp3" />
-		<soundFile fileName="wrestling/swingfist2.mp3" />
-		<soundFile fileName="wrestling/swingfist3.mp3" />
-		<soundFile fileName="wrestling/swingfist4.mp3" />
-	</sound>
-
-	<sound pattern="The (.+) breaks the grip of The (.+) from The (.+)!" concurrency="5" timeout="250" threshold="4">
-		<soundFile fileName="wrestling/swingfist1.mp3" />
-		<soundFile fileName="wrestling/swingfist2.mp3" />
-		<soundFile fileName="wrestling/swingfist3.mp3" />
-		<soundFile fileName="wrestling/swingfist4.mp3" />
-	</sound>
-
-	<sound pattern="The (.+) breaks the grip of The (.+) on The (.+)\." concurrency="5" timeout="250" threshold="4">
-		<soundFile fileName="wrestling/swingfist1.mp3" />
-		<soundFile fileName="wrestling/swingfist2.mp3" />
-		<soundFile fileName="wrestling/swingfist3.mp3" />
-		<soundFile fileName="wrestling/swingfist4.mp3" />
-	</sound>
-
-	<sound pattern="The (.+) is unable to break the grip of The (.+)'s (.+) on The (.+)'s (.+)!">
-	</sound>
-
-	<sound pattern="The (.+) places a chokehold on The (.+)'s (.+) with The (.+)'s (.+)!" concurrency="5" timeout="250" threshold="4">
-		<soundFile fileName="wrestling/strangle1.mp3" randomBalance="true" />
-		<soundFile fileName="wrestling/strangle2.mp3" randomBalance="true" />
-		<soundFile fileName="wrestling/strangle3.mp3" randomBalance="true" />
-		<soundFile fileName="wrestling/strangle4.mp3" randomBalance="true" />
-	</sound>
-
-	<sound pattern="The (.+) strangles The (.+)'s (.+)!" concurrency="5" timeout="250" threshold="4">
-		<soundFile fileName="wrestling/strangle1.mp3" randomBalance="true" />
-		<soundFile fileName="wrestling/strangle2.mp3" randomBalance="true" />
-		<soundFile fileName="wrestling/strangle3.mp3" randomBalance="true" />
-		<soundFile fileName="wrestling/strangle4.mp3" randomBalance="true" />
-	</sound>
-
-	<sound pattern="The (.+) throws The (.+) by the (.+) with The (.+)!" concurrency="4" timeout="500" threshold="4">
-		<soundFile fileName="miss/ranged/ranged1.mp3" randomBalance="true" />
-		<soundFile fileName="miss/ranged/ranged2.mp3" randomBalance="true" />
-		<soundFile fileName="miss/ranged/ranged3.mp3" randomBalance="true" />
-		<soundFile fileName="miss/ranged/ranged4.mp3" randomBalance="true" />
-		<soundFile fileName="miss/ranged/ranged5.mp3" randomBalance="true" />
-		<soundFile fileName="miss/ranged/ranged6.mp3" randomBalance="true" />
-	</sound>
-
-	<sound pattern="The (.+) struggles in vain against the grip of The (.+) on The (.+)\." concurrency="5" timeout="250" threshold="4">
-		<soundFile fileName="wrestling/strangle1.mp3" randomBalance="true" />
-		<soundFile fileName="wrestling/strangle2.mp3" randomBalance="true" />
-		<soundFile fileName="wrestling/strangle3.mp3" randomBalance="true" />
-		<soundFile fileName="wrestling/strangle4.mp3" randomBalance="true" />
-	</sound>
-
-	<sound pattern="The (.+) shakes The (.+) around by the (.+)!" concurrency="5" timeout="250" threshold="4">
-		<soundFile fileName="wrestling/swingfist1.mp3" />
-		<soundFile fileName="wrestling/swingfist2.mp3" />
-		<soundFile fileName="wrestling/swingfist3.mp3" />
-		<soundFile fileName="wrestling/swingfist4.mp3" />
-	</sound>
-
-	<sound pattern="The (.+) is ripped away and remains in The (.+)'s grip!" concurrency="5" timeout="250" threshold="4">
-		<soundFile fileName="wrestling/swingfist1.mp3" />
-		<soundFile fileName="wrestling/swingfist2.mp3" />
-		<soundFile fileName="wrestling/swingfist3.mp3" />
-		<soundFile fileName="wrestling/swingfist4.mp3" />
-	</sound>
-
-	<sound pattern="(.+) latches on firmly!" concurrency="5" timeout="250" threshold="4">
-		<soundFile fileName="wrestling/swingfist1.mp3" />
-		<soundFile fileName="wrestling/swingfist2.mp3" />
-		<soundFile fileName="wrestling/swingfist3.mp3" />
-		<soundFile fileName="wrestling/swingfist4.mp3" />
-	</sound>
-
-	<sound pattern="(.+) latches on firmly to (.+)!" concurrency="5" timeout="250" threshold="4">
-		<soundFile fileName="wrestling/swingfist1.mp3" />
-		<soundFile fileName="wrestling/swingfist2.mp3" />
-		<soundFile fileName="wrestling/swingfist3.mp3" />
-		<soundFile fileName="wrestling/swingfist4.mp3" />
-	</sound>
-
-	<sound pattern="(.+) bends (.+) and (.+) collapses!" concurrency="5" timeout="250" threshold="4">
-		<soundFile fileName="bones/110617__soundscalpel-com__horror-bone-crunch.mp3" randomBalance="true">
-			<attribution author="soundscalpel.com" url="http://www.freesound.org/people/soundscalpel.com/sounds/110617/" license="CC BY 3.0" description="horror_bone_crunch.wav" />
-		</soundFile>
-		<soundFile fileName="bones/136460__joshfeed__bone-breaking-13.mp3" randomBalance="true">
-			<attribution author="joshfeed" url="http://www.freesound.org/people/joshfeed/sounds/136460/" license="CC BY-NC 3.0" description="Bone Breaking 13.wav" />
-		</soundFile>
-		<soundFile fileName="bones/176745__carlito62__bone-crushneck-twist.mp3" randomBalance="true">
-			<attribution author="carlito62" url="http://www.freesound.org/people/carlito62/sounds/176745/" license="CC0 1.0" description="Bone crush - neck twist.wav" />
-		</soundFile>
-	</sound>
-
-	<sound pattern="The (.+) takes The (.+) down by the (.+) with The (.+)'s (.+)!" concurrency="4" timeout="500" threshold="4">
-		<soundFile fileName="wrestling/swingfist1.mp3" />
-		<soundFile fileName="wrestling/swingfist2.mp3" />
-		<soundFile fileName="wrestling/swingfist3.mp3" />
-		<soundFile fileName="wrestling/swingfist4.mp3" />
-	</sound>
-
-	<sound pattern="The (.+) gouges The (.+)'s (.+) with The (.+)'s (.+)!" concurrency="5" timeout="250" threshold="4">
-		<soundFile fileName="hit/stab/stab1.mp3" randomBalance="true" />
-		<soundFile fileName="hit/stab/stab2.mp3" randomBalance="true" />
-		<soundFile fileName="hit/stab/stab3.mp3" randomBalance="true" />
-		<soundFile fileName="hit/stab/stab4.mp3" randomBalance="true" />
-		<soundFile fileName="hit/stab/stab5.mp3" randomBalance="true" />
-		<soundFile fileName="hit/stab/stab6.mp3" randomBalance="true" />
-		<soundFile fileName="hit/stab/stab7.mp3" randomBalance="true" />
-		<soundFile fileName="hit/stab/stab8.mp3" randomBalance="true" />
-		<soundFile fileName="hit/stab/stab9.mp3" randomBalance="true" />
-		<soundFile fileName="hit/stab/stab10.mp3" randomBalance="true" />
-		<soundFile fileName="hit/stab/stab11.mp3" randomBalance="true" />
-		<soundFile fileName="hit/stab/stab12.mp3" randomBalance="true" />
-	</sound>
-
-	<!-- misses -->
-
-	<sound pattern="(.+) blocks The flying (.+)!" concurrency="4" timeout="500" threshold="4">
-		<soundFile fileName="hit/strike/strike1.mp3" />
-		<soundFile fileName="hit/strike/strike2.mp3" />
-		<soundFile fileName="hit/strike/strike3.mp3" />
-	</sound>
-
-	<sound pattern="(.+) bats The ((spinning)|(flying)) (.+) out of the air!" concurrency="4" timeout="500" threshold="4">
-		<soundFile fileName="blocked/blocked1.mp3" randomBalance="true" />
-		<soundFile fileName="blocked/blocked2.mp3" randomBalance="true" />
-		<soundFile fileName="blocked/blocked3.mp3" randomBalance="true" />
-		<soundFile fileName="blocked/blocked4.mp3" randomBalance="true" />
-		<soundFile fileName="blocked/blocked5.mp3" randomBalance="true" />
-	</sound>
-	
-	<sound pattern="(.+) bats The ((spinning)|(flying)) (.+) out of the air with ther\ (.+)!" concurrency="4" timeout="500" threshold="4">
-		<soundFile fileName="blocked/blocked1.mp3" randomBalance="true" />
-		<soundFile fileName="blocked/blocked2.mp3" randomBalance="true" />
-		<soundFile fileName="blocked/blocked3.mp3" randomBalance="true" />
-		<soundFile fileName="blocked/blocked4.mp3" randomBalance="true" />
-		<soundFile fileName="blocked/blocked5.mp3" randomBalance="true" />
-	</sound>
-
-	<sound pattern="(.+) scrambles away from The flying (.+)!" concurrency="5" timeout="250" threshold="4">
-		<soundFile fileName="miss/ranged/ranged1.mp3" randomBalance="true" />
-		<soundFile fileName="miss/ranged/ranged2.mp3" randomBalance="true" />
-		<soundFile fileName="miss/ranged/ranged3.mp3" randomBalance="true" />
-		<soundFile fileName="miss/ranged/ranged4.mp3" randomBalance="true" />
-		<soundFile fileName="miss/ranged/ranged5.mp3" randomBalance="true" />
-		<soundFile fileName="miss/ranged/ranged6.mp3" randomBalance="true" />
-	</sound>
-
-	<sound pattern="(.+) strikes at (.+) but the shot is blocked with (.+)!" concurrency="4" timeout="500" threshold="4">
-		<soundFile fileName="blocked/blocked1.mp3" randomBalance="true" />
-		<soundFile fileName="blocked/blocked2.mp3" randomBalance="true" />
-		<soundFile fileName="blocked/blocked3.mp3" randomBalance="true" />
-		<soundFile fileName="blocked/blocked4.mp3" randomBalance="true" />
-		<soundFile fileName="blocked/blocked5.mp3" randomBalance="true" />
-	</sound>
-
-	<sound pattern="(((.+) misses)|(You miss)) (.+)!" concurrency="4" timeout="500" threshold="4">
-		<soundFile fileName="miss/melee/mmiss1.mp3" randomBalance="true" />
-		<soundFile fileName="miss/melee/mmiss2.mp3" randomBalance="true" />
-		<soundFile fileName="miss/melee/mmiss3.mp3" randomBalance="true" />
-		<soundFile fileName="miss/melee/mmiss4.mp3" randomBalance="true" />
-		<soundFile fileName="miss/melee/mmiss5.mp3" randomBalance="true" />
-		<soundFile fileName="miss/melee/mmiss6.mp3" randomBalance="true" />
-		<soundFile fileName="miss/melee/mmiss7.mp3" randomBalance="true" />
-		<soundFile fileName="miss/melee/mmiss8.mp3" randomBalance="true" />
-		<soundFile fileName="miss/melee/mmiss9.mp3" randomBalance="true" />
-		<soundFile fileName="miss/melee/mmiss10.mp3" randomBalance="true" />
-	</sound>
-
-	<!-- trap miss -->
-	<sound pattern="(.+) jumps away from The spinning (.+)!" concurrency="4" timeout="500" threshold="4">
-		<soundFile fileName="miss/melee/swingmiss1.mp3" randomBalance="true" />
-		<soundFile fileName="miss/melee/swingmiss2.mp3" randomBalance="true" />
-		<soundFile fileName="miss/melee/swingmiss3.mp3" randomBalance="true" />
-		<soundFile fileName="miss/melee/swingmiss4.mp3" randomBalance="true" />
-		<soundFile fileName="miss/melee/swingmiss5.mp3" randomBalance="true" />
-	</sound>
-
-	<!-- trap block -->
-	<sound pattern="(.+) blocks The spinning (.+)!" concurrency="2" timeout="500" threshold="4">
-		<soundFile fileName="miss/melee/swingmiss1.mp3" randomBalance="true" />
-		<soundFile fileName="miss/melee/swingmiss2.mp3" randomBalance="true" />
-		<soundFile fileName="miss/melee/swingmiss3.mp3" randomBalance="true" />
-		<soundFile fileName="miss/melee/swingmiss4.mp3" randomBalance="true" />
-		<soundFile fileName="miss/melee/swingmiss5.mp3" randomBalance="true" />
-	</sound>
-
-	<!-- trap block2 -->
-	<sound pattern="(.+) bats The spinning (.+) aside!" concurrency="2" timeout="500" threshold="4">
-		<soundFile fileName="miss/melee/swingmiss1.mp3" randomBalance="true" />
-		<soundFile fileName="miss/melee/swingmiss2.mp3" randomBalance="true" />
-		<soundFile fileName="miss/melee/swingmiss3.mp3" randomBalance="true" />
-		<soundFile fileName="miss/melee/swingmiss4.mp3" randomBalance="true" />
-		<soundFile fileName="miss/melee/swingmiss5.mp3" randomBalance="true" />
-	</sound>
-
-	<!-- trap evade -->
-	<sound pattern="(.+) scrambles away from The spinning (.+)!" concurrency="5" timeout="250" threshold="4">
-		<soundFile fileName="miss/melee/swingmiss1.mp3" randomBalance="true" />
-		<soundFile fileName="miss/melee/swingmiss2.mp3" randomBalance="true" />
-		<soundFile fileName="miss/melee/swingmiss3.mp3" randomBalance="true" />
-		<soundFile fileName="miss/melee/swingmiss4.mp3" randomBalance="true" />
-		<soundFile fileName="miss/melee/swingmiss5.mp3" randomBalance="true" />
-	</sound>
-
-	<!-- trap evade -->
-	<sound pattern="(.+) rolls away from The spinning (.+)!" concurrency="5" timeout="250" threshold="4">
-		<soundFile fileName="miss/melee/swingmiss1.mp3" randomBalance="true" />
-		<soundFile fileName="miss/melee/swingmiss2.mp3" randomBalance="true" />
-		<soundFile fileName="miss/melee/swingmiss3.mp3" randomBalance="true" />
-		<soundFile fileName="miss/melee/swingmiss4.mp3" randomBalance="true" />
-		<soundFile fileName="miss/melee/swingmiss5.mp3" randomBalance="true" />
-	</sound>
-
-
-	<sound pattern="The (.+) strikes at The (.+) but the shot is parried!" concurrency="4" timeout="500" threshold="4">
-		<soundFile fileName="blocked/blocked1.mp3" randomBalance="true" />
-		<soundFile fileName="blocked/blocked2.mp3" randomBalance="true" />
-		<soundFile fileName="blocked/blocked3.mp3" randomBalance="true" />
-		<soundFile fileName="blocked/blocked4.mp3" randomBalance="true" />
-		<soundFile fileName="blocked/blocked5.mp3" randomBalance="true" />
-	</sound>
-
-	<sound pattern="The (.+) strikes at The (.+) but the shot is ((deftly )|(easily )|(narrowly )|(just barely )|(effortlessly )|())parried by (.+)!" concurrency="4" timeout="500" threshold="4">
-		<soundFile fileName="blocked/blocked1.mp3" randomBalance="true" />
-		<soundFile fileName="blocked/blocked2.mp3" randomBalance="true" />
-		<soundFile fileName="blocked/blocked3.mp3" randomBalance="true" />
-		<soundFile fileName="blocked/blocked4.mp3" randomBalance="true" />
-		<soundFile fileName="blocked/blocked5.mp3" randomBalance="true" />
-	</sound>
-	
-	<sound pattern="The (.+) strikes at The (.+) but the shot is ((deftly )|(easily )|(narrowly )|(just barely )|(effortlessly )|())deflected by (.+)!" concurrency="4" timeout="500" threshold="4">
-		<soundFile fileName="blocked/blocked1.mp3" randomBalance="true" />
-		<soundFile fileName="blocked/blocked2.mp3" randomBalance="true" />
-		<soundFile fileName="blocked/blocked3.mp3" randomBalance="true" />
-		<soundFile fileName="blocked/blocked4.mp3" randomBalance="true" />
-		<soundFile fileName="blocked/blocked5.mp3" randomBalance="true" />
-	</sound>
-
-	<sound pattern="The (.+) strikes (.+) but the shot is blocked!" concurrency="4" timeout="500" threshold="4">
-		<soundFile fileName="blocked/blocked1.mp3" randomBalance="true" />
-		<soundFile fileName="blocked/blocked2.mp3" randomBalance="true" />
-		<soundFile fileName="blocked/blocked3.mp3" randomBalance="true" />
-		<soundFile fileName="blocked/blocked4.mp3" randomBalance="true" />
-		<soundFile fileName="blocked/blocked5.mp3" randomBalance="true" />
-	</sound>
-
-	<sound pattern="The flying (.+) misses (.+)!" concurrency="4" timeout="500" threshold="4">
-		<soundFile fileName="miss/ranged/ranged1.mp3" randomBalance="true" />
-		<soundFile fileName="miss/ranged/ranged2.mp3" randomBalance="true" />
-		<soundFile fileName="miss/ranged/ranged3.mp3" randomBalance="true" />
-		<soundFile fileName="miss/ranged/ranged4.mp3" randomBalance="true" />
-		<soundFile fileName="miss/ranged/ranged5.mp3" randomBalance="true" />
-		<soundFile fileName="miss/ranged/ranged6.mp3" randomBalance="true" />
-	</sound>
-
-	<!-- cancelations -->
-
-	<sound pattern="(.+) cancels (.+): Too injured\.">
-	</sound>
-
-	<sound pattern="(.+) cancels Pickup Equipment: Equipment mismatch\.">
-	</sound>
-
+ <sound pattern="(.+) is propelled away by the force of the blow!" timeout="500" channel="sfx" threshold="4" concurrency="4">
+  <soundFile fileName="hit/bash/bash1.mp3" randomBalance="true"/>
+  <soundFile fileName="hit/bash/bash2.mp3" randomBalance="true"/>
+  <soundFile fileName="hit/bash/bash3.mp3" randomBalance="true"/>
+  <soundFile fileName="hit/bash/bash4.mp3" randomBalance="true"/>
+  <soundFile fileName="hit/bash/bash5.mp3" randomBalance="true"/>
+  <soundFile fileName="hit/bash/bash6.mp3" randomBalance="true"/>
+  <soundFile fileName="hit/bash/bash7.mp3" randomBalance="true"/>
+  <soundFile fileName="hit/bash/bash8.mp3" randomBalance="true"/>
+  <soundFile fileName="hit/bash/bash9.mp3" randomBalance="true"/>
+  <soundFile fileName="hit/bash/bash10.mp3" randomBalance="true"/>
+  <soundFile fileName="hit/bash/bash11.mp3" randomBalance="true"/>
+  <soundFile fileName="hit/bash/bash12.mp3" randomBalance="true"/>
+ </sound>
+ <sound pattern="The (.+) collides with (.+)!" timeout="500" channel="sfx" threshold="4" concurrency="4">
+  <soundFile fileName="hit/strike/strike1.mp3"/>
+  <soundFile fileName="hit/strike/strike2.mp3"/>
+  <soundFile fileName="hit/strike/strike3.mp3"/>
+ </sound>
+ <sound pattern="The (.+) is knocked over!" timeout="1000" channel="sfx" threshold="4" concurrency="2">
+  <soundFile fileName="wrestling/bodyfall1.mp3" randomBalance="true"/>
+  <soundFile fileName="wrestling/bodyfall2.mp3" randomBalance="true"/>
+ </sound>
+ <sound pattern="The (.+) falls over\." timeout="1000" channel="sfx" threshold="4" concurrency="2">
+  <soundFile fileName="wrestling/bodyfall1.mp3" randomBalance="true"/>
+  <soundFile fileName="wrestling/bodyfall2.mp3" randomBalance="true"/>
+  <soundFile fileName="wrestling/bodyfall3.mp3" randomBalance="true"/>
+ </sound>
+ <sound pattern="The (.+) attacks The (.+) but ((He)|(She)|(It)) jumps away!" timeout="500" channel="sfx" threshold="4" concurrency="4">
+  <soundFile fileName="wrestling/swingfist1.mp3"/>
+  <soundFile fileName="wrestling/swingfist2.mp3"/>
+  <soundFile fileName="wrestling/swingfist3.mp3"/>
+  <soundFile fileName="wrestling/swingfist4.mp3"/>
+ </sound>
+ <sound pattern="(((.+) jumps)|(You jump)) away from The flying (.+)!" timeout="500" channel="sfx" threshold="4" concurrency="4">
+  <soundFile fileName="wrestling/swingfist1.mp3"/>
+  <soundFile fileName="wrestling/swingfist2.mp3"/>
+  <soundFile fileName="wrestling/swingfist3.mp3"/>
+  <soundFile fileName="wrestling/swingfist4.mp3"/>
+ </sound>
+ <sound pattern="(.+) jumps out of (.+)'s flight path!" timeout="500" channel="sfx" threshold="4" concurrency="4">
+  <soundFile fileName="wrestling/swingfist1.mp3"/>
+  <soundFile fileName="wrestling/swingfist2.mp3"/>
+  <soundFile fileName="wrestling/swingfist3.mp3"/>
+  <soundFile fileName="wrestling/swingfist4.mp3"/>
+ </sound>
+ <sound pattern="(((.+) jumps)|(You jump)) away from the (.+)!" timeout="500" channel="sfx" threshold="4" concurrency="4">
+  <soundFile fileName="wrestling/swingfist1.mp3"/>
+  <soundFile fileName="wrestling/swingfist2.mp3"/>
+  <soundFile fileName="wrestling/swingfist3.mp3"/>
+  <soundFile fileName="wrestling/swingfist4.mp3"/>
+ </sound>
+ <sound pattern="The (.+) stands up\." timeout="2500" channel="sfx" threshold="4" concurrency="1">
+  <soundFile fileName="wrestling/standup1.mp3"/>
+  <soundFile fileName="wrestling/standup2.mp3"/>
+  <soundFile fileName="wrestling/standup3.mp3"/>
+  <soundFile fileName="wrestling/standup4.mp3"/>
+  <soundFile fileName="wrestling/standup5.mp3"/>
+  <soundFile fileName="wrestling/standup6.mp3"/>
+ </sound>
+ <sound pattern="The (.+) attacks (.+) but ((He)|(She)|(It)) rolls away!" timeout="2500" channel="sfx" threshold="4" concurrency="1">
+  <soundFile fileName="movement/28301__HerbertBoland__HeavySkirtMovement.mp3" randomBalance="true" volume="0.3"/>
+  <soundFile fileName="movement/28301__HerbertBoland__HeavySkirtMovement2.mp3" randomBalance="true" volume="0.3"/>
+  <soundFile fileName="movement/28301__HerbertBoland__HeavySkirtMovement3.mp3" randomBalance="true" volume="0.3"/>
+  <soundFile fileName="movement/28301__HerbertBoland__HeavySkirtMovement4.mp3" randomBalance="true" volume="0.3"/>
+  <soundFile fileName="movement/28301__HerbertBoland__HeavySkirtMovement5.mp3" randomBalance="true" volume="0.3"/>
+ </sound>
+ <sound pattern="(.+) attacks (.+) but ((He)|(She)|(It)) scrambles away!" timeout="2500" channel="sfx" threshold="4" concurrency="1">
+  <soundFile fileName="movement/28301__HerbertBoland__HeavySkirtMovement.mp3" randomBalance="true" volume="0.3"/>
+  <soundFile fileName="movement/28301__HerbertBoland__HeavySkirtMovement2.mp3" randomBalance="true" volume="0.3"/>
+  <soundFile fileName="movement/28301__HerbertBoland__HeavySkirtMovement3.mp3" randomBalance="true" volume="0.3"/>
+  <soundFile fileName="movement/28301__HerbertBoland__HeavySkirtMovement4.mp3" randomBalance="true" volume="0.3"/>
+  <soundFile fileName="movement/28301__HerbertBoland__HeavySkirtMovement5.mp3" randomBalance="true" volume="0.3"/>
+ </sound>
+ <sound pattern="(.+) rolls away from The flying (.+)!" timeout="2500" channel="sfx" threshold="4" concurrency="1">
+  <soundFile fileName="movement/28301__HerbertBoland__HeavySkirtMovement.mp3" randomBalance="true" volume="0.3"/>
+  <soundFile fileName="movement/28301__HerbertBoland__HeavySkirtMovement2.mp3" randomBalance="true" volume="0.3"/>
+  <soundFile fileName="movement/28301__HerbertBoland__HeavySkirtMovement3.mp3" randomBalance="true" volume="0.3"/>
+  <soundFile fileName="movement/28301__HerbertBoland__HeavySkirtMovement4.mp3" randomBalance="true" volume="0.3"/>
+  <soundFile fileName="movement/28301__HerbertBoland__HeavySkirtMovement5.mp3" randomBalance="true" volume="0.3"/>
+ </sound>
+ <sound pattern="(.+) counterstrikes!" timeout="250" channel="sfx" threshold="4" concurrency="5">
+  <soundFile fileName="blocked/blocked1.mp3"/>
+  <soundFile fileName="blocked/blocked2.mp3"/>
+  <soundFile fileName="blocked/blocked3.mp3"/>
+  <soundFile fileName="blocked/blocked4.mp3"/>
+  <soundFile fileName="blocked/blocked5.mp3"/>
+ </sound>
+ <sound pattern="The (.+) jumps away!" channel="sfx"/>
+ <sound pattern="The (.+) charges at (.+)!" channel="sfx">
+  <soundFile fileName="movement/steps1.mp3" randomBalance="true"/>
+  <soundFile fileName="movement/steps2.mp3" randomBalance="true"/>
+  <soundFile fileName="movement/steps3.mp3" randomBalance="true"/>
+ </sound>
+ <sound pattern="The (.+) manages to stop where The (.+) used to be\." channel="sfx">
+  <soundFile fileName="movement/steps1.mp3" randomBalance="true"/>
+  <soundFile fileName="movement/steps2.mp3" randomBalance="true"/>
+  <soundFile fileName="movement/steps3.mp3" randomBalance="true"/>
+ </sound>
+ <sound pattern="The (.+) rushes by The (.+)!" channel="sfx">
+  <soundFile fileName="movement/steps1.mp3" randomBalance="true"/>
+  <soundFile fileName="movement/steps2.mp3" randomBalance="true"/>
+  <soundFile fileName="movement/steps3.mp3" randomBalance="true"/>
+ </sound>
+ <sound pattern="The (.+) is knocked over and tumbles backward!" timeout="2500" channel="sfx" threshold="4" concurrency="1">
+  <soundFile fileName="movement/28301__HerbertBoland__HeavySkirtMovement.mp3" randomBalance="true" volume="0.3"/>
+  <soundFile fileName="movement/28301__HerbertBoland__HeavySkirtMovement2.mp3" randomBalance="true" volume="0.3"/>
+  <soundFile fileName="movement/28301__HerbertBoland__HeavySkirtMovement3.mp3" randomBalance="true" volume="0.3"/>
+  <soundFile fileName="movement/28301__HerbertBoland__HeavySkirtMovement4.mp3" randomBalance="true" volume="0.3"/>
+  <soundFile fileName="movement/28301__HerbertBoland__HeavySkirtMovement5.mp3" randomBalance="true" volume="0.3"/>
+ </sound>
+ <sound pattern="The (.+) looks surprised by the ferocity of ((The (.+)'s)|(Your)) onslaught!" timeout="500" channel="sfx" threshold="4" concurrency="4">
+  <soundFile fileName="UnitSurprised/UnitSurprised1.mp3" randomBalance="true"/>
+  <soundFile fileName="UnitSurprised/UnitSurprised2.mp3" randomBalance="true"/>
+  <soundFile fileName="UnitSurprised/UnitSurprised3.mp3" randomBalance="true"/>
+  <soundFile fileName="UnitSurprised/UnitSurprised4.mp3" randomBalance="true"/>
+  <soundFile fileName="UnitSurprised/UnitSurprised5.mp3" randomBalance="true"/>
+  <soundFile fileName="UnitSurprised/UnitSurprised6.mp3" randomBalance="true"/>
+  <soundFile fileName="UnitSurprised/UnitSurprised7.mp3" randomBalance="true"/>
+  <soundFile fileName="UnitSurprised/UnitSurprised8.mp3" randomBalance="true"/>
+  <soundFile fileName="UnitSurprised/UnitSurprised9.mp3" randomBalance="true"/>
+  <soundFile fileName="UnitSurprised/UnitSurprised10.mp3" randomBalance="true"/>
+  <soundFile fileName="UnitSurprised/UnitSurprised11.mp3" randomBalance="true"/>
+  <soundFile fileName="UnitSurprised/UnitSurprised12.mp3" randomBalance="true"/>
+ </sound>
+ <sound pattern="They tangle together and fall over!" timeout="2500" channel="sfx" threshold="4" concurrency="1">
+  <soundFile fileName="movement/28301__HerbertBoland__HeavySkirtMovement.mp3" randomBalance="true" volume="0.3"/>
+  <soundFile fileName="movement/28301__HerbertBoland__HeavySkirtMovement2.mp3" randomBalance="true" volume="0.3"/>
+  <soundFile fileName="movement/28301__HerbertBoland__HeavySkirtMovement3.mp3" randomBalance="true" volume="0.3"/>
+  <soundFile fileName="movement/28301__HerbertBoland__HeavySkirtMovement4.mp3" randomBalance="true" volume="0.3"/>
+  <soundFile fileName="movement/28301__HerbertBoland__HeavySkirtMovement5.mp3" randomBalance="true" volume="0.3"/>
+ </sound>
+ <sound pattern="They tangle together and tumble forward!" timeout="2500" channel="sfx" threshold="4" concurrency="1">
+  <soundFile fileName="movement/28301__HerbertBoland__HeavySkirtMovement.mp3" randomBalance="true" volume="0.3"/>
+  <soundFile fileName="movement/28301__HerbertBoland__HeavySkirtMovement2.mp3" randomBalance="true" volume="0.3"/>
+  <soundFile fileName="movement/28301__HerbertBoland__HeavySkirtMovement3.mp3" randomBalance="true" volume="0.3"/>
+  <soundFile fileName="movement/28301__HerbertBoland__HeavySkirtMovement4.mp3" randomBalance="true" volume="0.3"/>
+  <soundFile fileName="movement/28301__HerbertBoland__HeavySkirtMovement5.mp3" randomBalance="true" volume="0.3"/>
+ </sound>
+ <sound pattern="The (.+) bounces backward!" timeout="250" channel="sfx" threshold="4" concurrency="5">
+  <soundFile fileName="wrestling/swingfist1.mp3"/>
+  <soundFile fileName="wrestling/swingfist2.mp3"/>
+  <soundFile fileName="wrestling/swingfist3.mp3"/>
+  <soundFile fileName="wrestling/swingfist4.mp3"/>
+ </sound>
+ <sound pattern="The (.+) leaps at The (.+)!" timeout="250" channel="sfx" threshold="4" concurrency="5">
+  <soundFile fileName="wrestling/swingfist1.mp3"/>
+  <soundFile fileName="wrestling/swingfist2.mp3"/>
+  <soundFile fileName="wrestling/swingfist3.mp3"/>
+  <soundFile fileName="wrestling/swingfist4.mp3"/>
+ </sound>
+ <sound pattern="The (.+) slams into an obstacle!" timeout="250" channel="sfx" threshold="4" concurrency="5">
+  <soundFile fileName="hit/punch/punch1.mp3" randomBalance="true"/>
+  <soundFile fileName="hit/punch/punch2.mp3" randomBalance="true"/>
+  <soundFile fileName="hit/punch/punch3.mp3" randomBalance="true"/>
+  <soundFile fileName="hit/punch/punch4.mp3" randomBalance="true"/>
+  <soundFile fileName="hit/punch/punch5.mp3" randomBalance="true"/>
+  <soundFile fileName="hit/punch/punch6.mp3" randomBalance="true"/>
+  <soundFile fileName="hit/punch/punch7.mp3" randomBalance="true"/>
+ </sound>
+ <sound pattern="The (.+) slams into an obstacle and falls over!" timeout="250" channel="sfx" threshold="4" concurrency="5">
+  <soundFile fileName="hit/punch/punch1.mp3" randomBalance="true"/>
+  <soundFile fileName="hit/punch/punch2.mp3" randomBalance="true"/>
+  <soundFile fileName="hit/punch/punch3.mp3" randomBalance="true"/>
+  <soundFile fileName="hit/punch/punch4.mp3" randomBalance="true"/>
+  <soundFile fileName="hit/punch/punch5.mp3" randomBalance="true"/>
+  <soundFile fileName="hit/punch/punch6.mp3" randomBalance="true"/>
+  <soundFile fileName="hit/punch/punch7.mp3" randomBalance="true"/>
+ </sound>
+ <sound pattern="The (.+) slams into the (.+)!" timeout="500" channel="sfx" threshold="4" concurrency="4">
+  <soundFile fileName="hit/punch/punch1.mp3" randomBalance="true"/>
+  <soundFile fileName="hit/punch/punch2.mp3" randomBalance="true"/>
+  <soundFile fileName="hit/punch/punch3.mp3" randomBalance="true"/>
+  <soundFile fileName="hit/punch/punch4.mp3" randomBalance="true"/>
+  <soundFile fileName="hit/punch/punch5.mp3" randomBalance="true"/>
+  <soundFile fileName="hit/punch/punch6.mp3" randomBalance="true"/>
+  <soundFile fileName="hit/punch/punch7.mp3" randomBalance="true"/>
+ </sound>
+ <sound pattern="(.+) pulls out and drops the (.+)\." timeout="250" channel="sfx" threshold="4" concurrency="5">
+  <soundFile fileName="dropitem/dropitem1.mp3" randomBalance="true"/>
+  <soundFile fileName="dropitem/dropitem2.mp3" randomBalance="true"/>
+  <soundFile fileName="dropitem/dropitem3.mp3" randomBalance="true"/>
+  <soundFile fileName="dropitem/dropitem4.mp3" randomBalance="true"/>
+  <soundFile fileName="dropitem/dropitem5.mp3" randomBalance="true"/>
+  <soundFile fileName="dropitem/dropitem6.mp3" randomBalance="true"/>
+  <soundFile fileName="dropitem/dropitem7.mp3" randomBalance="true"/>
+  <soundFile fileName="dropitem/dropitem8.mp3" randomBalance="true"/>
+  <soundFile fileName="dropitem/dropitem9.mp3" randomBalance="true"/>
+ </sound>
+ <sound pattern="(.+) lets the (.+) (.+) drop away as ((He)|(She)|(It)) attacks\." timeout="250" channel="sfx" threshold="4" concurrency="5">
+  <soundFile fileName="dropitem/dropitem1.mp3" randomBalance="true"/>
+  <soundFile fileName="dropitem/dropitem2.mp3" randomBalance="true"/>
+  <soundFile fileName="dropitem/dropitem3.mp3" randomBalance="true"/>
+  <soundFile fileName="dropitem/dropitem4.mp3" randomBalance="true"/>
+  <soundFile fileName="dropitem/dropitem5.mp3" randomBalance="true"/>
+  <soundFile fileName="dropitem/dropitem6.mp3" randomBalance="true"/>
+  <soundFile fileName="dropitem/dropitem7.mp3" randomBalance="true"/>
+  <soundFile fileName="dropitem/dropitem8.mp3" randomBalance="true"/>
+  <soundFile fileName="dropitem/dropitem9.mp3" randomBalance="true"/>
+ </sound>
+ <sound pattern="(.+) loses hold of the (.+)\." timeout="250" channel="sfx" threshold="4" concurrency="5">
+  <soundFile fileName="dropitem/dropitem1.mp3" randomBalance="true"/>
+  <soundFile fileName="dropitem/dropitem2.mp3" randomBalance="true"/>
+  <soundFile fileName="dropitem/dropitem3.mp3" randomBalance="true"/>
+  <soundFile fileName="dropitem/dropitem4.mp3" randomBalance="true"/>
+  <soundFile fileName="dropitem/dropitem5.mp3" randomBalance="true"/>
+  <soundFile fileName="dropitem/dropitem6.mp3" randomBalance="true"/>
+  <soundFile fileName="dropitem/dropitem7.mp3" randomBalance="true"/>
+  <soundFile fileName="dropitem/dropitem8.mp3" randomBalance="true"/>
+  <soundFile fileName="dropitem/dropitem9.mp3" randomBalance="true"/>
+ </sound>
+ <sound pattern="The (.+) grabs The (.+) by the (.+) with ((his)|(her)|(its)) (.+)!" timeout="250" channel="sfx" threshold="4" concurrency="5">
+  <soundFile fileName="wrestling/swingfist1.mp3"/>
+  <soundFile fileName="wrestling/swingfist2.mp3"/>
+  <soundFile fileName="wrestling/swingfist3.mp3"/>
+  <soundFile fileName="wrestling/swingfist4.mp3"/>
+ </sound>
+ <sound pattern="The (.+) locks The (.+)'s (.+) with The (.+)'s (.+)!" timeout="250" channel="sfx" threshold="4" concurrency="5">
+  <soundFile fileName="wrestling/swingfist1.mp3"/>
+  <soundFile fileName="wrestling/swingfist2.mp3"/>
+  <soundFile fileName="wrestling/swingfist3.mp3"/>
+  <soundFile fileName="wrestling/swingfist4.mp3"/>
+ </sound>
+ <sound pattern="The (.+) adjusts the grip of The (.+) on The (.+)\." timeout="250" channel="sfx" threshold="4" concurrency="5">
+  <soundFile fileName="wrestling/swingfist1.mp3"/>
+  <soundFile fileName="wrestling/swingfist2.mp3"/>
+  <soundFile fileName="wrestling/swingfist3.mp3"/>
+  <soundFile fileName="wrestling/swingfist4.mp3"/>
+ </sound>
+ <sound pattern="The (.+) releases the grip of The (.+)'s (.+) from The (.+)'s (.+)\." timeout="250" channel="sfx" threshold="4" concurrency="5">
+  <soundFile fileName="wrestling/swingfist1.mp3"/>
+  <soundFile fileName="wrestling/swingfist2.mp3"/>
+  <soundFile fileName="wrestling/swingfist3.mp3"/>
+  <soundFile fileName="wrestling/swingfist4.mp3"/>
+ </sound>
+ <sound pattern="The (.+) releases the grip of The (.+) on The (.+)\." timeout="250" channel="sfx" threshold="4" concurrency="5">
+  <soundFile fileName="wrestling/swingfist1.mp3"/>
+  <soundFile fileName="wrestling/swingfist2.mp3"/>
+  <soundFile fileName="wrestling/swingfist3.mp3"/>
+  <soundFile fileName="wrestling/swingfist4.mp3"/>
+ </sound>
+ <sound pattern="The (.+) releases the joint lock of The (.+)'s (.+) on The (.+)'s (.+)\." timeout="250" channel="sfx" threshold="4" concurrency="5">
+  <soundFile fileName="wrestling/swingfist1.mp3"/>
+  <soundFile fileName="wrestling/swingfist2.mp3"/>
+  <soundFile fileName="wrestling/swingfist3.mp3"/>
+  <soundFile fileName="wrestling/swingfist4.mp3"/>
+ </sound>
+ <sound pattern="The (.+) breaks the grip of The (.+) from The (.+)!" timeout="250" channel="sfx" threshold="4" concurrency="5">
+  <soundFile fileName="wrestling/swingfist1.mp3"/>
+  <soundFile fileName="wrestling/swingfist2.mp3"/>
+  <soundFile fileName="wrestling/swingfist3.mp3"/>
+  <soundFile fileName="wrestling/swingfist4.mp3"/>
+ </sound>
+ <sound pattern="The (.+) breaks the grip of The (.+) on The (.+)\." timeout="250" channel="sfx" threshold="4" concurrency="5">
+  <soundFile fileName="wrestling/swingfist1.mp3"/>
+  <soundFile fileName="wrestling/swingfist2.mp3"/>
+  <soundFile fileName="wrestling/swingfist3.mp3"/>
+  <soundFile fileName="wrestling/swingfist4.mp3"/>
+ </sound>
+ <sound pattern="The (.+) is unable to break the grip of The (.+)'s (.+) on The (.+)'s (.+)!" channel="sfx"/>
+ <sound pattern="The (.+) places a chokehold on The (.+)'s (.+) with The (.+)'s (.+)!" timeout="250" channel="sfx" threshold="4" concurrency="5">
+  <soundFile fileName="wrestling/strangle1.mp3" randomBalance="true"/>
+  <soundFile fileName="wrestling/strangle2.mp3" randomBalance="true"/>
+  <soundFile fileName="wrestling/strangle3.mp3" randomBalance="true"/>
+  <soundFile fileName="wrestling/strangle4.mp3" randomBalance="true"/>
+ </sound>
+ <sound pattern="The (.+) strangles The (.+)'s (.+)!" timeout="250" channel="sfx" threshold="4" concurrency="5">
+  <soundFile fileName="wrestling/strangle1.mp3" randomBalance="true"/>
+  <soundFile fileName="wrestling/strangle2.mp3" randomBalance="true"/>
+  <soundFile fileName="wrestling/strangle3.mp3" randomBalance="true"/>
+  <soundFile fileName="wrestling/strangle4.mp3" randomBalance="true"/>
+ </sound>
+ <sound pattern="The (.+) throws The (.+) by the (.+) with The (.+)!" timeout="500" channel="sfx" threshold="4" concurrency="4">
+  <soundFile fileName="miss/ranged/ranged1.mp3" randomBalance="true"/>
+  <soundFile fileName="miss/ranged/ranged2.mp3" randomBalance="true"/>
+  <soundFile fileName="miss/ranged/ranged3.mp3" randomBalance="true"/>
+  <soundFile fileName="miss/ranged/ranged4.mp3" randomBalance="true"/>
+  <soundFile fileName="miss/ranged/ranged5.mp3" randomBalance="true"/>
+  <soundFile fileName="miss/ranged/ranged6.mp3" randomBalance="true"/>
+ </sound>
+ <sound pattern="The (.+) struggles in vain against the grip of The (.+) on The (.+)\." timeout="250" channel="sfx" threshold="4" concurrency="5">
+  <soundFile fileName="wrestling/strangle1.mp3" randomBalance="true"/>
+  <soundFile fileName="wrestling/strangle2.mp3" randomBalance="true"/>
+  <soundFile fileName="wrestling/strangle3.mp3" randomBalance="true"/>
+  <soundFile fileName="wrestling/strangle4.mp3" randomBalance="true"/>
+ </sound>
+ <sound pattern="The (.+) shakes The (.+) around by the (.+)!" timeout="250" channel="sfx" threshold="4" concurrency="5">
+  <soundFile fileName="wrestling/swingfist1.mp3"/>
+  <soundFile fileName="wrestling/swingfist2.mp3"/>
+  <soundFile fileName="wrestling/swingfist3.mp3"/>
+  <soundFile fileName="wrestling/swingfist4.mp3"/>
+ </sound>
+ <sound pattern="The (.+) is ripped away and remains in The (.+)'s grip!" timeout="250" channel="sfx" threshold="4" concurrency="5">
+  <soundFile fileName="wrestling/swingfist1.mp3"/>
+  <soundFile fileName="wrestling/swingfist2.mp3"/>
+  <soundFile fileName="wrestling/swingfist3.mp3"/>
+  <soundFile fileName="wrestling/swingfist4.mp3"/>
+ </sound>
+ <sound pattern="(.+) latches on firmly!" timeout="250" channel="sfx" threshold="4" concurrency="5">
+  <soundFile fileName="wrestling/swingfist1.mp3"/>
+  <soundFile fileName="wrestling/swingfist2.mp3"/>
+  <soundFile fileName="wrestling/swingfist3.mp3"/>
+  <soundFile fileName="wrestling/swingfist4.mp3"/>
+ </sound>
+ <sound pattern="(.+) latches on firmly to (.+)!" timeout="250" channel="sfx" threshold="4" concurrency="5">
+  <soundFile fileName="wrestling/swingfist1.mp3"/>
+  <soundFile fileName="wrestling/swingfist2.mp3"/>
+  <soundFile fileName="wrestling/swingfist3.mp3"/>
+  <soundFile fileName="wrestling/swingfist4.mp3"/>
+ </sound>
+ <sound pattern="(.+) bends (.+) and (.+) collapses!" timeout="250" channel="sfx" threshold="4" concurrency="5">
+  <soundFile fileName="bones/110617__soundscalpel-com__horror-bone-crunch.mp3" randomBalance="true"/>
+  <soundFile fileName="bones/136460__joshfeed__bone-breaking-13.mp3" randomBalance="true"/>
+  <soundFile fileName="bones/176745__carlito62__bone-crushneck-twist.mp3" randomBalance="true"/>
+ </sound>
+ <sound pattern="The (.+) takes The (.+) down by the (.+) with The (.+)'s (.+)!" timeout="500" channel="sfx" threshold="4" concurrency="4">
+  <soundFile fileName="wrestling/swingfist1.mp3"/>
+  <soundFile fileName="wrestling/swingfist2.mp3"/>
+  <soundFile fileName="wrestling/swingfist3.mp3"/>
+  <soundFile fileName="wrestling/swingfist4.mp3"/>
+ </sound>
+ <sound pattern="The (.+) gouges The (.+)'s (.+) with The (.+)'s (.+)!" timeout="250" channel="sfx" threshold="4" concurrency="5">
+  <soundFile fileName="hit/stab/stab1.mp3" randomBalance="true"/>
+  <soundFile fileName="hit/stab/stab2.mp3" randomBalance="true"/>
+  <soundFile fileName="hit/stab/stab3.mp3" randomBalance="true"/>
+  <soundFile fileName="hit/stab/stab4.mp3" randomBalance="true"/>
+  <soundFile fileName="hit/stab/stab5.mp3" randomBalance="true"/>
+  <soundFile fileName="hit/stab/stab6.mp3" randomBalance="true"/>
+  <soundFile fileName="hit/stab/stab7.mp3" randomBalance="true"/>
+  <soundFile fileName="hit/stab/stab8.mp3" randomBalance="true"/>
+  <soundFile fileName="hit/stab/stab9.mp3" randomBalance="true"/>
+  <soundFile fileName="hit/stab/stab10.mp3" randomBalance="true"/>
+  <soundFile fileName="hit/stab/stab11.mp3" randomBalance="true"/>
+  <soundFile fileName="hit/stab/stab12.mp3" randomBalance="true"/>
+ </sound>
+ <sound pattern="(.+) blocks The flying (.+)!" timeout="500" channel="sfx" threshold="4" concurrency="4">
+  <soundFile fileName="hit/strike/strike1.mp3"/>
+  <soundFile fileName="hit/strike/strike2.mp3"/>
+  <soundFile fileName="hit/strike/strike3.mp3"/>
+ </sound>
+ <sound pattern="(.+) bats The ((spinning)|(flying)) (.+) out of the air!" timeout="500" channel="sfx" threshold="4" concurrency="4">
+  <soundFile fileName="blocked/blocked1.mp3" randomBalance="true"/>
+  <soundFile fileName="blocked/blocked2.mp3" randomBalance="true"/>
+  <soundFile fileName="blocked/blocked3.mp3" randomBalance="true"/>
+  <soundFile fileName="blocked/blocked4.mp3" randomBalance="true"/>
+  <soundFile fileName="blocked/blocked5.mp3" randomBalance="true"/>
+ </sound>
+ <sound pattern="(.+) bats The ((spinning)|(flying)) (.+) out of the air with ther\ (.+)!" timeout="500" channel="sfx" threshold="4" concurrency="4">
+  <soundFile fileName="blocked/blocked1.mp3" randomBalance="true"/>
+  <soundFile fileName="blocked/blocked2.mp3" randomBalance="true"/>
+  <soundFile fileName="blocked/blocked3.mp3" randomBalance="true"/>
+  <soundFile fileName="blocked/blocked4.mp3" randomBalance="true"/>
+  <soundFile fileName="blocked/blocked5.mp3" randomBalance="true"/>
+ </sound>
+ <sound pattern="(.+) scrambles away from The flying (.+)!" timeout="250" channel="sfx" threshold="4" concurrency="5">
+  <soundFile fileName="miss/ranged/ranged1.mp3" randomBalance="true"/>
+  <soundFile fileName="miss/ranged/ranged2.mp3" randomBalance="true"/>
+  <soundFile fileName="miss/ranged/ranged3.mp3" randomBalance="true"/>
+  <soundFile fileName="miss/ranged/ranged4.mp3" randomBalance="true"/>
+  <soundFile fileName="miss/ranged/ranged5.mp3" randomBalance="true"/>
+  <soundFile fileName="miss/ranged/ranged6.mp3" randomBalance="true"/>
+ </sound>
+ <sound pattern="(.+) strikes at (.+) but the shot is blocked with (.+)!" timeout="500" channel="sfx" threshold="4" concurrency="4">
+  <soundFile fileName="blocked/blocked1.mp3" randomBalance="true"/>
+  <soundFile fileName="blocked/blocked2.mp3" randomBalance="true"/>
+  <soundFile fileName="blocked/blocked3.mp3" randomBalance="true"/>
+  <soundFile fileName="blocked/blocked4.mp3" randomBalance="true"/>
+  <soundFile fileName="blocked/blocked5.mp3" randomBalance="true"/>
+ </sound>
+ <sound pattern="(((.+) misses)|(You miss)) (.+)!" timeout="500" channel="sfx" threshold="4" concurrency="4">
+  <soundFile fileName="miss/melee/mmiss1.mp3" randomBalance="true"/>
+  <soundFile fileName="miss/melee/mmiss2.mp3" randomBalance="true"/>
+  <soundFile fileName="miss/melee/mmiss3.mp3" randomBalance="true"/>
+  <soundFile fileName="miss/melee/mmiss4.mp3" randomBalance="true"/>
+  <soundFile fileName="miss/melee/mmiss5.mp3" randomBalance="true"/>
+  <soundFile fileName="miss/melee/mmiss6.mp3" randomBalance="true"/>
+  <soundFile fileName="miss/melee/mmiss7.mp3" randomBalance="true"/>
+  <soundFile fileName="miss/melee/mmiss8.mp3" randomBalance="true"/>
+  <soundFile fileName="miss/melee/mmiss9.mp3" randomBalance="true"/>
+  <soundFile fileName="miss/melee/mmiss10.mp3" randomBalance="true"/>
+ </sound>
+ <sound pattern="(.+) jumps away from The spinning (.+)!" timeout="500" channel="sfx" threshold="4" concurrency="4">
+  <soundFile fileName="miss/melee/swingmiss1.mp3" randomBalance="true"/>
+  <soundFile fileName="miss/melee/swingmiss2.mp3" randomBalance="true"/>
+  <soundFile fileName="miss/melee/swingmiss3.mp3" randomBalance="true"/>
+  <soundFile fileName="miss/melee/swingmiss4.mp3" randomBalance="true"/>
+  <soundFile fileName="miss/melee/swingmiss5.mp3" randomBalance="true"/>
+ </sound>
+ <sound pattern="(.+) blocks The spinning (.+)!" timeout="500" channel="sfx" threshold="4" concurrency="2">
+  <soundFile fileName="miss/melee/swingmiss1.mp3" randomBalance="true"/>
+  <soundFile fileName="miss/melee/swingmiss2.mp3" randomBalance="true"/>
+  <soundFile fileName="miss/melee/swingmiss3.mp3" randomBalance="true"/>
+  <soundFile fileName="miss/melee/swingmiss4.mp3" randomBalance="true"/>
+  <soundFile fileName="miss/melee/swingmiss5.mp3" randomBalance="true"/>
+ </sound>
+ <sound pattern="(.+) bats The spinning (.+) aside!" timeout="500" channel="sfx" threshold="4" concurrency="2">
+  <soundFile fileName="miss/melee/swingmiss1.mp3" randomBalance="true"/>
+  <soundFile fileName="miss/melee/swingmiss2.mp3" randomBalance="true"/>
+  <soundFile fileName="miss/melee/swingmiss3.mp3" randomBalance="true"/>
+  <soundFile fileName="miss/melee/swingmiss4.mp3" randomBalance="true"/>
+  <soundFile fileName="miss/melee/swingmiss5.mp3" randomBalance="true"/>
+ </sound>
+ <sound pattern="(.+) scrambles away from The spinning (.+)!" timeout="250" channel="sfx" threshold="4" concurrency="5">
+  <soundFile fileName="miss/melee/swingmiss1.mp3" randomBalance="true"/>
+  <soundFile fileName="miss/melee/swingmiss2.mp3" randomBalance="true"/>
+  <soundFile fileName="miss/melee/swingmiss3.mp3" randomBalance="true"/>
+  <soundFile fileName="miss/melee/swingmiss4.mp3" randomBalance="true"/>
+  <soundFile fileName="miss/melee/swingmiss5.mp3" randomBalance="true"/>
+ </sound>
+ <sound pattern="(.+) rolls away from The spinning (.+)!" timeout="250" channel="sfx" threshold="4" concurrency="5">
+  <soundFile fileName="miss/melee/swingmiss1.mp3" randomBalance="true"/>
+  <soundFile fileName="miss/melee/swingmiss2.mp3" randomBalance="true"/>
+  <soundFile fileName="miss/melee/swingmiss3.mp3" randomBalance="true"/>
+  <soundFile fileName="miss/melee/swingmiss4.mp3" randomBalance="true"/>
+  <soundFile fileName="miss/melee/swingmiss5.mp3" randomBalance="true"/>
+ </sound>
+ <sound pattern="The (.+) strikes at The (.+) but the shot is parried!" timeout="500" channel="sfx" threshold="4" concurrency="4">
+  <soundFile fileName="blocked/blocked1.mp3" randomBalance="true"/>
+  <soundFile fileName="blocked/blocked2.mp3" randomBalance="true"/>
+  <soundFile fileName="blocked/blocked3.mp3" randomBalance="true"/>
+  <soundFile fileName="blocked/blocked4.mp3" randomBalance="true"/>
+  <soundFile fileName="blocked/blocked5.mp3" randomBalance="true"/>
+ </sound>
+ <sound pattern="The (.+) strikes at The (.+) but the shot is ((deftly )|(easily )|(narrowly )|(just barely )|(effortlessly )|())parried by (.+)!" timeout="500" channel="sfx" threshold="4" concurrency="4">
+  <soundFile fileName="blocked/blocked1.mp3" randomBalance="true"/>
+  <soundFile fileName="blocked/blocked2.mp3" randomBalance="true"/>
+  <soundFile fileName="blocked/blocked3.mp3" randomBalance="true"/>
+  <soundFile fileName="blocked/blocked4.mp3" randomBalance="true"/>
+  <soundFile fileName="blocked/blocked5.mp3" randomBalance="true"/>
+ </sound>
+ <sound pattern="The (.+) strikes at The (.+) but the shot is ((deftly )|(easily )|(narrowly )|(just barely )|(effortlessly )|())deflected by (.+)!" timeout="500" channel="sfx" threshold="4" concurrency="4">
+  <soundFile fileName="blocked/blocked1.mp3" randomBalance="true"/>
+  <soundFile fileName="blocked/blocked2.mp3" randomBalance="true"/>
+  <soundFile fileName="blocked/blocked3.mp3" randomBalance="true"/>
+  <soundFile fileName="blocked/blocked4.mp3" randomBalance="true"/>
+  <soundFile fileName="blocked/blocked5.mp3" randomBalance="true"/>
+ </sound>
+ <sound pattern="The (.+) strikes (.+) but the shot is blocked!" timeout="500" channel="sfx" threshold="4" concurrency="4">
+  <soundFile fileName="blocked/blocked1.mp3" randomBalance="true"/>
+  <soundFile fileName="blocked/blocked2.mp3" randomBalance="true"/>
+  <soundFile fileName="blocked/blocked3.mp3" randomBalance="true"/>
+  <soundFile fileName="blocked/blocked4.mp3" randomBalance="true"/>
+  <soundFile fileName="blocked/blocked5.mp3" randomBalance="true"/>
+ </sound>
+ <sound pattern="The flying (.+) misses (.+)!" timeout="500" channel="sfx" threshold="4" concurrency="4">
+  <soundFile fileName="miss/ranged/ranged1.mp3" randomBalance="true"/>
+  <soundFile fileName="miss/ranged/ranged2.mp3" randomBalance="true"/>
+  <soundFile fileName="miss/ranged/ranged3.mp3" randomBalance="true"/>
+  <soundFile fileName="miss/ranged/ranged4.mp3" randomBalance="true"/>
+  <soundFile fileName="miss/ranged/ranged5.mp3" randomBalance="true"/>
+  <soundFile fileName="miss/ranged/ranged6.mp3" randomBalance="true"/>
+ </sound>
+ <sound pattern="(.+) cancels (.+): Too injured\." channel="sfx"/>
+ <sound pattern="(.+) cancels Pickup Equipment: Equipment mismatch\." channel="sfx"/>
 </sounds>

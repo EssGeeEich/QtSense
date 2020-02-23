@@ -1,88 +1,58 @@
-<?xml version="1.1" encoding="UTF-8"?>
+<!DOCTYPE EDITOR>
 <sounds>
-
-	<sound pattern="(.+) has been completed\." concurrency="10" timeout="500" threshold="3" ansiFormat="&#27;[34;1m">
-		<!-- http://www.freesound.org/samplesViewSingle.php?id=85792 -->
-		<soundFile fileName="85792__sandyrb__NATIVE_FLUTE_FIGURE_03.mp3" />
-		<!-- http://www.freesound.org/samplesViewSingle.php?id=85794 -->
-		<soundFile fileName="85794__sandyrb__NATIVE_FLUTE_FIGURE_05.mp3" />
-	</sound>
-
-	<sound pattern="(.+) has created a masterpiece!" concurrency="2" timeout="500" propability="25" threshold="4" ansiFormat="&#27;[34m">
-		<!-- http://www.freesound.org/samplesViewSingle.php?id=707 -->
-		<soundFile fileName="707__vitriolix__subbasesoft.mp3" volume="0.3" />
-		<soundFile fileName="707__vitriolix__subbasesoft.mp3" volume="0.4" />
-		<soundFile fileName="707__vitriolix__subbasesoft.mp3" />
-	</sound>
-
-	<sound pattern="(.+) has cooked a masterpiece!" concurrency="2" timeout="500" propability="25" threshold="4" ansiFormat="&#27;[34m">
-		<!-- http://www.freesound.org/samplesViewSingle.php?id=707 -->
-		<soundFile fileName="707__vitriolix__subbasesoft.mp3" volume="0.3" />
-		<soundFile fileName="707__vitriolix__subbasesoft.mp3" volume="0.4" />
-		<soundFile fileName="707__vitriolix__subbasesoft.mp3" />
-	</sound>
-
-	<sound pattern="(.+) has created a masterpiece (.+)!" concurrency="2" timeout="500" propability="25" threshold="4" ansiFormat="&#27;[34m">
-		<!-- http://www.freesound.org/samplesViewSingle.php?id=707 -->
-		<soundFile fileName="707__vitriolix__subbasesoft.mp3" volume="0.3" />
-		<soundFile fileName="707__vitriolix__subbasesoft.mp3" volume="0.4" />
-		<soundFile fileName="707__vitriolix__subbasesoft.mp3" />
-	</sound>
-
-	<sound pattern="(.+) has engraved a masterpiece!" concurrency="2" timeout="500" propability="25" threshold="4" ansiFormat="&#27;[34m">
-		<!-- http://www.freesound.org/samplesViewSingle.php?id=707 -->
-		<soundFile fileName="707__vitriolix__subbasesoft.mp3" volume="0.3" />
-		<soundFile fileName="707__vitriolix__subbasesoft.mp3" volume="0.4" />
-		<soundFile fileName="707__vitriolix__subbasesoft.mp3" />
-	</sound>
-
-	<sound pattern="(.+) has constructed a masterpiece!" concurrency="2" timeout="500" threshold="4" ansiFormat="&#27;[34m">
-		<!-- http://www.freesound.org/samplesViewSingle.php?id=707 -->
-		<soundFile fileName="707__vitriolix__subbasesoft.mp3" volume="0.3" />
-		<soundFile fileName="707__vitriolix__subbasesoft.mp3" volume="0.4" />
-		<soundFile fileName="707__vitriolix__subbasesoft.mp3" />
-	</sound>
-	
-	<sound pattern="(.+) has improved a (.+) masterfully!" concurrency="2" timeout="500" threshold="4" ansiFormat="&#27;[34m">
-		<!-- http://www.freesound.org/samplesViewSingle.php?id=707 -->
-		<soundFile fileName="707__vitriolix__subbasesoft.mp3" volume="0.3" />
-		<soundFile fileName="707__vitriolix__subbasesoft.mp3" volume="0.4" />
-		<soundFile fileName="707__vitriolix__subbasesoft.mp3" />
-	</sound>
-
-	<sound pattern="A masterwork of (.+) has been lost!" threshold="4" ansiFormat="&#27;[35;1m">
-		<soundFile fileName="../intruders/8891__patchen__0_STABscrapes.mp3" randomBalance="true">
-			<attribution url="http://www.freesound.org/people/patchen/sounds/8891/" license="CC BY 3.0" author="patchen" description="0 STABscrapes.ogg" />
-		</soundFile>
-		<soundFile fileName="../intruders/8891__patchen__0_STABscrapes_rev.mp3" randomBalance="true">
-			<attribution url="http://www.freesound.org/people/patchen/sounds/8891/" license="CC BY 3.0" author="patchen" description="0 STABscrapes.ogg" />
-		</soundFile>
-	</sound>
-	
-	<sound pattern="The impertinent vegetation has defaced a (.+)!" threshold="4" ansiFormat="&#27;[35;1m">
-		<soundFile fileName="../intruders/8891__patchen__0_STABscrapes.mp3" randomBalance="true">
-			<attribution url="http://www.freesound.org/people/patchen/sounds/8891/" license="CC BY 3.0" author="patchen" description="0 STABscrapes.ogg" />
-		</soundFile>
-		<soundFile fileName="../intruders/8891__patchen__0_STABscrapes_rev.mp3" randomBalance="true">
-			<attribution url="http://www.freesound.org/people/patchen/sounds/8891/" license="CC BY 3.0" author="patchen" description="0 STABscrapes.ogg" />
-		</soundFile>
-	</sound>
-
-	<sound pattern="Jobs removed from unpowered Magma Forge\." threshold="2" ansiFormat="&#27;[31m">
-		<soundFile fileName="../mining/81205__Mirors___FryPanSizlzLongRelease.mp3" randomBalance="true" />
-		<soundFile fileName="../mining/45579__burriss__pan_hiss_part1.mp3" />
-		<soundFile fileName="../mining/45579__burriss__pan_hiss_part2.mp3" />
-		<soundFile fileName="../mining/69299__Nummer39__steam.mp3" randomBalance="true" />
-	</sound>
-
-	<sound pattern="Jobs removed from unpowered Magma Smelter\." threshold="2" ansiFormat="&#27;[31m">
-		<soundFile fileName="../mining/81205__Mirors___FryPanSizlzLongRelease.mp3" randomBalance="true" />
-		<soundFile fileName="../mining/45579__burriss__pan_hiss_part1.mp3" />
-		<soundFile fileName="../mining/45579__burriss__pan_hiss_part2.mp3" />
-		<soundFile fileName="../mining/69299__Nummer39__steam.mp3" randomBalance="true" />
-	</sound>
-
-	<sound pattern="(.+) has altered the prices of goods\.">
-	</sound>
-
+ <sound pattern="(.+) has been completed\." timeout="500" channel="sfx" threshold="3" concurrency="10">
+  <soundFile fileName="85792__sandyrb__NATIVE_FLUTE_FIGURE_03.mp3"/>
+  <soundFile fileName="85794__sandyrb__NATIVE_FLUTE_FIGURE_05.mp3"/>
+ </sound>
+ <sound pattern="(.+) has created a masterpiece!" timeout="500" channel="sfx" threshold="4" concurrency="2">
+  <soundFile fileName="707__vitriolix__subbasesoft.mp3" volume="0.3"/>
+  <soundFile fileName="707__vitriolix__subbasesoft.mp3" volume="0.4"/>
+  <soundFile fileName="707__vitriolix__subbasesoft.mp3"/>
+ </sound>
+ <sound pattern="(.+) has cooked a masterpiece!" timeout="500" channel="sfx" threshold="4" concurrency="2">
+  <soundFile fileName="707__vitriolix__subbasesoft.mp3" volume="0.3"/>
+  <soundFile fileName="707__vitriolix__subbasesoft.mp3" volume="0.4"/>
+  <soundFile fileName="707__vitriolix__subbasesoft.mp3"/>
+ </sound>
+ <sound pattern="(.+) has created a masterpiece (.+)!" timeout="500" channel="sfx" threshold="4" concurrency="2">
+  <soundFile fileName="707__vitriolix__subbasesoft.mp3" volume="0.3"/>
+  <soundFile fileName="707__vitriolix__subbasesoft.mp3" volume="0.4"/>
+  <soundFile fileName="707__vitriolix__subbasesoft.mp3"/>
+ </sound>
+ <sound pattern="(.+) has engraved a masterpiece!" timeout="500" channel="sfx" threshold="4" concurrency="2">
+  <soundFile fileName="707__vitriolix__subbasesoft.mp3" volume="0.3"/>
+  <soundFile fileName="707__vitriolix__subbasesoft.mp3" volume="0.4"/>
+  <soundFile fileName="707__vitriolix__subbasesoft.mp3"/>
+ </sound>
+ <sound pattern="(.+) has constructed a masterpiece!" timeout="500" channel="sfx" threshold="4" concurrency="2">
+  <soundFile fileName="707__vitriolix__subbasesoft.mp3" volume="0.3"/>
+  <soundFile fileName="707__vitriolix__subbasesoft.mp3" volume="0.4"/>
+  <soundFile fileName="707__vitriolix__subbasesoft.mp3"/>
+ </sound>
+ <sound pattern="(.+) has improved a (.+) masterfully!" timeout="500" channel="sfx" threshold="4" concurrency="2">
+  <soundFile fileName="707__vitriolix__subbasesoft.mp3" volume="0.3"/>
+  <soundFile fileName="707__vitriolix__subbasesoft.mp3" volume="0.4"/>
+  <soundFile fileName="707__vitriolix__subbasesoft.mp3"/>
+ </sound>
+ <sound pattern="A masterwork of (.+) has been lost!" channel="sfx" threshold="4">
+  <soundFile fileName="../intruders/8891__patchen__0_STABscrapes.mp3" randomBalance="true"/>
+  <soundFile fileName="../intruders/8891__patchen__0_STABscrapes_rev.mp3" randomBalance="true"/>
+ </sound>
+ <sound pattern="The impertinent vegetation has defaced a (.+)!" channel="sfx" threshold="4">
+  <soundFile fileName="../intruders/8891__patchen__0_STABscrapes.mp3" randomBalance="true"/>
+  <soundFile fileName="../intruders/8891__patchen__0_STABscrapes_rev.mp3" randomBalance="true"/>
+ </sound>
+ <sound pattern="Jobs removed from unpowered Magma Forge\." channel="sfx">
+  <soundFile fileName="../mining/81205__Mirors___FryPanSizlzLongRelease.mp3" randomBalance="true"/>
+  <soundFile fileName="../mining/45579__burriss__pan_hiss_part1.mp3"/>
+  <soundFile fileName="../mining/45579__burriss__pan_hiss_part2.mp3"/>
+  <soundFile fileName="../mining/69299__Nummer39__steam.mp3" randomBalance="true"/>
+ </sound>
+ <sound pattern="Jobs removed from unpowered Magma Smelter\." channel="sfx">
+  <soundFile fileName="../mining/81205__Mirors___FryPanSizlzLongRelease.mp3" randomBalance="true"/>
+  <soundFile fileName="../mining/45579__burriss__pan_hiss_part1.mp3"/>
+  <soundFile fileName="../mining/45579__burriss__pan_hiss_part2.mp3"/>
+  <soundFile fileName="../mining/69299__Nummer39__steam.mp3" randomBalance="true"/>
+ </sound>
+ <sound pattern="(.+) has altered the prices of goods\." channel="sfx"/>
 </sounds>

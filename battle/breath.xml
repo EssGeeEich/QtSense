@@ -1,128 +1,87 @@
-<?xml version="1.1" encoding="UTF-8"?>
+<!DOCTYPE EDITOR>
 <sounds>
-	
-	The Forgotten Beast breathes a cloud of Niÿeru Mitecrypts the Deep Funeral of Sucking's forgotten beast frozen extract!
-	
-	<sound pattern="The Forgotten Beast breathes a cloud of (.+) ((frozen)|(boiling)) extract!" threshold="4">
-		<!-- http://www.freesound.org/samplesViewSingle.php?id=66642 -->
-		<soundFile fileName="breath/66642__Robinhood76__00861_dragons_breath.mp3" />
-		<!-- http://www.freesound.org/samplesViewSingle.php?id=94102 -->
-		<soundFile fileName="breath/94102__CGEffex__Fire_breathing_dragon.mp3" randomBalance="true" />
-		<!-- http://www.freesound.org/people/Sea%20Fury/sounds/48662/ -->
-		<soundFile fileName="breath/48662__sea-fury__monster.mp3" randomBalance="true" />
-	</sound>
-	
-	<sound pattern="The Forgotten Beast breathes a cloud of forgotten beast extract vapor!" threshold="4">
-		<!-- http://www.freesound.org/samplesViewSingle.php?id=66642 -->
-		<soundFile fileName="breath/66642__Robinhood76__00861_dragons_breath.mp3" />
-		<!-- http://www.freesound.org/samplesViewSingle.php?id=94102 -->
-		<soundFile fileName="breath/94102__CGEffex__Fire_breathing_dragon.mp3" randomBalance="true" />
-		<!-- http://www.freesound.org/people/Sea%20Fury/sounds/48662/ -->
-		<soundFile fileName="breath/48662__sea-fury__monster.mp3" randomBalance="true" />
-	</sound>
-	
-	<sound pattern="The Plains Titan breathes a cloud of (.+) extract vapor!" threshold="4">
-		<!-- http://www.freesound.org/samplesViewSingle.php?id=66642 -->
-		<soundFile fileName="breath/66642__Robinhood76__00861_dragons_breath.mp3" />
-		<!-- http://www.freesound.org/samplesViewSingle.php?id=94102 -->
-		<soundFile fileName="breath/94102__CGEffex__Fire_breathing_dragon.mp3" randomBalance="true" />
-		<!-- http://www.freesound.org/people/Sea%20Fury/sounds/48662/ -->
-		<soundFile fileName="breath/48662__sea-fury__monster.mp3" randomBalance="true" />
-	</sound>
-	
-	<sound pattern="The Forgotten Beast breathes fire!" threshold="4">
-		<!-- http://www.freesound.org/samplesViewSingle.php?id=66642 -->
-		<soundFile fileName="breath/66642__Robinhood76__00861_dragons_breath.mp3" />
-		<!-- http://www.freesound.org/samplesViewSingle.php?id=94102 -->
-		<soundFile fileName="breath/94102__CGEffex__Fire_breathing_dragon.mp3" randomBalance="true" />
-		<!-- http://www.freesound.org/people/Sea%20Fury/sounds/48662/ -->
-		<soundFile fileName="breath/48662__sea-fury__monster.mp3" randomBalance="true" />
-	</sound>
-	
-	<sound pattern="The Hill Titan hurls a ball of fire!" threshold="4">
-		<!-- http://www.freesound.org/samplesViewSingle.php?id=66642 -->
-		<soundFile fileName="breath/66642__Robinhood76__00861_dragons_breath.mp3" />
-		<!-- http://www.freesound.org/samplesViewSingle.php?id=94102 -->
-		<soundFile fileName="breath/94102__CGEffex__Fire_breathing_dragon.mp3" randomBalance="true" />
-		<!-- http://www.freesound.org/people/Sea%20Fury/sounds/48662/ -->
-		<soundFile fileName="breath/48662__sea-fury__monster.mp3" randomBalance="true" />
-	</sound>
-	
-	<sound pattern="The Forgotten Beast breathes a glob of forgotten beast frozen extract!" threshold="4">
-		<!-- http://www.freesound.org/samplesViewSingle.php?id=66642 -->
-		<soundFile fileName="breath/66642__Robinhood76__00861_dragons_breath.mp3" />
-		<!-- http://www.freesound.org/samplesViewSingle.php?id=94102 -->
-		<soundFile fileName="breath/94102__CGEffex__Fire_breathing_dragon.mp3" randomBalance="true" />
-		<!-- http://www.freesound.org/people/Sea%20Fury/sounds/48662/ -->
-		<soundFile fileName="breath/48662__sea-fury__monster.mp3" randomBalance="true" />
-	</sound>
-	
-	<sound pattern="(.+) is caught in a cloud of forgotten beast boiling extract!" concurrency="2" timeout="500" threshold="4">
-		<soundFile fileName="sick/43481__jppi_Stu__SW_Cough.mp3" randomBalance="true" />
-		<soundFile fileName="sick/52323__stephsinger22__coughing.mp3" />
-		<soundFile fileName="sick/63102__Robinhood76__00553_coughing_man_2.mp3" />
-	</sound>
-	
-	<sound pattern="(.+) is caught in a cloud of (.+)!" concurrency="2" timeout="500" threshold="4">
-		<soundFile fileName="sick/43481__jppi_Stu__SW_Cough.mp3" randomBalance="true" />
-		<soundFile fileName="sick/52323__stephsinger22__coughing.mp3" />
-		<soundFile fileName="sick/63102__Robinhood76__00553_coughing_man_2.mp3" />
-	</sound>
-	
-	<sound pattern="(.+) blocks the breath\." concurrency="2" timeout="500" threshold="4">
-		<soundFile fileName="blocked/blocked1.mp3" randomBalance="true" />
-		<soundFile fileName="blocked/blocked2.mp3" randomBalance="true" />
-		<soundFile fileName="blocked/blocked3.mp3" randomBalance="true" />
-		<soundFile fileName="blocked/blocked4.mp3" randomBalance="true" />
-		<soundFile fileName="blocked/blocked5.mp3" randomBalance="true" />
-	</sound>
-	
-	<sound pattern="(.+) blocks the fire\." concurrency="2" timeout="500" threshold="4">
-		<soundFile fileName="blocked/blocked1.mp3" randomBalance="true" />
-		<soundFile fileName="blocked/blocked2.mp3" randomBalance="true" />
-		<soundFile fileName="blocked/blocked3.mp3" randomBalance="true" />
-		<soundFile fileName="blocked/blocked4.mp3" randomBalance="true" />
-		<soundFile fileName="blocked/blocked5.mp3" randomBalance="true" />
-	</sound>
-	
-	<sound pattern="(.+) shoots out thick strands of webbing!" threshold="4">
-		<!-- http://www.freesound.org/packsViewSingle.php?id=6840 -->
-		<soundFile fileName="web/107642__m_O_m__onion_break_hit_flesh_vegetable_blood_01.mp3" weight="1" />
-		<soundFile fileName="web/107643__m_O_m__onion_break_hit_flesh_vegetable_blood_02.mp3" weight="1"/>
-		<soundFile fileName="web/107774__m_O_m__onion_break_hit_flesh_vegetable_blood_11.mp3" weight="3" />
-		<soundFile fileName="web/117772__m_O_m__cabbage_wrench_drill_01.mp3" weight="1" />
-	</sound>
-	
-	<sound pattern="(.+) is caught up in the web!" timeout="200" threshold="4">
-		<!-- http://www.freesound.org/packsViewSingle.php?id=6840 -->
-		<soundFile fileName="web/107642__m_O_m__onion_break_hit_flesh_vegetable_blood_01.mp3"/>
-		<soundFile fileName="web/107643__m_O_m__onion_break_hit_flesh_vegetable_blood_02.mp3"/>
-		<soundFile fileName="web/107774__m_O_m__onion_break_hit_flesh_vegetable_blood_11.mp3" weight="30" />
-		<soundFile fileName="web/117772__m_O_m__cabbage_wrench_drill_01.mp3"/>
-	</sound>
-	
-	<sound pattern="(.+) is partially free of the web\." timeout="200" threshold="4">
-		<!-- http://www.freesound.org/packsViewSingle.php?id=6840 -->
-		<soundFile fileName="web/107642__m_O_m__onion_break_hit_flesh_vegetable_blood_01.mp3"/>
-		<soundFile fileName="web/107643__m_O_m__onion_break_hit_flesh_vegetable_blood_02.mp3"/>
-		<soundFile fileName="web/107774__m_O_m__onion_break_hit_flesh_vegetable_blood_11.mp3" weight="30" />
-		<soundFile fileName="web/117772__m_O_m__cabbage_wrench_drill_01.mp3"/>
-	</sound>
-	
-	<sound pattern="(.+) is completely free of the web\." timeout="200" threshold="4">
-		<!-- http://www.freesound.org/packsViewSingle.php?id=6840 -->
-		<soundFile fileName="web/107642__m_O_m__onion_break_hit_flesh_vegetable_blood_01.mp3"/>
-		<soundFile fileName="web/107643__m_O_m__onion_break_hit_flesh_vegetable_blood_02.mp3"/>
-		<soundFile fileName="web/107774__m_O_m__onion_break_hit_flesh_vegetable_blood_11.mp3" weight="30" />
-		<soundFile fileName="web/117772__m_O_m__cabbage_wrench_drill_01.mp3"/>
-	</sound>
-	
-	<sound pattern="(.+) cancels (.+): Webbed\." concurrency="2" timeout="200" threshold="4">
-		<!-- http://www.freesound.org/packsViewSingle.php?id=6840 -->
-		<soundFile fileName="web/107642__m_O_m__onion_break_hit_flesh_vegetable_blood_01.mp3"/>
-		<soundFile fileName="web/107643__m_O_m__onion_break_hit_flesh_vegetable_blood_02.mp3"/>
-		<soundFile fileName="web/107774__m_O_m__onion_break_hit_flesh_vegetable_blood_11.mp3" weight="30" />
-		<soundFile fileName="web/117772__m_O_m__cabbage_wrench_drill_01.mp3"/>
-	</sound>
-	
+ <sound pattern="The Forgotten Beast breathes a cloud of (.+) ((frozen)|(boiling)) extract!" channel="sfx" threshold="4">
+  <soundFile fileName="breath/66642__Robinhood76__00861_dragons_breath.mp3"/>
+  <soundFile fileName="breath/94102__CGEffex__Fire_breathing_dragon.mp3" randomBalance="true"/>
+  <soundFile fileName="breath/48662__sea-fury__monster.mp3" randomBalance="true"/>
+ </sound>
+ <sound pattern="The Forgotten Beast breathes a cloud of forgotten beast extract vapor!" channel="sfx" threshold="4">
+  <soundFile fileName="breath/66642__Robinhood76__00861_dragons_breath.mp3"/>
+  <soundFile fileName="breath/94102__CGEffex__Fire_breathing_dragon.mp3" randomBalance="true"/>
+  <soundFile fileName="breath/48662__sea-fury__monster.mp3" randomBalance="true"/>
+ </sound>
+ <sound pattern="The Plains Titan breathes a cloud of (.+) extract vapor!" channel="sfx" threshold="4">
+  <soundFile fileName="breath/66642__Robinhood76__00861_dragons_breath.mp3"/>
+  <soundFile fileName="breath/94102__CGEffex__Fire_breathing_dragon.mp3" randomBalance="true"/>
+  <soundFile fileName="breath/48662__sea-fury__monster.mp3" randomBalance="true"/>
+ </sound>
+ <sound pattern="The Forgotten Beast breathes fire!" channel="sfx" threshold="4">
+  <soundFile fileName="breath/66642__Robinhood76__00861_dragons_breath.mp3"/>
+  <soundFile fileName="breath/94102__CGEffex__Fire_breathing_dragon.mp3" randomBalance="true"/>
+  <soundFile fileName="breath/48662__sea-fury__monster.mp3" randomBalance="true"/>
+ </sound>
+ <sound pattern="The Hill Titan hurls a ball of fire!" channel="sfx" threshold="4">
+  <soundFile fileName="breath/66642__Robinhood76__00861_dragons_breath.mp3"/>
+  <soundFile fileName="breath/94102__CGEffex__Fire_breathing_dragon.mp3" randomBalance="true"/>
+  <soundFile fileName="breath/48662__sea-fury__monster.mp3" randomBalance="true"/>
+ </sound>
+ <sound pattern="The Forgotten Beast breathes a glob of forgotten beast frozen extract!" channel="sfx" threshold="4">
+  <soundFile fileName="breath/66642__Robinhood76__00861_dragons_breath.mp3"/>
+  <soundFile fileName="breath/94102__CGEffex__Fire_breathing_dragon.mp3" randomBalance="true"/>
+  <soundFile fileName="breath/48662__sea-fury__monster.mp3" randomBalance="true"/>
+ </sound>
+ <sound pattern="(.+) is caught in a cloud of forgotten beast boiling extract!" timeout="500" channel="sfx" threshold="4" concurrency="2">
+  <soundFile fileName="sick/43481__jppi_Stu__SW_Cough.mp3" randomBalance="true"/>
+  <soundFile fileName="sick/52323__stephsinger22__coughing.mp3"/>
+  <soundFile fileName="sick/63102__Robinhood76__00553_coughing_man_2.mp3"/>
+ </sound>
+ <sound pattern="(.+) is caught in a cloud of (.+)!" timeout="500" channel="sfx" threshold="4" concurrency="2">
+  <soundFile fileName="sick/43481__jppi_Stu__SW_Cough.mp3" randomBalance="true"/>
+  <soundFile fileName="sick/52323__stephsinger22__coughing.mp3"/>
+  <soundFile fileName="sick/63102__Robinhood76__00553_coughing_man_2.mp3"/>
+ </sound>
+ <sound pattern="(.+) blocks the breath\." timeout="500" channel="sfx" threshold="4" concurrency="2">
+  <soundFile fileName="blocked/blocked1.mp3" randomBalance="true"/>
+  <soundFile fileName="blocked/blocked2.mp3" randomBalance="true"/>
+  <soundFile fileName="blocked/blocked3.mp3" randomBalance="true"/>
+  <soundFile fileName="blocked/blocked4.mp3" randomBalance="true"/>
+  <soundFile fileName="blocked/blocked5.mp3" randomBalance="true"/>
+ </sound>
+ <sound pattern="(.+) blocks the fire\." timeout="500" channel="sfx" threshold="4" concurrency="2">
+  <soundFile fileName="blocked/blocked1.mp3" randomBalance="true"/>
+  <soundFile fileName="blocked/blocked2.mp3" randomBalance="true"/>
+  <soundFile fileName="blocked/blocked3.mp3" randomBalance="true"/>
+  <soundFile fileName="blocked/blocked4.mp3" randomBalance="true"/>
+  <soundFile fileName="blocked/blocked5.mp3" randomBalance="true"/>
+ </sound>
+ <sound pattern="(.+) shoots out thick strands of webbing!" channel="sfx" threshold="4">
+  <soundFile fileName="web/107642__m_O_m__onion_break_hit_flesh_vegetable_blood_01.mp3" weight="1"/>
+  <soundFile fileName="web/107643__m_O_m__onion_break_hit_flesh_vegetable_blood_02.mp3" weight="1"/>
+  <soundFile fileName="web/107774__m_O_m__onion_break_hit_flesh_vegetable_blood_11.mp3" weight="3"/>
+  <soundFile fileName="web/117772__m_O_m__cabbage_wrench_drill_01.mp3" weight="1"/>
+ </sound>
+ <sound pattern="(.+) is caught up in the web!" timeout="200" channel="sfx" threshold="4">
+  <soundFile fileName="web/107642__m_O_m__onion_break_hit_flesh_vegetable_blood_01.mp3"/>
+  <soundFile fileName="web/107643__m_O_m__onion_break_hit_flesh_vegetable_blood_02.mp3"/>
+  <soundFile fileName="web/107774__m_O_m__onion_break_hit_flesh_vegetable_blood_11.mp3" weight="30"/>
+  <soundFile fileName="web/117772__m_O_m__cabbage_wrench_drill_01.mp3"/>
+ </sound>
+ <sound pattern="(.+) is partially free of the web\." timeout="200" channel="sfx" threshold="4">
+  <soundFile fileName="web/107642__m_O_m__onion_break_hit_flesh_vegetable_blood_01.mp3"/>
+  <soundFile fileName="web/107643__m_O_m__onion_break_hit_flesh_vegetable_blood_02.mp3"/>
+  <soundFile fileName="web/107774__m_O_m__onion_break_hit_flesh_vegetable_blood_11.mp3" weight="30"/>
+  <soundFile fileName="web/117772__m_O_m__cabbage_wrench_drill_01.mp3"/>
+ </sound>
+ <sound pattern="(.+) is completely free of the web\." timeout="200" channel="sfx" threshold="4">
+  <soundFile fileName="web/107642__m_O_m__onion_break_hit_flesh_vegetable_blood_01.mp3"/>
+  <soundFile fileName="web/107643__m_O_m__onion_break_hit_flesh_vegetable_blood_02.mp3"/>
+  <soundFile fileName="web/107774__m_O_m__onion_break_hit_flesh_vegetable_blood_11.mp3" weight="30"/>
+  <soundFile fileName="web/117772__m_O_m__cabbage_wrench_drill_01.mp3"/>
+ </sound>
+ <sound pattern="(.+) cancels (.+): Webbed\." timeout="200" channel="sfx" threshold="4" concurrency="2">
+  <soundFile fileName="web/107642__m_O_m__onion_break_hit_flesh_vegetable_blood_01.mp3"/>
+  <soundFile fileName="web/107643__m_O_m__onion_break_hit_flesh_vegetable_blood_02.mp3"/>
+  <soundFile fileName="web/107774__m_O_m__onion_break_hit_flesh_vegetable_blood_11.mp3" weight="30"/>
+  <soundFile fileName="web/117772__m_O_m__cabbage_wrench_drill_01.mp3"/>
+ </sound>
 </sounds>

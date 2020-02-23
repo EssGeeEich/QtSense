@@ -1,70 +1,25 @@
-<?xml version="1.1" encoding="UTF-8"?>
-<sounds defaultAnsiFormat="&#27;[35m">
-
-	<sound pattern="(.+) cancels Drink: Water source vanished\.">
-	</sound>
-	
-	<sound pattern="(.+) cancels Drink: Well dry\.">
-	</sound>
-	
-	<sound pattern="(.+) cancels Fill Waterskin Well dry\.">
-	</sound>
-	
-	<sound pattern="(.+) cancels Fill Waterskin: Water source vanished\.">
-	</sound>
-	
-	<sound pattern="(.+) cancels Clean Self Well dry\.">
-	</sound>
-	
-	<sound pattern="(.+) cancels Drink: Water source contaminated\.">
-	</sound>
-	
-	<sound pattern="(.+) cancels Give Water: No water source\.">
-	</sound>
-	
-	<sound pattern="(.+) cancels Apply Cast: No water source\.">
-	</sound>
-	
-	<sound pattern="(.+) cancels Clean Patient: No water source\.">
-	</sound>
-	
-	<sound pattern="(.+) cancels Place In Traction: No available traction bench\.">
-	</sound>
-	
-	<sound pattern="(.+) cancels Fill Pond: No water source\.">
-	</sound>
-	
-	<sound pattern="(.+) cancels Give Water: Need empty bucket\.">
-	</sound>
-	
-	<sound pattern="(.+) cancels Give Water: Animal inaccessible\.">
-	</sound>
-	
-	<sound pattern="(.+) cancels Clean Self: Water source vanished\.">
-	</sound>
-	
-	<sound pattern="(.+) cancels Clean Self: Well dry\.">
-	</sound>
-	
-	<sound pattern="(.+) cancels Give Food: No food available\.">
-	</sound>
-	
-	<sound pattern="(.+) cancels (.+): Hunting vermin for food\.">
-	</sound>
-	
-	<sound pattern="(.+) cancels Eat: Item inaccessible\.">
-	</sound>
-	
-	<sound pattern="(.+) cancels (.+): Getting food\.">
-	</sound>
-	
-	<sound pattern="(.+) cancels (.+): Getting something to drink\.">
-	</sound>
-	
-	<sound pattern="(.+) cancels (.+): Getting water\.">
-	</sound>
-	
-	<sound pattern="(.+) cancels Tame (.+): No food available\.">
-	</sound>
-	
+<!DOCTYPE EDITOR>
+<sounds>
+ <sound pattern="(.+) cancels Drink: Water source vanished\." channel="sfx"/>
+ <sound pattern="(.+) cancels Drink: Well dry\." channel="sfx"/>
+ <sound pattern="(.+) cancels Fill Waterskin Well dry\." channel="sfx"/>
+ <sound pattern="(.+) cancels Fill Waterskin: Water source vanished\." channel="sfx"/>
+ <sound pattern="(.+) cancels Clean Self Well dry\." channel="sfx"/>
+ <sound pattern="(.+) cancels Drink: Water source contaminated\." channel="sfx"/>
+ <sound pattern="(.+) cancels Give Water: No water source\." channel="sfx"/>
+ <sound pattern="(.+) cancels Apply Cast: No water source\." channel="sfx"/>
+ <sound pattern="(.+) cancels Clean Patient: No water source\." channel="sfx"/>
+ <sound pattern="(.+) cancels Place In Traction: No available traction bench\." channel="sfx"/>
+ <sound pattern="(.+) cancels Fill Pond: No water source\." channel="sfx"/>
+ <sound pattern="(.+) cancels Give Water: Need empty bucket\." channel="sfx"/>
+ <sound pattern="(.+) cancels Give Water: Animal inaccessible\." channel="sfx"/>
+ <sound pattern="(.+) cancels Clean Self: Water source vanished\." channel="sfx"/>
+ <sound pattern="(.+) cancels Clean Self: Well dry\." channel="sfx"/>
+ <sound pattern="(.+) cancels Give Food: No food available\." channel="sfx"/>
+ <sound pattern="(.+) cancels (.+): Hunting vermin for food\." channel="sfx"/>
+ <sound pattern="(.+) cancels Eat: Item inaccessible\." channel="sfx"/>
+ <sound pattern="(.+) cancels (.+): Getting food\." channel="sfx"/>
+ <sound pattern="(.+) cancels (.+): Getting something to drink\." channel="sfx"/>
+ <sound pattern="(.+) cancels (.+): Getting water\." channel="sfx"/>
+ <sound pattern="(.+) cancels Tame (.+): No food available\." channel="sfx"/>
 </sounds>

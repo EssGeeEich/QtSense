@@ -1,13 +1,6 @@
-<?xml version="1.1" encoding="UTF-8"?>
-<sounds defaultAnsiColor="&#27;[34m">
-
-	<sound pattern="(.+) has given birth to a bugbat pup\.">
-	</sound>
-	
-	<sound pattern="(.+) has given birth to bugbat pups\.">
-	</sound>
-	
-	<sound pattern="(.+) has grown to become a Stray Bugbat\.">
-	</sound>
-	
+<!DOCTYPE EDITOR>
+<sounds>
+ <sound channel="sfx" pattern="(.+) has given birth to a bugbat pup\."/>
+ <sound channel="sfx" pattern="(.+) has given birth to bugbat pups\."/>
+ <sound channel="sfx" pattern="(.+) has grown to become a Stray Bugbat\."/>
 </sounds>

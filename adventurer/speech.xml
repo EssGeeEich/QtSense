@@ -1,820 +1,284 @@
-<?xml version="1.1" encoding="UTF-8"?>
-<sounds defaultAnsiFormat="&#27;[31;1m">
-
-
-	<sound pattern="(.+): Wait here until I return\." randomBalance="true" concurrency="5">
-
-		<soundFile fileName="../emotion/voices/Bye1_1.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bye1_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bye1_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bye1_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bye1_5.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bye1_6.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bye1_7.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bye2_1.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bye2_10.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bye2_11.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bye2_12.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bye2_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bye2_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bye2_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bye2_5.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bye2_6.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bye2_7.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bye2_8.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bye2_9.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-	</sound>
-
-	<sound pattern="(.+): Goodbye\." randomBalance="true" concurrency="5">
-
-		<soundFile fileName="../emotion/voices/Bye1_1.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bye1_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bye1_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bye1_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bye1_5.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bye1_6.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bye1_7.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bye2_1.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bye2_10.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bye2_11.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bye2_12.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bye2_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bye2_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bye2_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bye2_5.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bye2_6.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bye2_7.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bye2_8.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bye2_9.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-
-	</sound>
-
-	<sound pattern="(.+): Join me and we'll bring (.+) back home!" randomBalance="true" concurrency="5">
-
-		<soundFile fileName="../emotion/voices/Bold1_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Bold" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bold1_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Bold" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bold1_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Bold" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bold1_5.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Bold" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bold2_1.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Bold" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bold2_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Bold" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bold2_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Bold" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bold2_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Bold" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bold2_6.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Bold" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bold2_7.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Bold" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bold2_8.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Bold" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bold2_9.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Bold" />
-		</soundFile>
-	</sound>
-	
-	<sound pattern="(.+): Death\.\.\.  This cannot horrify me\." randomBalance="true" concurrency="5">
-
-		<soundFile fileName="../emotion/voices/Bold1_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Bold" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bold1_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Bold" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bold1_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Bold" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bold1_5.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Bold" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bold2_1.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Bold" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bold2_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Bold" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bold2_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Bold" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bold2_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Bold" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bold2_6.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Bold" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bold2_7.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Bold" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bold2_8.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Bold" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bold2_9.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Bold" />
-		</soundFile>
-	</sound>
-
-	<sound pattern="(.+): Death is all around us\.  This cannot horrify me\." randomBalance="true" concurrency="5">
-
-		<soundFile fileName="../emotion/voices/Bold1_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Bold" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bold1_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Bold" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bold1_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Bold" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bold1_5.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Bold" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bold2_1.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Bold" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bold2_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Bold" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bold2_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Bold" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bold2_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Bold" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bold2_6.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Bold" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bold2_7.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Bold" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bold2_8.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Bold" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bold2_9.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Bold" />
-		</soundFile>
-	</sound>
-
-	<sound pattern="(.+): I'm with you on this\." randomBalance="true" concurrency="5">
-
-		<soundFile fileName="../emotion/voices/Bold1_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Bold" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bold1_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Bold" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bold1_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Bold" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bold1_5.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Bold" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bold2_1.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Bold" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bold2_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Bold" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bold2_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Bold" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bold2_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Bold" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bold2_6.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Bold" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bold2_7.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Bold" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bold2_8.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Bold" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bold2_9.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Bold" />
-		</soundFile>
-	</sound>
-
-
-	<sound pattern="(.+): Come, join me on my adventures!" randomBalance="true" concurrency="5">
-
-		<soundFile fileName="../emotion/voices/Bold1_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Bold" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bold1_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Bold" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bold1_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Bold" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bold1_5.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Bold" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bold2_1.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Bold" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bold2_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Bold" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bold2_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Bold" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bold2_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Bold" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bold2_6.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Bold" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bold2_7.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Bold" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bold2_8.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Bold" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Bold2_9.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Bold" />
-		</soundFile>
-	</sound>
-
-
-	<sound pattern="(.+): I will agree to travel with you if you lead me to glory and death\." randomBalance="true" concurrency="5">
-
-		<soundFile fileName="../emotion/voices/Agree1_1.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Agree1_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Agree1_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Agree1_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Agree1_5.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Agree1_6.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Agree1_7.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Agree2_1.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Agree2_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Agree2_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Agree2_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Agree2_5.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Agree2_6.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-
-	</sound>
-
-	<sound pattern="(.+): I've always wanted to travel the world\.  Let us be off!" randomBalance="true" concurrency="5">
-
-		<soundFile fileName="../emotion/voices/Agree1_1.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Agree1_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Agree1_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Agree1_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Agree1_5.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Agree1_6.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Agree1_7.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Agree2_1.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Agree2_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Agree2_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Agree2_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Agree2_5.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Agree2_6.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-
-	</sound>
-
-	<sound pattern="(.+): With a band so large, what share of the glory would I have\?" randomBalance="true" concurrency="5">
-
-		<soundFile fileName="../emotion/voices/Disagree1_1.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Disagree1_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Disagree1_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Disagree1_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Disagree2_1.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Disagree2_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Disagree2_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Disagree2_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Disagree2_5.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Disagree2_6.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-
-	</sound>
-
-
-	<sound pattern="(.+): Sorry, I'm otherwise occupied\." randomBalance="true" concurrency="5">
-
-		<soundFile fileName="../emotion/voices/Disagree1_1.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Disagree1_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Disagree1_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Disagree1_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Disagree2_1.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Disagree2_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Disagree2_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Disagree2_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Disagree2_5.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Disagree2_6.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-
-	</sound>
-
-	<sound pattern="(.+): I would\.\.\.  rather not\." randomBalance="true" concurrency="5">
-
-		<soundFile fileName="../emotion/voices/Disagree1_1.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Disagree1_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Disagree1_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Disagree1_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Disagree2_1.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Disagree2_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Disagree2_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Disagree2_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Disagree2_5.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Disagree2_6.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-
-	</sound>
-	
-	<sound pattern="(.+): Gruesome wounds!  Ahhhhhhh!  No!" randomBalance="true" concurrency="5">
-
-		<soundFile fileName="../emotion/voices/Fear1_1.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Fear1_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Fear1_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Fear1_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Fear2_1.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Fear2_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Fear2_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Fear2_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-	</sound>
-	
-	<sound pattern="(.+): Death is all around us\.  The horror\.\.\." randomBalance="true" concurrency="5">
-
-		<soundFile fileName="../emotion/voices/Fear1_1.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Fear1_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Fear1_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Fear1_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Fear2_1.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Fear2_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Fear2_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Fear2_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-	</sound>
-
-	<sound pattern="(.+): Death\.\.\.  The horror\.\.\." randomBalance="true" concurrency="5">
-
-		<soundFile fileName="../emotion/voices/Fear1_1.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Fear1_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Fear1_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Fear1_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Fear2_1.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Fear2_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Fear2_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Fear2_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-	</sound>
-
-	<sound pattern="(.+): It is terrifying\." randomBalance="true" concurrency="5">
-
-		<soundFile fileName="../emotion/voices/Fear1_1.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Fear1_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Fear1_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Fear1_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Fear2_1.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Fear2_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Fear2_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Fear2_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Disagreement, Anger" />
-		</soundFile>
-	</sound>
-
-	<sound pattern="(.+): You may enjoy these times of peace, but remain vigilant\." randomBalance="true" concurrency="5">
-
-		<soundFile fileName="../emotion/voices/Concern1_1.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Concern1_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Concern1_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Concern1_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Concern2_1.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Concern2_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Concern2_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Concern2_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Concern2_5.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Concern2_6.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-
-	</sound>
-
-
-	<sound pattern="(.+): It was inevitable\." randomBalance="true" concurrency="5">
-
-		<soundFile fileName="../emotion/voices/Informative1_1.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Informative" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Informative1_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Informative" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Informative1_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Informative" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Informative1_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Informative" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Informative1_5.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Informative" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Informative1_6.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Informative" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Informative1_7.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Informative" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Informative1_8.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Informative" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Informative2_1.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Informative" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Informative2_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Informative" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Informative2_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Informative" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Informative2_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Informative" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Informative2_5.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Informative" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Informative2_6.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Informative" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Informative2_7.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Informative" />
-		</soundFile>
-	</sound>
-
-
-	<sound pattern="(.+): That is sad but not unexpected\." randomBalance="true" concurrency="5">
-
-		<soundFile fileName="../emotion/voices/Informative1_1.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Informative" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Informative1_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Informative" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Informative1_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Informative" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Informative1_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Informative" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Informative1_5.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Informative" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Informative1_6.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Informative" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Informative1_7.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Informative" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Informative1_8.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Informative" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Informative2_1.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Informative" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Informative2_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Informative" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Informative2_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Informative" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Informative2_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Informative" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Informative2_5.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Informative" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Informative2_6.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Informative" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Informative2_7.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Informative" />
-		</soundFile>
-	</sound>
-
-	<sound pattern="(.+): Looks like rain outside\." randomBalance="true" concurrency="5">
-
-		<soundFile fileName="../emotion/voices/Informative1_1.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Informative" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Informative1_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Informative" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Informative1_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Informative" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Informative1_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Informative" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Informative1_5.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Informative" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Informative1_6.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Informative" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Informative1_7.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Informative" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Informative1_8.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Informative" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Informative2_1.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Informative" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Informative2_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Informative" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Informative2_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Informative" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Informative2_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Informative" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Informative2_5.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Informative" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Informative2_6.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Informative" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Informative2_7.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Informative" />
-		</soundFile>
-	</sound>
-
+<!DOCTYPE EDITOR>
+<sounds>
+ <sound channel="sfx" pattern="(.+): Wait here until I return\." concurrency="5">
+  <soundFile fileName="../emotion/voices/Bye1_1.mp3"/>
+  <soundFile fileName="../emotion/voices/Bye1_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Bye1_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Bye1_4.mp3"/>
+  <soundFile fileName="../emotion/voices/Bye1_5.mp3"/>
+  <soundFile fileName="../emotion/voices/Bye1_6.mp3"/>
+  <soundFile fileName="../emotion/voices/Bye1_7.mp3"/>
+  <soundFile fileName="../emotion/voices/Bye2_1.mp3"/>
+  <soundFile fileName="../emotion/voices/Bye2_10.mp3"/>
+  <soundFile fileName="../emotion/voices/Bye2_11.mp3"/>
+  <soundFile fileName="../emotion/voices/Bye2_12.mp3"/>
+  <soundFile fileName="../emotion/voices/Bye2_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Bye2_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Bye2_4.mp3"/>
+  <soundFile fileName="../emotion/voices/Bye2_5.mp3"/>
+  <soundFile fileName="../emotion/voices/Bye2_6.mp3"/>
+  <soundFile fileName="../emotion/voices/Bye2_7.mp3"/>
+  <soundFile fileName="../emotion/voices/Bye2_8.mp3"/>
+  <soundFile fileName="../emotion/voices/Bye2_9.mp3"/>
+ </sound>
+ <sound channel="sfx" pattern="(.+): Goodbye\." concurrency="5">
+  <soundFile fileName="../emotion/voices/Bye1_1.mp3"/>
+  <soundFile fileName="../emotion/voices/Bye1_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Bye1_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Bye1_4.mp3"/>
+  <soundFile fileName="../emotion/voices/Bye1_5.mp3"/>
+  <soundFile fileName="../emotion/voices/Bye1_6.mp3"/>
+  <soundFile fileName="../emotion/voices/Bye1_7.mp3"/>
+  <soundFile fileName="../emotion/voices/Bye2_1.mp3"/>
+  <soundFile fileName="../emotion/voices/Bye2_10.mp3"/>
+  <soundFile fileName="../emotion/voices/Bye2_11.mp3"/>
+  <soundFile fileName="../emotion/voices/Bye2_12.mp3"/>
+  <soundFile fileName="../emotion/voices/Bye2_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Bye2_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Bye2_4.mp3"/>
+  <soundFile fileName="../emotion/voices/Bye2_5.mp3"/>
+  <soundFile fileName="../emotion/voices/Bye2_6.mp3"/>
+  <soundFile fileName="../emotion/voices/Bye2_7.mp3"/>
+  <soundFile fileName="../emotion/voices/Bye2_8.mp3"/>
+  <soundFile fileName="../emotion/voices/Bye2_9.mp3"/>
+ </sound>
+ <sound channel="sfx" pattern="(.+): Join me and we'll bring (.+) back home!" concurrency="5">
+  <soundFile fileName="../emotion/voices/Bold1_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Bold1_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Bold1_4.mp3"/>
+  <soundFile fileName="../emotion/voices/Bold1_5.mp3"/>
+  <soundFile fileName="../emotion/voices/Bold2_1.mp3"/>
+  <soundFile fileName="../emotion/voices/Bold2_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Bold2_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Bold2_4.mp3"/>
+  <soundFile fileName="../emotion/voices/Bold2_6.mp3"/>
+  <soundFile fileName="../emotion/voices/Bold2_7.mp3"/>
+  <soundFile fileName="../emotion/voices/Bold2_8.mp3"/>
+  <soundFile fileName="../emotion/voices/Bold2_9.mp3"/>
+ </sound>
+ <sound channel="sfx" pattern="(.+): Death\.\.\.  This cannot horrify me\." concurrency="5">
+  <soundFile fileName="../emotion/voices/Bold1_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Bold1_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Bold1_4.mp3"/>
+  <soundFile fileName="../emotion/voices/Bold1_5.mp3"/>
+  <soundFile fileName="../emotion/voices/Bold2_1.mp3"/>
+  <soundFile fileName="../emotion/voices/Bold2_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Bold2_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Bold2_4.mp3"/>
+  <soundFile fileName="../emotion/voices/Bold2_6.mp3"/>
+  <soundFile fileName="../emotion/voices/Bold2_7.mp3"/>
+  <soundFile fileName="../emotion/voices/Bold2_8.mp3"/>
+  <soundFile fileName="../emotion/voices/Bold2_9.mp3"/>
+ </sound>
+ <sound channel="sfx" pattern="(.+): Death is all around us\.  This cannot horrify me\." concurrency="5">
+  <soundFile fileName="../emotion/voices/Bold1_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Bold1_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Bold1_4.mp3"/>
+  <soundFile fileName="../emotion/voices/Bold1_5.mp3"/>
+  <soundFile fileName="../emotion/voices/Bold2_1.mp3"/>
+  <soundFile fileName="../emotion/voices/Bold2_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Bold2_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Bold2_4.mp3"/>
+  <soundFile fileName="../emotion/voices/Bold2_6.mp3"/>
+  <soundFile fileName="../emotion/voices/Bold2_7.mp3"/>
+  <soundFile fileName="../emotion/voices/Bold2_8.mp3"/>
+  <soundFile fileName="../emotion/voices/Bold2_9.mp3"/>
+ </sound>
+ <sound channel="sfx" pattern="(.+): I'm with you on this\." concurrency="5">
+  <soundFile fileName="../emotion/voices/Bold1_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Bold1_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Bold1_4.mp3"/>
+  <soundFile fileName="../emotion/voices/Bold1_5.mp3"/>
+  <soundFile fileName="../emotion/voices/Bold2_1.mp3"/>
+  <soundFile fileName="../emotion/voices/Bold2_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Bold2_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Bold2_4.mp3"/>
+  <soundFile fileName="../emotion/voices/Bold2_6.mp3"/>
+  <soundFile fileName="../emotion/voices/Bold2_7.mp3"/>
+  <soundFile fileName="../emotion/voices/Bold2_8.mp3"/>
+  <soundFile fileName="../emotion/voices/Bold2_9.mp3"/>
+ </sound>
+ <sound channel="sfx" pattern="(.+): Come, join me on my adventures!" concurrency="5">
+  <soundFile fileName="../emotion/voices/Bold1_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Bold1_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Bold1_4.mp3"/>
+  <soundFile fileName="../emotion/voices/Bold1_5.mp3"/>
+  <soundFile fileName="../emotion/voices/Bold2_1.mp3"/>
+  <soundFile fileName="../emotion/voices/Bold2_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Bold2_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Bold2_4.mp3"/>
+  <soundFile fileName="../emotion/voices/Bold2_6.mp3"/>
+  <soundFile fileName="../emotion/voices/Bold2_7.mp3"/>
+  <soundFile fileName="../emotion/voices/Bold2_8.mp3"/>
+  <soundFile fileName="../emotion/voices/Bold2_9.mp3"/>
+ </sound>
+ <sound channel="sfx" pattern="(.+): I will agree to travel with you if you lead me to glory and death\." concurrency="5">
+  <soundFile fileName="../emotion/voices/Agree1_1.mp3"/>
+  <soundFile fileName="../emotion/voices/Agree1_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Agree1_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Agree1_4.mp3"/>
+  <soundFile fileName="../emotion/voices/Agree1_5.mp3"/>
+  <soundFile fileName="../emotion/voices/Agree1_6.mp3"/>
+  <soundFile fileName="../emotion/voices/Agree1_7.mp3"/>
+  <soundFile fileName="../emotion/voices/Agree2_1.mp3"/>
+  <soundFile fileName="../emotion/voices/Agree2_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Agree2_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Agree2_4.mp3"/>
+  <soundFile fileName="../emotion/voices/Agree2_5.mp3"/>
+  <soundFile fileName="../emotion/voices/Agree2_6.mp3"/>
+ </sound>
+ <sound channel="sfx" pattern="(.+): I've always wanted to travel the world\.  Let us be off!" concurrency="5">
+  <soundFile fileName="../emotion/voices/Agree1_1.mp3"/>
+  <soundFile fileName="../emotion/voices/Agree1_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Agree1_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Agree1_4.mp3"/>
+  <soundFile fileName="../emotion/voices/Agree1_5.mp3"/>
+  <soundFile fileName="../emotion/voices/Agree1_6.mp3"/>
+  <soundFile fileName="../emotion/voices/Agree1_7.mp3"/>
+  <soundFile fileName="../emotion/voices/Agree2_1.mp3"/>
+  <soundFile fileName="../emotion/voices/Agree2_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Agree2_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Agree2_4.mp3"/>
+  <soundFile fileName="../emotion/voices/Agree2_5.mp3"/>
+  <soundFile fileName="../emotion/voices/Agree2_6.mp3"/>
+ </sound>
+ <sound channel="sfx" pattern="(.+): With a band so large, what share of the glory would I have\?" concurrency="5">
+  <soundFile fileName="../emotion/voices/Disagree1_1.mp3"/>
+  <soundFile fileName="../emotion/voices/Disagree1_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Disagree1_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Disagree1_4.mp3"/>
+  <soundFile fileName="../emotion/voices/Disagree2_1.mp3"/>
+  <soundFile fileName="../emotion/voices/Disagree2_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Disagree2_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Disagree2_4.mp3"/>
+  <soundFile fileName="../emotion/voices/Disagree2_5.mp3"/>
+  <soundFile fileName="../emotion/voices/Disagree2_6.mp3"/>
+ </sound>
+ <sound channel="sfx" pattern="(.+): Sorry, I'm otherwise occupied\." concurrency="5">
+  <soundFile fileName="../emotion/voices/Disagree1_1.mp3"/>
+  <soundFile fileName="../emotion/voices/Disagree1_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Disagree1_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Disagree1_4.mp3"/>
+  <soundFile fileName="../emotion/voices/Disagree2_1.mp3"/>
+  <soundFile fileName="../emotion/voices/Disagree2_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Disagree2_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Disagree2_4.mp3"/>
+  <soundFile fileName="../emotion/voices/Disagree2_5.mp3"/>
+  <soundFile fileName="../emotion/voices/Disagree2_6.mp3"/>
+ </sound>
+ <sound channel="sfx" pattern="(.+): I would\.\.\.  rather not\." concurrency="5">
+  <soundFile fileName="../emotion/voices/Disagree1_1.mp3"/>
+  <soundFile fileName="../emotion/voices/Disagree1_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Disagree1_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Disagree1_4.mp3"/>
+  <soundFile fileName="../emotion/voices/Disagree2_1.mp3"/>
+  <soundFile fileName="../emotion/voices/Disagree2_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Disagree2_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Disagree2_4.mp3"/>
+  <soundFile fileName="../emotion/voices/Disagree2_5.mp3"/>
+  <soundFile fileName="../emotion/voices/Disagree2_6.mp3"/>
+ </sound>
+ <sound channel="sfx" pattern="(.+): Gruesome wounds!  Ahhhhhhh!  No!" concurrency="5">
+  <soundFile fileName="../emotion/voices/Fear1_1.mp3"/>
+  <soundFile fileName="../emotion/voices/Fear1_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Fear1_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Fear1_4.mp3"/>
+  <soundFile fileName="../emotion/voices/Fear2_1.mp3"/>
+  <soundFile fileName="../emotion/voices/Fear2_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Fear2_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Fear2_4.mp3"/>
+ </sound>
+ <sound channel="sfx" pattern="(.+): Death is all around us\.  The horror\.\.\." concurrency="5">
+  <soundFile fileName="../emotion/voices/Fear1_1.mp3"/>
+  <soundFile fileName="../emotion/voices/Fear1_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Fear1_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Fear1_4.mp3"/>
+  <soundFile fileName="../emotion/voices/Fear2_1.mp3"/>
+  <soundFile fileName="../emotion/voices/Fear2_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Fear2_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Fear2_4.mp3"/>
+ </sound>
+ <sound channel="sfx" pattern="(.+): Death\.\.\.  The horror\.\.\." concurrency="5">
+  <soundFile fileName="../emotion/voices/Fear1_1.mp3"/>
+  <soundFile fileName="../emotion/voices/Fear1_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Fear1_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Fear1_4.mp3"/>
+  <soundFile fileName="../emotion/voices/Fear2_1.mp3"/>
+  <soundFile fileName="../emotion/voices/Fear2_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Fear2_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Fear2_4.mp3"/>
+ </sound>
+ <sound channel="sfx" pattern="(.+): It is terrifying\." concurrency="5">
+  <soundFile fileName="../emotion/voices/Fear1_1.mp3"/>
+  <soundFile fileName="../emotion/voices/Fear1_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Fear1_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Fear1_4.mp3"/>
+  <soundFile fileName="../emotion/voices/Fear2_1.mp3"/>
+  <soundFile fileName="../emotion/voices/Fear2_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Fear2_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Fear2_4.mp3"/>
+ </sound>
+ <sound channel="sfx" pattern="(.+): You may enjoy these times of peace, but remain vigilant\." concurrency="5">
+  <soundFile fileName="../emotion/voices/Concern1_1.mp3"/>
+  <soundFile fileName="../emotion/voices/Concern1_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Concern1_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Concern1_4.mp3"/>
+  <soundFile fileName="../emotion/voices/Concern2_1.mp3"/>
+  <soundFile fileName="../emotion/voices/Concern2_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Concern2_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Concern2_4.mp3"/>
+  <soundFile fileName="../emotion/voices/Concern2_5.mp3"/>
+  <soundFile fileName="../emotion/voices/Concern2_6.mp3"/>
+ </sound>
+ <sound channel="sfx" pattern="(.+): It was inevitable\." concurrency="5">
+  <soundFile fileName="../emotion/voices/Informative1_1.mp3"/>
+  <soundFile fileName="../emotion/voices/Informative1_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Informative1_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Informative1_4.mp3"/>
+  <soundFile fileName="../emotion/voices/Informative1_5.mp3"/>
+  <soundFile fileName="../emotion/voices/Informative1_6.mp3"/>
+  <soundFile fileName="../emotion/voices/Informative1_7.mp3"/>
+  <soundFile fileName="../emotion/voices/Informative1_8.mp3"/>
+  <soundFile fileName="../emotion/voices/Informative2_1.mp3"/>
+  <soundFile fileName="../emotion/voices/Informative2_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Informative2_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Informative2_4.mp3"/>
+  <soundFile fileName="../emotion/voices/Informative2_5.mp3"/>
+  <soundFile fileName="../emotion/voices/Informative2_6.mp3"/>
+  <soundFile fileName="../emotion/voices/Informative2_7.mp3"/>
+ </sound>
+ <sound channel="sfx" pattern="(.+): That is sad but not unexpected\." concurrency="5">
+  <soundFile fileName="../emotion/voices/Informative1_1.mp3"/>
+  <soundFile fileName="../emotion/voices/Informative1_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Informative1_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Informative1_4.mp3"/>
+  <soundFile fileName="../emotion/voices/Informative1_5.mp3"/>
+  <soundFile fileName="../emotion/voices/Informative1_6.mp3"/>
+  <soundFile fileName="../emotion/voices/Informative1_7.mp3"/>
+  <soundFile fileName="../emotion/voices/Informative1_8.mp3"/>
+  <soundFile fileName="../emotion/voices/Informative2_1.mp3"/>
+  <soundFile fileName="../emotion/voices/Informative2_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Informative2_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Informative2_4.mp3"/>
+  <soundFile fileName="../emotion/voices/Informative2_5.mp3"/>
+  <soundFile fileName="../emotion/voices/Informative2_6.mp3"/>
+  <soundFile fileName="../emotion/voices/Informative2_7.mp3"/>
+ </sound>
+ <sound channel="sfx" pattern="(.+): Looks like rain outside\." concurrency="5">
+  <soundFile fileName="../emotion/voices/Informative1_1.mp3"/>
+  <soundFile fileName="../emotion/voices/Informative1_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Informative1_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Informative1_4.mp3"/>
+  <soundFile fileName="../emotion/voices/Informative1_5.mp3"/>
+  <soundFile fileName="../emotion/voices/Informative1_6.mp3"/>
+  <soundFile fileName="../emotion/voices/Informative1_7.mp3"/>
+  <soundFile fileName="../emotion/voices/Informative1_8.mp3"/>
+  <soundFile fileName="../emotion/voices/Informative2_1.mp3"/>
+  <soundFile fileName="../emotion/voices/Informative2_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Informative2_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Informative2_4.mp3"/>
+  <soundFile fileName="../emotion/voices/Informative2_5.mp3"/>
+  <soundFile fileName="../emotion/voices/Informative2_6.mp3"/>
+  <soundFile fileName="../emotion/voices/Informative2_7.mp3"/>
+ </sound>
 </sounds>

@@ -1,33 +1,25 @@
-<?xml version="1.1" encoding="UTF-8"?>
-<sounds defaultAnsiColor="&#27;[34m">
-	
-	<sound pattern="(.+) has given birth to ((a kitten)|(kittens))\." threshold="3">
-		<soundFile fileName="cat/18272__zippi1__sound_meow3.mp3" randomBalance="true" />
-	</sound>
-	
-	<sound pattern="An animal has grown to become a Stray Cat\." threshold="4">
-		<soundFile fileName="cat/4913__NoiseCollector__cat1.mp3" randomBalance="true" />
-		<soundFile fileName="cat/33657__Corsica_S__Meow.mp3" randomBalance="true" />
-	</sound>
-	
-	<!-- named kitten growing -->
-	<sound pattern="(.+) has grown to become a Cat\." threshold="4">
-		<soundFile fileName="cat/4913__NoiseCollector__cat1.mp3" randomBalance="true" />
-		<soundFile fileName="cat/33657__Corsica_S__Meow.mp3" randomBalance="true" />
-	</sound>
-	
-	<sound pattern="(.+) has grown to become a Stray Cat\." threshold="4">
-		<soundFile fileName="cat/4913__NoiseCollector__cat1.mp3" randomBalance="true" />
-		<soundFile fileName="cat/33657__Corsica_S__Meow.mp3" randomBalance="true" />
-	</sound>
-	
-	<sound pattern="(.+) has become a Stray Cat\." threshold="4">
-		<soundFile fileName="cat/4913__NoiseCollector__cat1.mp3" randomBalance="true" />
-		<soundFile fileName="cat/33657__Corsica_S__Meow.mp3" randomBalance="true" />
-	</sound>
-	
-	<sound pattern="(.+) has adopted (.+)\." threshold="3">
-		<soundFile fileName="cat/24966__mich3d__CatPurring_01.mp3" randomBalance="true" />
-	</sound>
-	
+<!DOCTYPE EDITOR>
+<sounds>
+ <sound channel="sfx" threshold="3" pattern="(.+) has given birth to ((a kitten)|(kittens))\.">
+  <soundFile randomBalance="true" fileName="cat/18272__zippi1__sound_meow3.mp3"/>
+ </sound>
+ <sound channel="sfx" threshold="4" pattern="An animal has grown to become a Stray Cat\.">
+  <soundFile randomBalance="true" fileName="cat/4913__NoiseCollector__cat1.mp3"/>
+  <soundFile randomBalance="true" fileName="cat/33657__Corsica_S__Meow.mp3"/>
+ </sound>
+ <sound channel="sfx" threshold="4" pattern="(.+) has grown to become a Cat\.">
+  <soundFile randomBalance="true" fileName="cat/4913__NoiseCollector__cat1.mp3"/>
+  <soundFile randomBalance="true" fileName="cat/33657__Corsica_S__Meow.mp3"/>
+ </sound>
+ <sound channel="sfx" threshold="4" pattern="(.+) has grown to become a Stray Cat\.">
+  <soundFile randomBalance="true" fileName="cat/4913__NoiseCollector__cat1.mp3"/>
+  <soundFile randomBalance="true" fileName="cat/33657__Corsica_S__Meow.mp3"/>
+ </sound>
+ <sound channel="sfx" threshold="4" pattern="(.+) has become a Stray Cat\.">
+  <soundFile randomBalance="true" fileName="cat/4913__NoiseCollector__cat1.mp3"/>
+  <soundFile randomBalance="true" fileName="cat/33657__Corsica_S__Meow.mp3"/>
+ </sound>
+ <sound channel="sfx" threshold="3" pattern="(.+) has adopted (.+)\.">
+  <soundFile randomBalance="true" fileName="cat/24966__mich3d__CatPurring_01.mp3"/>
+ </sound>
 </sounds>

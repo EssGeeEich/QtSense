@@ -1,34 +1,24 @@
-<?xml version="1.1" encoding="UTF-8"?>
+<!DOCTYPE EDITOR>
 <sounds>
-
-	<sound pattern="(.+) has given birth to a boy\." threshold="3">
-		<soundFile fileName="babyborn/babyborn_01.mp3" />
-		<soundFile fileName="babyborn/babyborn_02.mp3" />
-		<soundFile fileName="babyborn/babyborn_03.mp3" />
-		<soundFile fileName="babyborn/babyborn_04.mp3" />
-	</sound>
-
-	<sound pattern="(.+) has given birth to a girl\." threshold="3">
-		<soundFile fileName="babyborn/babyborn_01.mp3" />
-		<soundFile fileName="babyborn/babyborn_02.mp3" />
-		<soundFile fileName="babyborn/babyborn_03.mp3" />
-		<soundFile fileName="babyborn/babyborn_04.mp3" />
-	</sound>
-
-	<sound pattern="(.+) has given birth to ((twins)|(triplets))\." threshold="3">
-		<soundFile fileName="babyborn/babyborn_01.mp3" />
-		<soundFile fileName="babyborn/babyborn_02.mp3" />
-		<soundFile fileName="babyborn/babyborn_03.mp3" />
-		<soundFile fileName="babyborn/babyborn_04.mp3" />
-	</sound>
-
-	<sound pattern="(.+) cancels (.+): Seeking Infant\.">
-	</sound>
-
-	<sound pattern="(.+) cancels Seek Infant: Infant inaccessible\.">
-	</sound>
-
-	<sound pattern="(.+) has grown to become a ((Dwarven )?)Child\.">
-	</sound>
-
+ <sound pattern="(.+) has given birth to a boy\." channel="sfx" threshold="3">
+  <soundFile fileName="babyborn/babyborn_01.mp3"/>
+  <soundFile fileName="babyborn/babyborn_02.mp3"/>
+  <soundFile fileName="babyborn/babyborn_03.mp3"/>
+  <soundFile fileName="babyborn/babyborn_04.mp3"/>
+ </sound>
+ <sound pattern="(.+) has given birth to a girl\." channel="sfx" threshold="3">
+  <soundFile fileName="babyborn/babyborn_01.mp3"/>
+  <soundFile fileName="babyborn/babyborn_02.mp3"/>
+  <soundFile fileName="babyborn/babyborn_03.mp3"/>
+  <soundFile fileName="babyborn/babyborn_04.mp3"/>
+ </sound>
+ <sound pattern="(.+) has given birth to ((twins)|(triplets))\." channel="sfx" threshold="3">
+  <soundFile fileName="babyborn/babyborn_01.mp3"/>
+  <soundFile fileName="babyborn/babyborn_02.mp3"/>
+  <soundFile fileName="babyborn/babyborn_03.mp3"/>
+  <soundFile fileName="babyborn/babyborn_04.mp3"/>
+ </sound>
+ <sound pattern="(.+) cancels (.+): Seeking Infant\." channel="sfx"/>
+ <sound pattern="(.+) cancels Seek Infant: Infant inaccessible\." channel="sfx"/>
+ <sound pattern="(.+) has grown to become a ((Dwarven )?)Child\." channel="sfx"/>
 </sounds>

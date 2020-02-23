@@ -1,167 +1,82 @@
-<?xml version="1.1" encoding="UTF-8"?>
-<sounds defaultAnsiFormat="&#27;[35m">
-
-	<sound pattern="(.+) has drowned\." threshold="2">
-		<!-- http://www.archive.org/details/WilhelmScreamSample -->
-		<soundFile fileName="WilhelmScream_vbr.mp3" />
-	</sound>
-	
-	<sound pattern="(.+) has died ((of)|(from)) thirst\." threshold="2">
-		<!-- http://www.archive.org/details/WilhelmScreamSample -->
-		<soundFile fileName="WilhelmScream_vbr.mp3" />
-	</sound>
-	
-	<sound pattern="(.+) has starved to death\." threshold="2">
-		<!-- http://www.archive.org/details/WilhelmScreamSample -->
-		<soundFile fileName="WilhelmScream_vbr.mp3" />
-	</sound>
-
-	<sound pattern="(.+) has been struck down\." threshold="2">
-		<soundFile fileName="WilhelmScream_vbr.mp3" >
-			<attribution url="https://archive.org/details/WilhelmScreamSample" license="Public Domain" author="Sheb Wooley" description="Wilhelm Scream Sample (1951)" />
-		</soundFile>
-		
-		<soundFile fileName="gutwrenching_scream.mp3">
-			<attribution url="http://www.freewebs.com/notthewilhelmscream/download.html" license="?" author="Soundelux" description="Screams 3; Man, Gut-wrenching Scream And Fall Into Distance" />
-		</soundFile>
-	</sound>
-
-	<sound pattern="(.+) has been crushed by a drawbridge\." threshold="2">
-		<soundFile fileName="WilhelmScream_vbr.mp3" >
-			<attribution url="https://archive.org/details/WilhelmScreamSample" license="Public Domain" author="Sheb Wooley" description="Wilhelm Scream Sample (1951)" />
-		</soundFile>
-		
-		<soundFile fileName="gutwrenching_scream.mp3">
-			<attribution url="http://www.freewebs.com/notthewilhelmscream/download.html" license="?" author="Soundelux" description="Screams 3; Man, Gut-wrenching Scream And Fall Into Distance" />
-		</soundFile>
-	</sound>
-	
-	<sound pattern="(.+) has died after colliding with an obstacle\." threshold="2">
-		<!-- http://www.freesound.org/samplesViewSingle.php?id=52143 -->
-		<soundFile fileName="50776__smcameron__fall_with_impact.mp3" />
-		
-		<soundFile fileName="WilhelmScream_vbr.mp3" >
-			<attribution url="https://archive.org/details/WilhelmScreamSample" license="Public Domain" author="Sheb Wooley" description="Wilhelm Scream Sample (1951)" />
-		</soundFile>
-		
-		<soundFile fileName="gutwrenching_scream.mp3">
-			<attribution url="http://www.freewebs.com/notthewilhelmscream/download.html" license="?" author="Soundelux" description="Screams 3; Man, Gut-wrenching Scream And Fall Into Distance" />
-		</soundFile>
-	</sound>
-	
-	<sound pattern="(.+) slams into an obstacle and blows apart!" threshold="2">
-		<!-- http://www.freesound.org/samplesViewSingle.php?id=52143 -->
-		<soundFile fileName="50776__smcameron__fall_with_impact.mp3" />
-		
-		<soundFile fileName="WilhelmScream_vbr.mp3" >
-			<attribution url="https://archive.org/details/WilhelmScreamSample" license="Public Domain" author="Sheb Wooley" description="Wilhelm Scream Sample (1951)" />
-		</soundFile>
-		
-		<soundFile fileName="gutwrenching_scream.mp3">
-			<attribution url="http://www.freewebs.com/notthewilhelmscream/download.html" license="?" author="Soundelux" description="Screams 3; Man, Gut-wrenching Scream And Fall Into Distance" />
-		</soundFile>
-	</sound>
-
-	<sound pattern="(.+) has bled to death\." threshold="2">
-		<!-- http://www.archive.org/details/WilhelmScreamSample -->
-		<soundFile fileName="WilhelmScream_vbr.mp3" />
-	</sound>
-	
-	<sound pattern="(.+) has died of old age\." threshold="3">
-		<!-- http://www.archive.org/details/WilhelmScreamSample -->
-		<soundFile fileName="WilhelmScream_vbr.mp3" />
-	</sound>
-	
-	<sound pattern="(.+) has suffocated\." threshold="2">
-		<!-- http://www.archive.org/details/WilhelmScreamSample -->
-		<soundFile fileName="WilhelmScream_vbr.mp3" />
-	</sound>
-	
-	<sound pattern="(.+) has been encased in ice\." threshold="3">
-		<!-- http://www.archive.org/details/WilhelmScreamSample -->
-		<soundFile fileName="WilhelmScream_vbr.mp3" />
-	</sound>
-	
-	<sound pattern="(.+) has been encased in cooling lava\.">
-		<!-- http://www.archive.org/details/WilhelmScreamSample -->
-		<soundFile fileName="WilhelmScream_vbr.mp3" />
-	</sound>
-	
-	<sound pattern="(.+) has been shot and killed\." threshold="2"> 
-		<soundFile fileName="WilhelmScream_vbr.mp3" >
-			<attribution url="https://archive.org/details/WilhelmScreamSample" license="Public Domain" author="Sheb Wooley" description="Wilhelm Scream Sample (1951)" />
-		</soundFile>
-		
-		<soundFile fileName="gutwrenching_scream.mp3">
-			<attribution url="http://www.freewebs.com/notthewilhelmscream/download.html" license="?" author="Soundelux" description="Screams 3; Man, Gut-wrenching Scream And Fall Into Distance" />
-		</soundFile>
-	</sound>
-	
-	<sound pattern="(.+) has succumbed to infection\." threshold="3">
-		<!-- http://www.archive.org/details/WilhelmScreamSample -->
-		<soundFile fileName="WilhelmScream_vbr.mp3" weight="10" />
-	</sound>
-	
-	<sound pattern="(.+) has been impaled on spikes\." threshold="2">
-		<soundFile fileName="WilhelmScream_vbr.mp3" >
-			<attribution url="https://archive.org/details/WilhelmScreamSample" license="Public Domain" author="Sheb Wooley" description="Wilhelm Scream Sample (1951)" />
-		</soundFile>
-		
-		<soundFile fileName="gutwrenching_scream.mp3">
-			<attribution url="http://www.freewebs.com/notthewilhelmscream/download.html" license="?" author="Soundelux" description="Screams 3; Man, Gut-wrenching Scream And Fall Into Distance" />
-		</soundFile>
-	</sound>
-	
-	<sound pattern="(.+) has been killed by a flying object\." threshold="2">
-		<soundFile fileName="WilhelmScream_vbr.mp3" >
-			<attribution url="https://archive.org/details/WilhelmScreamSample" license="Public Domain" author="Sheb Wooley" description="Wilhelm Scream Sample (1951)" />
-		</soundFile>
-		
-		<soundFile fileName="gutwrenching_scream.mp3">
-			<attribution url="http://www.freewebs.com/notthewilhelmscream/download.html" license="?" author="Soundelux" description="Screams 3; Man, Gut-wrenching Scream And Fall Into Distance" />
-		</soundFile>
-	</sound>
-	
-	<sound pattern="(.+) has been killed by a trap\." threshold="2">
-		<soundFile fileName="WilhelmScream_vbr.mp3" >
-			<attribution url="https://archive.org/details/WilhelmScreamSample" license="Public Domain" author="Sheb Wooley" description="Wilhelm Scream Sample (1951)" />
-		</soundFile>
-		
-		<soundFile fileName="gutwrenching_scream.mp3">
-			<attribution url="http://www.freewebs.com/notthewilhelmscream/download.html" license="?" author="Soundelux" description="Screams 3; Man, Gut-wrenching Scream And Fall Into Distance" />
-		</soundFile>
-	</sound>
-	
-	<sound pattern="(.+) has been murdered by (.+)!" haltOnMatch="false" threshold="1">
-		<!-- http://soundbible.com/33-Evil-Laugh-Cackle.html -->
-		<soundFile fileName="../moods/Evil Laugh Cackle-SoundBible.com-957382653.mp3" volume="0.7" />
-	</sound>
-	
-	<sound pattern="(.+) has been murdered by (.+)!" threshold="2">
-		<!-- http://www.archive.org/details/WilhelmScreamSample -->
-		<soundFile fileName="WilhelmScream_vbr.mp3" />
-		
-		<!-- http://www.freewebs.com/notthewilhelmscream/download.html -->
-		<soundFile fileName="gutwrenching_scream.mp3" />
-	</sound>
-	
-	<sound pattern="(.+) has been scared to death by the (.+)!" haltOnMatch="false" threshold="1">
-		<!-- http://soundbible.com/33-Evil-Laugh-Cackle.html -->
-		<soundFile fileName="../moods/Evil Laugh Cackle-SoundBible.com-957382653.mp3" volume="0.7" />
-	</sound>
-	
-	<sound pattern="(.+) has been scared to death by the (.+)!" threshold="2">
-		<!-- http://www.archive.org/details/WilhelmScreamSample -->
-		<soundFile fileName="WilhelmScream_vbr.mp3" />
-		
-		<!-- http://www.freewebs.com/notthewilhelmscream/download.html -->
-		<soundFile fileName="gutwrenching_scream.mp3" />
-	</sound>
-	
-	<sound pattern="(.+) has collapsed\.">
-		<!-- http://opengameart.org/content/8-wet-squish-slurp-impacts -->
-		<soundFile fileName="slaugtering/impactsplat01.mp3" randomBalance="true" />
-		<soundFile fileName="slaugtering/impactsplat03.mp3" randomBalance="true" />
-	</sound>
-
+<!DOCTYPE EDITOR>
+<sounds>
+ <sound pattern="(.+) has drowned\." channel="sfx">
+  <soundFile fileName="WilhelmScream_vbr.mp3"/>
+ </sound>
+ <sound pattern="(.+) has died ((of)|(from)) thirst\." channel="sfx">
+  <soundFile fileName="WilhelmScream_vbr.mp3"/>
+ </sound>
+ <sound pattern="(.+) has starved to death\." channel="sfx">
+  <soundFile fileName="WilhelmScream_vbr.mp3"/>
+ </sound>
+ <sound pattern="(.+) has been struck down\." channel="sfx">
+  <soundFile fileName="WilhelmScream_vbr.mp3"/>
+  <soundFile fileName="gutwrenching_scream.mp3"/>
+ </sound>
+ <sound pattern="(.+) has been crushed by a drawbridge\." channel="sfx">
+  <soundFile fileName="WilhelmScream_vbr.mp3"/>
+  <soundFile fileName="gutwrenching_scream.mp3"/>
+ </sound>
+ <sound pattern="(.+) has died after colliding with an obstacle\." channel="sfx">
+  <soundFile fileName="50776__smcameron__fall_with_impact.mp3"/>
+  <soundFile fileName="WilhelmScream_vbr.mp3"/>
+  <soundFile fileName="gutwrenching_scream.mp3"/>
+ </sound>
+ <sound pattern="(.+) slams into an obstacle and blows apart!" channel="sfx">
+  <soundFile fileName="50776__smcameron__fall_with_impact.mp3"/>
+  <soundFile fileName="WilhelmScream_vbr.mp3"/>
+  <soundFile fileName="gutwrenching_scream.mp3"/>
+ </sound>
+ <sound pattern="(.+) has bled to death\." channel="sfx">
+  <soundFile fileName="WilhelmScream_vbr.mp3"/>
+ </sound>
+ <sound pattern="(.+) has died of old age\." channel="sfx" threshold="3">
+  <soundFile fileName="WilhelmScream_vbr.mp3"/>
+ </sound>
+ <sound pattern="(.+) has suffocated\." channel="sfx">
+  <soundFile fileName="WilhelmScream_vbr.mp3"/>
+ </sound>
+ <sound pattern="(.+) has been encased in ice\." channel="sfx" threshold="3">
+  <soundFile fileName="WilhelmScream_vbr.mp3"/>
+ </sound>
+ <sound pattern="(.+) has been encased in cooling lava\." channel="sfx">
+  <soundFile fileName="WilhelmScream_vbr.mp3"/>
+ </sound>
+ <sound pattern="(.+) has been shot and killed\." channel="sfx">
+  <soundFile fileName="WilhelmScream_vbr.mp3"/>
+  <soundFile fileName="gutwrenching_scream.mp3"/>
+ </sound>
+ <sound pattern="(.+) has succumbed to infection\." channel="sfx" threshold="3">
+  <soundFile fileName="WilhelmScream_vbr.mp3" weight="10"/>
+ </sound>
+ <sound pattern="(.+) has been impaled on spikes\." channel="sfx">
+  <soundFile fileName="WilhelmScream_vbr.mp3"/>
+  <soundFile fileName="gutwrenching_scream.mp3"/>
+ </sound>
+ <sound pattern="(.+) has been killed by a flying object\." channel="sfx">
+  <soundFile fileName="WilhelmScream_vbr.mp3"/>
+  <soundFile fileName="gutwrenching_scream.mp3"/>
+ </sound>
+ <sound pattern="(.+) has been killed by a trap\." channel="sfx">
+  <soundFile fileName="WilhelmScream_vbr.mp3"/>
+  <soundFile fileName="gutwrenching_scream.mp3"/>
+ </sound>
+ <sound pattern="(.+) has been murdered by (.+)!" channel="sfx" threshold="1">
+  <soundFile fileName="../moods/Evil Laugh Cackle-SoundBible.com-957382653.mp3" volume="0.7"/>
+ </sound>
+ <sound pattern="(.+) has been murdered by (.+)!" channel="sfx">
+  <soundFile fileName="WilhelmScream_vbr.mp3"/>
+  <soundFile fileName="gutwrenching_scream.mp3"/>
+ </sound>
+ <sound pattern="(.+) has been scared to death by the (.+)!" channel="sfx" threshold="1">
+  <soundFile fileName="../moods/Evil Laugh Cackle-SoundBible.com-957382653.mp3" volume="0.7"/>
+ </sound>
+ <sound pattern="(.+) has been scared to death by the (.+)!" channel="sfx">
+  <soundFile fileName="WilhelmScream_vbr.mp3"/>
+  <soundFile fileName="gutwrenching_scream.mp3"/>
+ </sound>
+ <sound pattern="(.+) has collapsed\." channel="sfx">
+  <soundFile fileName="slaugtering/impactsplat01.mp3" randomBalance="true"/>
+  <soundFile fileName="slaugtering/impactsplat03.mp3" randomBalance="true"/>
+ </sound>
 </sounds>

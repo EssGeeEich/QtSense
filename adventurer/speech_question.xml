@@ -1,284 +1,99 @@
-<?xml version="1.1" encoding="UTF-8"?>
-<sounds defaultAnsiFormat="&#27;[31;1m" strictAttributions="true">
-
-	<sound pattern="(.+): How have things been\?" randomBalance="true" concurrency="5">
-
-		<soundFile fileName="../emotion/voices/Question1_1.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question1_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question1_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question1_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question1_5.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question2_1.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question2_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question2_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question2_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question2_5.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-	</sound>
-
-
-	<sound pattern="(.+): Tell me about the abductions\." randomBalance="true" concurrency="5">
-
-		<soundFile fileName="../emotion/voices/Question1_1.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question1_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question1_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question1_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question1_5.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question2_1.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question2_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question2_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question2_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question2_5.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-	</sound>
-
-
-	<sound pattern="(.+): Can you tell me where I can find the (.+)\?" randomBalance="true" concurrency="5">
-
-		<soundFile fileName="../emotion/voices/Question1_1.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question1_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question1_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question1_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question1_5.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question2_1.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question2_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question2_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question2_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question2_5.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-	</sound>
-
-
-	<sound pattern="(.+): Tell me about the local ruler\." randomBalance="true" concurrency="5">
-
-		<soundFile fileName="../emotion/voices/Question1_1.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question1_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question1_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question1_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question1_5.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question2_1.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question2_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question2_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question2_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question2_5.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-	</sound>
-
-
-	<sound pattern="(.+): Where are their forces\?  Are there patrols or guards\?" randomBalance="true" concurrency="5">
-
-		<soundFile fileName="../emotion/voices/Question1_1.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question1_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question1_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question1_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question1_5.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question2_1.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question2_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question2_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question2_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question2_5.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-	</sound>
-
-
-	<sound pattern="(.+): I am your loyal hearthperson.  What do you command\?" randomBalance="true" concurrency="5">
-
-		<soundFile fileName="../emotion/voices/Question1_1.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question1_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question1_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question1_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question1_5.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question2_1.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question2_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question2_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question2_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question2_5.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-	</sound>
-
-
-	<sound pattern="(.+): Tell me about this hall\." randomBalance="true" concurrency="5">
-
-		<soundFile fileName="../emotion/voices/Question1_1.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question1_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question1_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question1_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question1_5.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question2_1.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question2_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question2_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question2_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question2_5.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-	</sound>
-
-	<sound pattern="(.+): Can you tell me the way to (.+)\?" randomBalance="true" concurrency="5">
-
-		<soundFile fileName="../emotion/voices/Question1_1.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question1_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question1_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question1_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question1_5.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question2_1.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question2_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question2_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question2_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Question2_5.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Question" />
-		</soundFile>
-	</sound>
-
-
-
+<!DOCTYPE EDITOR>
+<sounds>
+ <sound channel="sfx" pattern="(.+): How have things been\?" concurrency="5">
+  <soundFile fileName="../emotion/voices/Question1_1.mp3"/>
+  <soundFile fileName="../emotion/voices/Question1_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Question1_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Question1_4.mp3"/>
+  <soundFile fileName="../emotion/voices/Question1_5.mp3"/>
+  <soundFile fileName="../emotion/voices/Question2_1.mp3"/>
+  <soundFile fileName="../emotion/voices/Question2_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Question2_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Question2_4.mp3"/>
+  <soundFile fileName="../emotion/voices/Question2_5.mp3"/>
+ </sound>
+ <sound channel="sfx" pattern="(.+): Tell me about the abductions\." concurrency="5">
+  <soundFile fileName="../emotion/voices/Question1_1.mp3"/>
+  <soundFile fileName="../emotion/voices/Question1_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Question1_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Question1_4.mp3"/>
+  <soundFile fileName="../emotion/voices/Question1_5.mp3"/>
+  <soundFile fileName="../emotion/voices/Question2_1.mp3"/>
+  <soundFile fileName="../emotion/voices/Question2_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Question2_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Question2_4.mp3"/>
+  <soundFile fileName="../emotion/voices/Question2_5.mp3"/>
+ </sound>
+ <sound channel="sfx" pattern="(.+): Can you tell me where I can find the (.+)\?" concurrency="5">
+  <soundFile fileName="../emotion/voices/Question1_1.mp3"/>
+  <soundFile fileName="../emotion/voices/Question1_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Question1_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Question1_4.mp3"/>
+  <soundFile fileName="../emotion/voices/Question1_5.mp3"/>
+  <soundFile fileName="../emotion/voices/Question2_1.mp3"/>
+  <soundFile fileName="../emotion/voices/Question2_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Question2_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Question2_4.mp3"/>
+  <soundFile fileName="../emotion/voices/Question2_5.mp3"/>
+ </sound>
+ <sound channel="sfx" pattern="(.+): Tell me about the local ruler\." concurrency="5">
+  <soundFile fileName="../emotion/voices/Question1_1.mp3"/>
+  <soundFile fileName="../emotion/voices/Question1_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Question1_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Question1_4.mp3"/>
+  <soundFile fileName="../emotion/voices/Question1_5.mp3"/>
+  <soundFile fileName="../emotion/voices/Question2_1.mp3"/>
+  <soundFile fileName="../emotion/voices/Question2_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Question2_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Question2_4.mp3"/>
+  <soundFile fileName="../emotion/voices/Question2_5.mp3"/>
+ </sound>
+ <sound channel="sfx" pattern="(.+): Where are their forces\?  Are there patrols or guards\?" concurrency="5">
+  <soundFile fileName="../emotion/voices/Question1_1.mp3"/>
+  <soundFile fileName="../emotion/voices/Question1_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Question1_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Question1_4.mp3"/>
+  <soundFile fileName="../emotion/voices/Question1_5.mp3"/>
+  <soundFile fileName="../emotion/voices/Question2_1.mp3"/>
+  <soundFile fileName="../emotion/voices/Question2_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Question2_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Question2_4.mp3"/>
+  <soundFile fileName="../emotion/voices/Question2_5.mp3"/>
+ </sound>
+ <sound channel="sfx" pattern="(.+): I am your loyal hearthperson.  What do you command\?" concurrency="5">
+  <soundFile fileName="../emotion/voices/Question1_1.mp3"/>
+  <soundFile fileName="../emotion/voices/Question1_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Question1_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Question1_4.mp3"/>
+  <soundFile fileName="../emotion/voices/Question1_5.mp3"/>
+  <soundFile fileName="../emotion/voices/Question2_1.mp3"/>
+  <soundFile fileName="../emotion/voices/Question2_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Question2_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Question2_4.mp3"/>
+  <soundFile fileName="../emotion/voices/Question2_5.mp3"/>
+ </sound>
+ <sound channel="sfx" pattern="(.+): Tell me about this hall\." concurrency="5">
+  <soundFile fileName="../emotion/voices/Question1_1.mp3"/>
+  <soundFile fileName="../emotion/voices/Question1_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Question1_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Question1_4.mp3"/>
+  <soundFile fileName="../emotion/voices/Question1_5.mp3"/>
+  <soundFile fileName="../emotion/voices/Question2_1.mp3"/>
+  <soundFile fileName="../emotion/voices/Question2_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Question2_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Question2_4.mp3"/>
+  <soundFile fileName="../emotion/voices/Question2_5.mp3"/>
+ </sound>
+ <sound channel="sfx" pattern="(.+): Can you tell me the way to (.+)\?" concurrency="5">
+  <soundFile fileName="../emotion/voices/Question1_1.mp3"/>
+  <soundFile fileName="../emotion/voices/Question1_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Question1_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Question1_4.mp3"/>
+  <soundFile fileName="../emotion/voices/Question1_5.mp3"/>
+  <soundFile fileName="../emotion/voices/Question2_1.mp3"/>
+  <soundFile fileName="../emotion/voices/Question2_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Question2_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Question2_4.mp3"/>
+  <soundFile fileName="../emotion/voices/Question2_5.mp3"/>
+ </sound>
 </sounds>

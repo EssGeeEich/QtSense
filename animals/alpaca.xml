@@ -1,13 +1,6 @@
-<?xml version="1.1" encoding="UTF-8"?>
-<sounds defaultAnsiColor="&#27;[34m">
-
-	<sound pattern="(.+) has grown to become a Alpaca\.">
-	</sound>
-	
-	<sound pattern="(.+) has grown to become a Stray Alpaca\.">
-	</sound>	
-	
-	<sound pattern="(.+) has given birth to a baby alpaca\.">
-	</sound>
-	
+<!DOCTYPE EDITOR>
+<sounds>
+ <sound channel="sfx" pattern="(.+) has grown to become a Alpaca\."/>
+ <sound channel="sfx" pattern="(.+) has grown to become a Stray Alpaca\."/>
+ <sound channel="sfx" pattern="(.+) has given birth to a baby alpaca\."/>
 </sounds>

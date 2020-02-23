@@ -1,281 +1,190 @@
-<?xml version="1.1" encoding="UTF-8"?>
+<!DOCTYPE EDITOR>
 <sounds>
-
-	<sound pattern="You drop the (.+)\.">
-		<soundFile fileName="../battle/movement/28301__HerbertBoland__HeavySkirtMovement.mp3" />
-		<soundFile fileName="../battle/movement/28301__HerbertBoland__HeavySkirtMovement2.mp3" />
-		<soundFile fileName="../battle/movement/28301__HerbertBoland__HeavySkirtMovement3.mp3" />
-		<soundFile fileName="../battle/movement/28301__HerbertBoland__HeavySkirtMovement4.mp3" />
-		<soundFile fileName="../battle/movement/28301__HerbertBoland__HeavySkirtMovement5.mp3" />
-	</sound>
-	
-	<sound pattern="You pick up the (.+)\.">
-		<soundFile fileName="../battle/movement/28301__HerbertBoland__HeavySkirtMovement.mp3" />
-		<soundFile fileName="../battle/movement/28301__HerbertBoland__HeavySkirtMovement2.mp3" />
-		<soundFile fileName="../battle/movement/28301__HerbertBoland__HeavySkirtMovement3.mp3" />
-		<soundFile fileName="../battle/movement/28301__HerbertBoland__HeavySkirtMovement4.mp3" />
-		<soundFile fileName="../battle/movement/28301__HerbertBoland__HeavySkirtMovement5.mp3" />
-	</sound>
-	
-	<sound pattern="You take out the (.+)\.">
-		<soundFile fileName="../battle/movement/28301__HerbertBoland__HeavySkirtMovement.mp3" />
-		<soundFile fileName="../battle/movement/28301__HerbertBoland__HeavySkirtMovement2.mp3" />
-		<soundFile fileName="../battle/movement/28301__HerbertBoland__HeavySkirtMovement3.mp3" />
-		<soundFile fileName="../battle/movement/28301__HerbertBoland__HeavySkirtMovement4.mp3" />
-		<soundFile fileName="../battle/movement/28301__HerbertBoland__HeavySkirtMovement5.mp3" />
-	</sound>
-	
-	<sound pattern="You put the (.+) into the (.+)\.">
-		<soundFile fileName="../battle/movement/28301__HerbertBoland__HeavySkirtMovement.mp3" />
-		<soundFile fileName="../battle/movement/28301__HerbertBoland__HeavySkirtMovement2.mp3" />
-		<soundFile fileName="../battle/movement/28301__HerbertBoland__HeavySkirtMovement3.mp3" />
-		<soundFile fileName="../battle/movement/28301__HerbertBoland__HeavySkirtMovement4.mp3" />
-		<soundFile fileName="../battle/movement/28301__HerbertBoland__HeavySkirtMovement5.mp3" />
-	</sound>
-
-	<sound pattern="You have nothing left to wear\.">
-		<soundFile fileName="../production/12884__schluppipuppie__tack_06.mp3" />
-		<soundFile fileName="../production/12894__schluppipuppie__tsch_02.mp3" />
-		<soundFile fileName="../production/12828__schluppipuppie__besteck_08.mp3" />
-	</sound>
-	
-	<sound pattern="There is nothing to pick up here\.">
-		<soundFile fileName="../production/12884__schluppipuppie__tack_06.mp3" />
-		<soundFile fileName="../production/12894__schluppipuppie__tsch_02.mp3" />
-		<soundFile fileName="../production/12828__schluppipuppie__besteck_08.mp3" />
-	</sound>
-	
-	<sound pattern="You do not have a free grasp\.">
-		<soundFile fileName="../production/12884__schluppipuppie__tack_06.mp3" />
-		<soundFile fileName="../production/12894__schluppipuppie__tsch_02.mp3" />
-		<soundFile fileName="../production/12828__schluppipuppie__besteck_08.mp3" />
-	</sound>
-	
-	<sound pattern="You have nothing left to fire\.">
-		<soundFile fileName="../production/12884__schluppipuppie__tack_06.mp3" />
-		<soundFile fileName="../production/12894__schluppipuppie__tsch_02.mp3" />
-		<soundFile fileName="../production/12828__schluppipuppie__besteck_08.mp3" />
-	</sound>
-	
-	<sound pattern="You can't stand up -- somebody is in the way\.">
-		<soundFile fileName="../production/12884__schluppipuppie__tack_06.mp3" />
-		<soundFile fileName="../production/12894__schluppipuppie__tsch_02.mp3" />
-		<soundFile fileName="../production/12828__schluppipuppie__besteck_08.mp3" />
-	</sound>
-	
-	<sound pattern="You cannot rest until you leave this site\.">
-		<soundFile fileName="../production/12884__schluppipuppie__tack_06.mp3" />
-		<soundFile fileName="../production/12894__schluppipuppie__tsch_02.mp3" />
-		<soundFile fileName="../production/12828__schluppipuppie__besteck_08.mp3" />
-	</sound>
-	
-	<sound pattern="You must come down from the mountains before you can travel\.">
-		<soundFile fileName="../production/12884__schluppipuppie__tack_06.mp3" />
-		<soundFile fileName="../production/12894__schluppipuppie__tsch_02.mp3" />
-		<soundFile fileName="../production/12828__schluppipuppie__besteck_08.mp3" />
-	</sound>
-	
-	<sound pattern="You must move away from the surrounding obstacles before you can travel\.">
-		<soundFile fileName="../production/12884__schluppipuppie__tack_06.mp3" />
-		<soundFile fileName="../production/12894__schluppipuppie__tsch_02.mp3" />
-		<soundFile fileName="../production/12828__schluppipuppie__besteck_08.mp3" />
-	</sound>
-	
-	<sound pattern="You can't travel until you emerge from underground or enter a tunnel\.">
-		<soundFile fileName="../production/12884__schluppipuppie__tack_06.mp3" />
-		<soundFile fileName="../production/12894__schluppipuppie__tsch_02.mp3" />
-		<soundFile fileName="../production/12828__schluppipuppie__besteck_08.mp3" />
-	</sound>
-	
-	<sound pattern="You must move away from the river before you can travel\.">
-		<soundFile fileName="../production/12884__schluppipuppie__tack_06.mp3" />
-		<soundFile fileName="../production/12894__schluppipuppie__tsch_02.mp3" />
-		<soundFile fileName="../production/12828__schluppipuppie__besteck_08.mp3" />
-	</sound>
-	
-	<sound pattern="You are too full\.">
-		<soundFile fileName="../production/12884__schluppipuppie__tack_06.mp3" />
-		<soundFile fileName="../production/12894__schluppipuppie__tsch_02.mp3" />
-		<soundFile fileName="../production/12828__schluppipuppie__besteck_08.mp3" />
-	</sound>
-	
-	<sound pattern="You drink the (.+) blood\.">
-		<soundFile fileName="foodanddrink/58847__morgantj__slurping-then-an-ah.mp3" />
-	</sound>
-	
-	<sound pattern="You empty the (.+)\.">
-		<soundFile fileName="foodanddrink/58847__morgantj__slurping-then-an-ah.mp3" />
-	</sound>
-	
-	<sound pattern="You drink the water( \[[0-9]+\])+\.">
-		<soundFile fileName="foodanddrink/58847__morgantj__slurping-then-an-ah.mp3" />
-	</sound>
-	
-	<sound pattern="You drink the water\.">
-		<soundFile fileName="foodanddrink/58847__morgantj__slurping-then-an-ah.mp3" />
-	</sound>
-	
-	<sound pattern="You eat the (.+)\.">
-		<soundFile fileName="foodanddrink/20264__koops__apple-crunch-01.mp3" />
-		<soundFile fileName="foodanddrink/20268__koops__apple-crunch-05.mp3" />
-		<soundFile fileName="foodanddrink/20279__koops__apple-crunch-16.mp3" />
-	</sound>
-	
-	<sound pattern="You stand up\.">
-		<soundFile fileName="../battle/movement/28301__HerbertBoland__HeavySkirtMovement.mp3" volume="0.5"  />
-		<soundFile fileName="../battle/movement/28301__HerbertBoland__HeavySkirtMovement2.mp3" volume="0.5"  />
-		<soundFile fileName="../battle/movement/28301__HerbertBoland__HeavySkirtMovement3.mp3" volume="0.5"  />
-		<soundFile fileName="../battle/movement/28301__HerbertBoland__HeavySkirtMovement4.mp3" volume="0.5"  />
-		<soundFile fileName="../battle/movement/28301__HerbertBoland__HeavySkirtMovement5.mp3" volume="0.5"  />
-	</sound>
-	
-	<sound pattern="You lie on the ground\.">
-		<soundFile fileName="../battle/movement/28301__HerbertBoland__HeavySkirtMovement.mp3" volume="0.5"  />
-		<soundFile fileName="../battle/movement/28301__HerbertBoland__HeavySkirtMovement2.mp3" volume="0.5"  />
-		<soundFile fileName="../battle/movement/28301__HerbertBoland__HeavySkirtMovement3.mp3" volume="0.5"  />
-		<soundFile fileName="../battle/movement/28301__HerbertBoland__HeavySkirtMovement4.mp3" volume="0.5"  />
-		<soundFile fileName="../battle/movement/28301__HerbertBoland__HeavySkirtMovement5.mp3" volume="0.5"  />
-	</sound>
-
-	<sound pattern="You lower the bucket\.">
-		<soundFile fileName="water/190091__tran5ient__lifts.mp3" randomBalance="true">
-			<attribution author="tran5ient" url="http://www.freesound.org/people/tran5ient/sounds/190128/" license="CC0 1.0" description="splash1.wav" />
-		</soundFile>
-		<soundFile fileName="water/190092__tran5ient__loudsplash.mp3" randomBalance="true">
-			<attribution author="tran5ient" url="http://www.freesound.org/people/tran5ient/sounds/190092/" license="CC0 1.0" description="loudsplash.wav" />
-		</soundFile>
-		<soundFile fileName="water/190127__tran5ient__splash10.mp3" randomBalance="true">
-			<attribution author="tran5ient" url="http://www.freesound.org/people/tran5ient/sounds/190127/" license="CC0 1.0" description="splash10.wav" />
-		</soundFile>
-		<soundFile fileName="water/190128__tran5ient__splash1.mp3" randomBalance="true">
-			<attribution author="tran5ient" url="http://www.freesound.org/people/tran5ient/sounds/190128/" license="CC0 1.0" description="splash1.wav" />
-		</soundFile>
-	</sound>
-	
-	<sound pattern="You raise the bucket\.">
-		<soundFile fileName="water/190091__tran5ient__lifts.mp3" randomBalance="true">
-			<attribution author="tran5ient" url="http://www.freesound.org/people/tran5ient/sounds/190128/" license="CC0 1.0" description="splash1.wav" />
-		</soundFile>
-		<soundFile fileName="water/190092__tran5ient__loudsplash.mp3" randomBalance="true">
-			<attribution author="tran5ient" url="http://www.freesound.org/people/tran5ient/sounds/190092/" license="CC0 1.0" description="loudsplash.wav" />
-		</soundFile>
-		<soundFile fileName="water/190127__tran5ient__splash10.mp3" randomBalance="true">
-			<attribution author="tran5ient" url="http://www.freesound.org/people/tran5ient/sounds/190127/" license="CC0 1.0" description="splash10.wav" />
-		</soundFile>
-		<soundFile fileName="water/190128__tran5ient__splash1.mp3" randomBalance="true">
-			<attribution author="tran5ient" url="http://www.freesound.org/people/tran5ient/sounds/190128/" license="CC0 1.0" description="splash1.wav" />
-		</soundFile>
-	</sound>
-	
-	<sound pattern="You fill your (.+) with water\.">
-		<soundFile fileName="water/190091__tran5ient__lifts.mp3" randomBalance="true">
-			<attribution author="tran5ient" url="http://www.freesound.org/people/tran5ient/sounds/190128/" license="CC0 1.0" description="splash1.wav" />
-		</soundFile>
-		<soundFile fileName="water/190092__tran5ient__loudsplash.mp3" randomBalance="true">
-			<attribution author="tran5ient" url="http://www.freesound.org/people/tran5ient/sounds/190092/" license="CC0 1.0" description="loudsplash.wav" />
-		</soundFile>
-		<soundFile fileName="water/190127__tran5ient__splash10.mp3" randomBalance="true">
-			<attribution author="tran5ient" url="http://www.freesound.org/people/tran5ient/sounds/190127/" license="CC0 1.0" description="splash10.wav" />
-		</soundFile>
-		<soundFile fileName="water/190128__tran5ient__splash1.mp3" randomBalance="true">
-			<attribution author="tran5ient" url="http://www.freesound.org/people/tran5ient/sounds/190128/" license="CC0 1.0" description="splash1.wav" />
-		</soundFile>
-	</sound>
-	
-	<sound pattern="You make a campfire\.">
-		<soundFile fileName="fire/234542__electroviolence__bonfire.mp3" randomBalance="true">
-			<attribution url="http://www.freesound.org/people/Electroviolence/sounds/234542/" license="CC0 1.0" author="Electroviolence" description="Bonfire" />
-		</soundFile>
-		<soundFile fileName="fire/234548__electroviolence__bonfire-flames.mp3" randomBalance="true">
-			<attribution url="http://www.freesound.org/people/Electroviolence/sounds/234548/" license="CC0 1.0" author="Electroviolence" description="Bonfire Flames" />
-		</soundFile>
-		<soundFile fileName="fire/234550__electroviolence__bonfire-2.mp3" randomBalance="true">
-			<attribution url="http://www.freesound.org/people/Electroviolence/sounds/234550/" license="CC0 1.0" author="Electroviolence" description="Bonfire 2" />
-		</soundFile>
-	</sound>
-	
-	<sound pattern="You set a fire\.">
-		<soundFile fileName="fire/234542__electroviolence__bonfire.mp3" randomBalance="true">
-			<attribution url="http://www.freesound.org/people/Electroviolence/sounds/234542/" license="CC0 1.0" author="Electroviolence" description="Bonfire" />
-		</soundFile>
-		<soundFile fileName="fire/234548__electroviolence__bonfire-flames.mp3" randomBalance="true">
-			<attribution url="http://www.freesound.org/people/Electroviolence/sounds/234548/" license="CC0 1.0" author="Electroviolence" description="Bonfire Flames" />
-		</soundFile>
-		<soundFile fileName="fire/234550__electroviolence__bonfire-2.mp3" randomBalance="true">
-			<attribution url="http://www.freesound.org/people/Electroviolence/sounds/234550/" license="CC0 1.0" author="Electroviolence" description="Bonfire 2" />
-		</soundFile>
-	</sound>
-	
-	<sound pattern="You need a free grasp to hold the terrain\.">
-		<soundFile fileName="../production/12884__schluppipuppie__tack_06.mp3" />
-		<soundFile fileName="../production/12894__schluppipuppie__tsch_02.mp3" />
-		<soundFile fileName="../production/12828__schluppipuppie__besteck_08.mp3" />
-	</sound>
-	
-	<sound pattern="You cannot jump while swimming\.">
-		<soundFile fileName="../production/12884__schluppipuppie__tack_06.mp3" />
-		<soundFile fileName="../production/12894__schluppipuppie__tsch_02.mp3" />
-		<soundFile fileName="../production/12828__schluppipuppie__besteck_08.mp3" />
-	</sound>
-	
-	<sound pattern="You cannot climb while prone\.">
-		<soundFile fileName="../production/12884__schluppipuppie__tack_06.mp3" />
-		<soundFile fileName="../production/12894__schluppipuppie__tsch_02.mp3" />
-		<soundFile fileName="../production/12828__schluppipuppie__besteck_08.mp3" />
-	</sound>
-	
-	<sound pattern="You fail to grab the (.+) trunk!">
-		<soundFile fileName="../production/12884__schluppipuppie__tack_06.mp3" />
-		<soundFile fileName="../production/12894__schluppipuppie__tsch_02.mp3" />
-		<soundFile fileName="../production/12828__schluppipuppie__besteck_08.mp3" />
-	</sound>
-	
-	<sound pattern="You fail to grab the (.+) Wall!">
-		<soundFile fileName="../production/12884__schluppipuppie__tack_06.mp3" />
-		<soundFile fileName="../production/12894__schluppipuppie__tsch_02.mp3" />
-		<soundFile fileName="../production/12828__schluppipuppie__besteck_08.mp3" />
-	</sound>
-	
-	<sound pattern="You flounder in the water!">
-		<soundFile fileName="water/190091__tran5ient__lifts.mp3" randomBalance="true">
-			<attribution author="tran5ient" url="http://www.freesound.org/people/tran5ient/sounds/190128/" license="CC0 1.0" description="splash1.wav" />
-		</soundFile>
-		<soundFile fileName="water/190092__tran5ient__loudsplash.mp3" randomBalance="true">
-			<attribution author="tran5ient" url="http://www.freesound.org/people/tran5ient/sounds/190092/" license="CC0 1.0" description="loudsplash.wav" />
-		</soundFile>
-		<soundFile fileName="water/190127__tran5ient__splash10.mp3" randomBalance="true">
-			<attribution author="tran5ient" url="http://www.freesound.org/people/tran5ient/sounds/190127/" license="CC0 1.0" description="splash10.wav" />
-		</soundFile>
-		<soundFile fileName="water/190128__tran5ient__splash1.mp3" randomBalance="true">
-			<attribution author="tran5ient" url="http://www.freesound.org/people/tran5ient/sounds/190128/" license="CC0 1.0" description="splash1.wav" />
-		</soundFile>
-	</sound>
-	
-	<sound pattern="You spit!">
-		<soundFile fileName="./spit/spit_01.mp3" randomBalance="true">
-			<attribution url="http://www.freesound.org/people/Lex777/sounds/235773/" license="CC BY 3.0" author="Lex777" description="Spitting_Heavily_01.wav" />
-		</soundFile>
-		<soundFile fileName="./spit/spit_02.mp3" randomBalance="true">
-			<attribution url="http://www.freesound.org/people/Lex777/sounds/235773/" license="CC BY 3.0" author="Lex777" description="Spitting_Heavily_01.wav" />
-		</soundFile>
-	</sound>
-	
-	<sound pattern="You lick (.+)\.">
-		<soundFile fileName="./lick/176798__yummie__comic-lick.mp3" randomBalance="true">
-			<attribution url="http://www.freesound.org/people/yummie/sounds/176798/" license="CC0 1.0" author="yummie" description="comic lick" />
-		</soundFile>
-	</sound>
-	
-	<sound pattern="You butcher (.+)\.">
-	</sound>
-	
-	<sound pattern="Your intense search turns up nothing\.">
-	</sound>
-	
-	<sound pattern="You've already searched this area recently\.">
-		<soundFile fileName="../production/12884__schluppipuppie__tack_06.mp3" />
-		<soundFile fileName="../production/12894__schluppipuppie__tsch_02.mp3" />
-		<soundFile fileName="../production/12828__schluppipuppie__besteck_08.mp3" />
-	</sound>
-	
+ <sound channel="sfx" pattern="You drop the (.+)\.">
+  <soundFile fileName="../battle/movement/28301__HerbertBoland__HeavySkirtMovement.mp3"/>
+  <soundFile fileName="../battle/movement/28301__HerbertBoland__HeavySkirtMovement2.mp3"/>
+  <soundFile fileName="../battle/movement/28301__HerbertBoland__HeavySkirtMovement3.mp3"/>
+  <soundFile fileName="../battle/movement/28301__HerbertBoland__HeavySkirtMovement4.mp3"/>
+  <soundFile fileName="../battle/movement/28301__HerbertBoland__HeavySkirtMovement5.mp3"/>
+ </sound>
+ <sound channel="sfx" pattern="You pick up the (.+)\.">
+  <soundFile fileName="../battle/movement/28301__HerbertBoland__HeavySkirtMovement.mp3"/>
+  <soundFile fileName="../battle/movement/28301__HerbertBoland__HeavySkirtMovement2.mp3"/>
+  <soundFile fileName="../battle/movement/28301__HerbertBoland__HeavySkirtMovement3.mp3"/>
+  <soundFile fileName="../battle/movement/28301__HerbertBoland__HeavySkirtMovement4.mp3"/>
+  <soundFile fileName="../battle/movement/28301__HerbertBoland__HeavySkirtMovement5.mp3"/>
+ </sound>
+ <sound channel="sfx" pattern="You take out the (.+)\.">
+  <soundFile fileName="../battle/movement/28301__HerbertBoland__HeavySkirtMovement.mp3"/>
+  <soundFile fileName="../battle/movement/28301__HerbertBoland__HeavySkirtMovement2.mp3"/>
+  <soundFile fileName="../battle/movement/28301__HerbertBoland__HeavySkirtMovement3.mp3"/>
+  <soundFile fileName="../battle/movement/28301__HerbertBoland__HeavySkirtMovement4.mp3"/>
+  <soundFile fileName="../battle/movement/28301__HerbertBoland__HeavySkirtMovement5.mp3"/>
+ </sound>
+ <sound channel="sfx" pattern="You put the (.+) into the (.+)\.">
+  <soundFile fileName="../battle/movement/28301__HerbertBoland__HeavySkirtMovement.mp3"/>
+  <soundFile fileName="../battle/movement/28301__HerbertBoland__HeavySkirtMovement2.mp3"/>
+  <soundFile fileName="../battle/movement/28301__HerbertBoland__HeavySkirtMovement3.mp3"/>
+  <soundFile fileName="../battle/movement/28301__HerbertBoland__HeavySkirtMovement4.mp3"/>
+  <soundFile fileName="../battle/movement/28301__HerbertBoland__HeavySkirtMovement5.mp3"/>
+ </sound>
+ <sound channel="sfx" pattern="You have nothing left to wear\.">
+  <soundFile fileName="../production/12884__schluppipuppie__tack_06.mp3"/>
+  <soundFile fileName="../production/12894__schluppipuppie__tsch_02.mp3"/>
+  <soundFile fileName="../production/12828__schluppipuppie__besteck_08.mp3"/>
+ </sound>
+ <sound channel="sfx" pattern="There is nothing to pick up here\.">
+  <soundFile fileName="../production/12884__schluppipuppie__tack_06.mp3"/>
+  <soundFile fileName="../production/12894__schluppipuppie__tsch_02.mp3"/>
+  <soundFile fileName="../production/12828__schluppipuppie__besteck_08.mp3"/>
+ </sound>
+ <sound channel="sfx" pattern="You do not have a free grasp\.">
+  <soundFile fileName="../production/12884__schluppipuppie__tack_06.mp3"/>
+  <soundFile fileName="../production/12894__schluppipuppie__tsch_02.mp3"/>
+  <soundFile fileName="../production/12828__schluppipuppie__besteck_08.mp3"/>
+ </sound>
+ <sound channel="sfx" pattern="You have nothing left to fire\.">
+  <soundFile fileName="../production/12884__schluppipuppie__tack_06.mp3"/>
+  <soundFile fileName="../production/12894__schluppipuppie__tsch_02.mp3"/>
+  <soundFile fileName="../production/12828__schluppipuppie__besteck_08.mp3"/>
+ </sound>
+ <sound channel="sfx" pattern="You can't stand up -- somebody is in the way\.">
+  <soundFile fileName="../production/12884__schluppipuppie__tack_06.mp3"/>
+  <soundFile fileName="../production/12894__schluppipuppie__tsch_02.mp3"/>
+  <soundFile fileName="../production/12828__schluppipuppie__besteck_08.mp3"/>
+ </sound>
+ <sound channel="sfx" pattern="You cannot rest until you leave this site\.">
+  <soundFile fileName="../production/12884__schluppipuppie__tack_06.mp3"/>
+  <soundFile fileName="../production/12894__schluppipuppie__tsch_02.mp3"/>
+  <soundFile fileName="../production/12828__schluppipuppie__besteck_08.mp3"/>
+ </sound>
+ <sound channel="sfx" pattern="You must come down from the mountains before you can travel\.">
+  <soundFile fileName="../production/12884__schluppipuppie__tack_06.mp3"/>
+  <soundFile fileName="../production/12894__schluppipuppie__tsch_02.mp3"/>
+  <soundFile fileName="../production/12828__schluppipuppie__besteck_08.mp3"/>
+ </sound>
+ <sound channel="sfx" pattern="You must move away from the surrounding obstacles before you can travel\.">
+  <soundFile fileName="../production/12884__schluppipuppie__tack_06.mp3"/>
+  <soundFile fileName="../production/12894__schluppipuppie__tsch_02.mp3"/>
+  <soundFile fileName="../production/12828__schluppipuppie__besteck_08.mp3"/>
+ </sound>
+ <sound channel="sfx" pattern="You can't travel until you emerge from underground or enter a tunnel\.">
+  <soundFile fileName="../production/12884__schluppipuppie__tack_06.mp3"/>
+  <soundFile fileName="../production/12894__schluppipuppie__tsch_02.mp3"/>
+  <soundFile fileName="../production/12828__schluppipuppie__besteck_08.mp3"/>
+ </sound>
+ <sound channel="sfx" pattern="You must move away from the river before you can travel\.">
+  <soundFile fileName="../production/12884__schluppipuppie__tack_06.mp3"/>
+  <soundFile fileName="../production/12894__schluppipuppie__tsch_02.mp3"/>
+  <soundFile fileName="../production/12828__schluppipuppie__besteck_08.mp3"/>
+ </sound>
+ <sound channel="sfx" pattern="You are too full\.">
+  <soundFile fileName="../production/12884__schluppipuppie__tack_06.mp3"/>
+  <soundFile fileName="../production/12894__schluppipuppie__tsch_02.mp3"/>
+  <soundFile fileName="../production/12828__schluppipuppie__besteck_08.mp3"/>
+ </sound>
+ <sound channel="sfx" pattern="You drink the (.+) blood\.">
+  <soundFile fileName="foodanddrink/58847__morgantj__slurping-then-an-ah.mp3"/>
+ </sound>
+ <sound channel="sfx" pattern="You empty the (.+)\.">
+  <soundFile fileName="foodanddrink/58847__morgantj__slurping-then-an-ah.mp3"/>
+ </sound>
+ <sound channel="sfx" pattern="You drink the water( \[[0-9]+\])+\.">
+  <soundFile fileName="foodanddrink/58847__morgantj__slurping-then-an-ah.mp3"/>
+ </sound>
+ <sound channel="sfx" pattern="You drink the water\.">
+  <soundFile fileName="foodanddrink/58847__morgantj__slurping-then-an-ah.mp3"/>
+ </sound>
+ <sound channel="sfx" pattern="You eat the (.+)\.">
+  <soundFile fileName="foodanddrink/20264__koops__apple-crunch-01.mp3"/>
+  <soundFile fileName="foodanddrink/20268__koops__apple-crunch-05.mp3"/>
+  <soundFile fileName="foodanddrink/20279__koops__apple-crunch-16.mp3"/>
+ </sound>
+ <sound channel="sfx" pattern="You stand up\.">
+  <soundFile fileName="../battle/movement/28301__HerbertBoland__HeavySkirtMovement.mp3" volume="0.5"/>
+  <soundFile fileName="../battle/movement/28301__HerbertBoland__HeavySkirtMovement2.mp3" volume="0.5"/>
+  <soundFile fileName="../battle/movement/28301__HerbertBoland__HeavySkirtMovement3.mp3" volume="0.5"/>
+  <soundFile fileName="../battle/movement/28301__HerbertBoland__HeavySkirtMovement4.mp3" volume="0.5"/>
+  <soundFile fileName="../battle/movement/28301__HerbertBoland__HeavySkirtMovement5.mp3" volume="0.5"/>
+ </sound>
+ <sound channel="sfx" pattern="You lie on the ground\.">
+  <soundFile fileName="../battle/movement/28301__HerbertBoland__HeavySkirtMovement.mp3" volume="0.5"/>
+  <soundFile fileName="../battle/movement/28301__HerbertBoland__HeavySkirtMovement2.mp3" volume="0.5"/>
+  <soundFile fileName="../battle/movement/28301__HerbertBoland__HeavySkirtMovement3.mp3" volume="0.5"/>
+  <soundFile fileName="../battle/movement/28301__HerbertBoland__HeavySkirtMovement4.mp3" volume="0.5"/>
+  <soundFile fileName="../battle/movement/28301__HerbertBoland__HeavySkirtMovement5.mp3" volume="0.5"/>
+ </sound>
+ <sound channel="sfx" pattern="You lower the bucket\.">
+  <soundFile randomBalance="true" fileName="water/190091__tran5ient__lifts.mp3"/>
+  <soundFile randomBalance="true" fileName="water/190092__tran5ient__loudsplash.mp3"/>
+  <soundFile randomBalance="true" fileName="water/190127__tran5ient__splash10.mp3"/>
+  <soundFile randomBalance="true" fileName="water/190128__tran5ient__splash1.mp3"/>
+ </sound>
+ <sound channel="sfx" pattern="You raise the bucket\.">
+  <soundFile randomBalance="true" fileName="water/190091__tran5ient__lifts.mp3"/>
+  <soundFile randomBalance="true" fileName="water/190092__tran5ient__loudsplash.mp3"/>
+  <soundFile randomBalance="true" fileName="water/190127__tran5ient__splash10.mp3"/>
+  <soundFile randomBalance="true" fileName="water/190128__tran5ient__splash1.mp3"/>
+ </sound>
+ <sound channel="sfx" pattern="You fill your (.+) with water\.">
+  <soundFile randomBalance="true" fileName="water/190091__tran5ient__lifts.mp3"/>
+  <soundFile randomBalance="true" fileName="water/190092__tran5ient__loudsplash.mp3"/>
+  <soundFile randomBalance="true" fileName="water/190127__tran5ient__splash10.mp3"/>
+  <soundFile randomBalance="true" fileName="water/190128__tran5ient__splash1.mp3"/>
+ </sound>
+ <sound channel="sfx" pattern="You make a campfire\.">
+  <soundFile randomBalance="true" fileName="fire/234542__electroviolence__bonfire.mp3"/>
+  <soundFile randomBalance="true" fileName="fire/234548__electroviolence__bonfire-flames.mp3"/>
+  <soundFile randomBalance="true" fileName="fire/234550__electroviolence__bonfire-2.mp3"/>
+ </sound>
+ <sound channel="sfx" pattern="You set a fire\.">
+  <soundFile randomBalance="true" fileName="fire/234542__electroviolence__bonfire.mp3"/>
+  <soundFile randomBalance="true" fileName="fire/234548__electroviolence__bonfire-flames.mp3"/>
+  <soundFile randomBalance="true" fileName="fire/234550__electroviolence__bonfire-2.mp3"/>
+ </sound>
+ <sound channel="sfx" pattern="You need a free grasp to hold the terrain\.">
+  <soundFile fileName="../production/12884__schluppipuppie__tack_06.mp3"/>
+  <soundFile fileName="../production/12894__schluppipuppie__tsch_02.mp3"/>
+  <soundFile fileName="../production/12828__schluppipuppie__besteck_08.mp3"/>
+ </sound>
+ <sound channel="sfx" pattern="You cannot jump while swimming\.">
+  <soundFile fileName="../production/12884__schluppipuppie__tack_06.mp3"/>
+  <soundFile fileName="../production/12894__schluppipuppie__tsch_02.mp3"/>
+  <soundFile fileName="../production/12828__schluppipuppie__besteck_08.mp3"/>
+ </sound>
+ <sound channel="sfx" pattern="You cannot climb while prone\.">
+  <soundFile fileName="../production/12884__schluppipuppie__tack_06.mp3"/>
+  <soundFile fileName="../production/12894__schluppipuppie__tsch_02.mp3"/>
+  <soundFile fileName="../production/12828__schluppipuppie__besteck_08.mp3"/>
+ </sound>
+ <sound channel="sfx" pattern="You fail to grab the (.+) trunk!">
+  <soundFile fileName="../production/12884__schluppipuppie__tack_06.mp3"/>
+  <soundFile fileName="../production/12894__schluppipuppie__tsch_02.mp3"/>
+  <soundFile fileName="../production/12828__schluppipuppie__besteck_08.mp3"/>
+ </sound>
+ <sound channel="sfx" pattern="You fail to grab the (.+) Wall!">
+  <soundFile fileName="../production/12884__schluppipuppie__tack_06.mp3"/>
+  <soundFile fileName="../production/12894__schluppipuppie__tsch_02.mp3"/>
+  <soundFile fileName="../production/12828__schluppipuppie__besteck_08.mp3"/>
+ </sound>
+ <sound channel="sfx" pattern="You flounder in the water!">
+  <soundFile randomBalance="true" fileName="water/190091__tran5ient__lifts.mp3"/>
+  <soundFile randomBalance="true" fileName="water/190092__tran5ient__loudsplash.mp3"/>
+  <soundFile randomBalance="true" fileName="water/190127__tran5ient__splash10.mp3"/>
+  <soundFile randomBalance="true" fileName="water/190128__tran5ient__splash1.mp3"/>
+ </sound>
+ <sound channel="sfx" pattern="You spit!">
+  <soundFile randomBalance="true" fileName="./spit/spit_01.mp3"/>
+  <soundFile randomBalance="true" fileName="./spit/spit_02.mp3"/>
+ </sound>
+ <sound channel="sfx" pattern="You lick (.+)\.">
+  <soundFile randomBalance="true" fileName="./lick/176798__yummie__comic-lick.mp3"/>
+ </sound>
+ <sound channel="sfx" pattern="You butcher (.+)\."/>
+ <sound channel="sfx" pattern="Your intense search turns up nothing\."/>
+ <sound channel="sfx" pattern="You've already searched this area recently\.">
+  <soundFile fileName="../production/12884__schluppipuppie__tack_06.mp3"/>
+  <soundFile fileName="../production/12894__schluppipuppie__tsch_02.mp3"/>
+  <soundFile fileName="../production/12828__schluppipuppie__besteck_08.mp3"/>
+ </sound>
 </sounds>

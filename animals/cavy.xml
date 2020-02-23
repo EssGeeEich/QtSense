@@ -1,16 +1,7 @@
-<?xml version="1.1" encoding="UTF-8"?>
-<sounds defaultAnsiColor="&#27;[34m">
-
-	<sound pattern="(.+) has grown to become a Cavy Sow\.">
-	</sound>
-	
-	<sound pattern="(.+) has grown to become a Cavy Boar\.">
-	</sound>
-	
-	<sound pattern="(.+) has given birth to a cavy pup\.">
-	</sound>
-	
-	<sound pattern="(.+) has given birth to cavy pups\.">
-	</sound>
-	
+<!DOCTYPE EDITOR>
+<sounds>
+ <sound channel="sfx" pattern="(.+) has grown to become a Cavy Sow\."/>
+ <sound channel="sfx" pattern="(.+) has grown to become a Cavy Boar\."/>
+ <sound channel="sfx" pattern="(.+) has given birth to a cavy pup\."/>
+ <sound channel="sfx" pattern="(.+) has given birth to cavy pups\."/>
 </sounds>

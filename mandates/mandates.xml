@@ -1,58 +1,42 @@
-<?xml version="1.1" encoding="UTF-8"?>
-<sounds defaultAnsiPattern="&#27;[35m">
-
-	<sound pattern="(.+) has mandated the construction of certain goods\." threshold="1">
-		<!-- http://soundbible.com/782-Clearing-Throat-Male.html -->
-		<soundFile fileName="Clearing Throat Male-SoundBible.com-37691700.mp3" />
-		<!-- http://www.freesound.org/samplesViewSingle.php?id=34209 -->
-		<soundFile fileName="34209__acclivity__ClearingThroat_Female.mp3" />
-		
-		<soundFile fileName="NewMandate/NewMandate1.mp3" />
-		<soundFile fileName="NewMandate/NewMandate2.mp3" />
-		<soundFile fileName="NewMandate/NewMandate3.mp3" />
-		<soundFile fileName="NewMandate/NewMandate4.mp3" />
-		<soundFile fileName="NewMandate/NewMandate5.mp3" />
-	</sound>
-
-	<sound pattern="(.+) has imposed a ban on certain exports\." threshold="3">
-		<!-- http://soundbible.com/782-Clearing-Throat-Male.html -->
-		<soundFile fileName="Clearing Throat Male-SoundBible.com-37691700.mp3" />
-		<!-- http://www.freesound.org/samplesViewSingle.php?id=34209 -->
-		<soundFile fileName="34209__acclivity__ClearingThroat_Female.mp3" />
-	</sound>
-	
-	<sound pattern="(.+) has ended a mandate\." threshold="3">
-		<soundFile fileName="MandateEnds/MandateEnds1.mp3" />
-		<soundFile fileName="MandateEnds/MandateEnds2.mp3" />
-		<soundFile fileName="MandateEnds/MandateEnds3.mp3" />
-		<soundFile fileName="MandateEnds/MandateEnds4.mp3" />
-		<soundFile fileName="MandateEnds/MandateEnds5.mp3" />
-	</sound>
-	
-	<sound pattern="(.+)'s mandate has ended\." threshold="3">
-		<soundFile fileName="MandateEnds/MandateEnds1.mp3" />
-		<soundFile fileName="MandateEnds/MandateEnds2.mp3" />
-		<soundFile fileName="MandateEnds/MandateEnds3.mp3" />
-		<soundFile fileName="MandateEnds/MandateEnds4.mp3" />
-		<soundFile fileName="MandateEnds/MandateEnds5.mp3" />
-	</sound>
-	
-	<sound pattern="(.+)'s mandates have ended\." threshold="3">
-		<soundFile fileName="MandateEnds/MandateEnds1.mp3" />
-		<soundFile fileName="MandateEnds/MandateEnds2.mp3" />
-		<soundFile fileName="MandateEnds/MandateEnds3.mp3" />
-		<soundFile fileName="MandateEnds/MandateEnds4.mp3" />
-		<soundFile fileName="MandateEnds/MandateEnds5.mp3" />
-	</sound>
-
-	<sound pattern="(.+) has a new demand\." threshold="1">
-		<!-- http://soundbible.com/782-Clearing-Throat-Male.html -->
-		<soundFile fileName="Clearing Throat Male-SoundBible.com-37691700.mp3" />
-		<!-- http://www.freesound.org/samplesViewSingle.php?id=34209 -->
-		<soundFile fileName="34209__acclivity__ClearingThroat_Female.mp3" />
-	</sound>
-	
-	<sound pattern="(.+) has forgotten a demand\.">
-	</sound>
-
+<!DOCTYPE EDITOR>
+<sounds>
+ <sound pattern="(.+) has mandated the construction of certain goods\." channel="sfx" threshold="1">
+  <soundFile fileName="Clearing Throat Male-SoundBible.com-37691700.mp3"/>
+  <soundFile fileName="34209__acclivity__ClearingThroat_Female.mp3"/>
+  <soundFile fileName="NewMandate/NewMandate1.mp3"/>
+  <soundFile fileName="NewMandate/NewMandate2.mp3"/>
+  <soundFile fileName="NewMandate/NewMandate3.mp3"/>
+  <soundFile fileName="NewMandate/NewMandate4.mp3"/>
+  <soundFile fileName="NewMandate/NewMandate5.mp3"/>
+ </sound>
+ <sound pattern="(.+) has imposed a ban on certain exports\." channel="sfx" threshold="3">
+  <soundFile fileName="Clearing Throat Male-SoundBible.com-37691700.mp3"/>
+  <soundFile fileName="34209__acclivity__ClearingThroat_Female.mp3"/>
+ </sound>
+ <sound pattern="(.+) has ended a mandate\." channel="sfx" threshold="3">
+  <soundFile fileName="MandateEnds/MandateEnds1.mp3"/>
+  <soundFile fileName="MandateEnds/MandateEnds2.mp3"/>
+  <soundFile fileName="MandateEnds/MandateEnds3.mp3"/>
+  <soundFile fileName="MandateEnds/MandateEnds4.mp3"/>
+  <soundFile fileName="MandateEnds/MandateEnds5.mp3"/>
+ </sound>
+ <sound pattern="(.+)'s mandate has ended\." channel="sfx" threshold="3">
+  <soundFile fileName="MandateEnds/MandateEnds1.mp3"/>
+  <soundFile fileName="MandateEnds/MandateEnds2.mp3"/>
+  <soundFile fileName="MandateEnds/MandateEnds3.mp3"/>
+  <soundFile fileName="MandateEnds/MandateEnds4.mp3"/>
+  <soundFile fileName="MandateEnds/MandateEnds5.mp3"/>
+ </sound>
+ <sound pattern="(.+)'s mandates have ended\." channel="sfx" threshold="3">
+  <soundFile fileName="MandateEnds/MandateEnds1.mp3"/>
+  <soundFile fileName="MandateEnds/MandateEnds2.mp3"/>
+  <soundFile fileName="MandateEnds/MandateEnds3.mp3"/>
+  <soundFile fileName="MandateEnds/MandateEnds4.mp3"/>
+  <soundFile fileName="MandateEnds/MandateEnds5.mp3"/>
+ </sound>
+ <sound pattern="(.+) has a new demand\." channel="sfx" threshold="1">
+  <soundFile fileName="Clearing Throat Male-SoundBible.com-37691700.mp3"/>
+  <soundFile fileName="34209__acclivity__ClearingThroat_Female.mp3"/>
+ </sound>
+ <sound pattern="(.+) has forgotten a demand\." channel="sfx"/>
 </sounds>

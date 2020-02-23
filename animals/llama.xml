@@ -1,7 +1,4 @@
-<?xml version="1.1" encoding="UTF-8"?>
-<sounds defaultAnsiColor="&#27;[34m">
-
-	<sound pattern="(.+) has grown to become a Stray Llama\.">
-	</sound>
-	
+<!DOCTYPE EDITOR>
+<sounds>
+ <sound pattern="(.+) has grown to become a Stray Llama\." channel="sfx"/>
 </sounds>

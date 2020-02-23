@@ -1,34 +1,22 @@
-<?xml version="1.1" encoding="UTF-8"?>
-<sounds defaultAnsiColor="&#27;[34m">
-
-	<!-- http://www.freesound.org/people/CGEffex/sounds/93100/ -->
-	<sound pattern="(.+) has reverted to a wild state!" ansiFormat="&#27;[34;1m">
-		<soundFile fileName="training/93100__cgeffex__whip-crack-01.mp3" randomBalance="true" />
-	</sound>
-	
-	<!-- http://www.freesound.org/people/CGEffex/sounds/93100/ -->
-	<sound pattern="(.+) has forgotten ((her)|(his)) training!" ansiFormat="&#27;[34;1m">
-		<soundFile fileName="training/93100__cgeffex__whip-crack-01.mp3" randomBalance="true" />
-	</sound>
-	
-	<!-- http://www.freesound.org/people/Everdream/sounds/80488/ -->
-	<sound pattern="The (.+) of The (.+) now know a few facts about (.+) training\.">
-		<soundFile fileName="training/80488__everdream__cmaj-direct.mp3" randomBalance="true" />
-	</sound>
-	
-	<sound pattern="The (.+) of The (.+) have attained a general familiarity with (.+) training methods\.">
-		<soundFile fileName="training/80488__everdream__cmaj-direct.mp3" randomBalance="true" />
-	</sound>
-	
-	<sound pattern="The (.+) of The (.+) are now quite knowledgeable (.+) trainers\.">
-		<soundFile fileName="training/80488__everdream__cmaj-direct.mp3" randomBalance="true" />
-	</sound>
-	
-	<sound pattern="The (.+) of The (.+) are now expert (.+) trainers\.">
-		<soundFile fileName="training/80488__everdream__cmaj-direct.mp3" randomBalance="true" />
-	</sound>
-	
-	<sound pattern="(.+) has discovered the (.+)\.">
-	</sound>
-	
+<!DOCTYPE EDITOR>
+<sounds>
+ <sound pattern="(.+) has reverted to a wild state!" channel="sfx">
+  <soundFile fileName="training/93100__cgeffex__whip-crack-01.mp3" randomBalance="true"/>
+ </sound>
+ <sound pattern="(.+) has forgotten ((her)|(his)) training!" channel="sfx">
+  <soundFile fileName="training/93100__cgeffex__whip-crack-01.mp3" randomBalance="true"/>
+ </sound>
+ <sound pattern="The (.+) of The (.+) now know a few facts about (.+) training\." channel="sfx">
+  <soundFile fileName="training/80488__everdream__cmaj-direct.mp3" randomBalance="true"/>
+ </sound>
+ <sound pattern="The (.+) of The (.+) have attained a general familiarity with (.+) training methods\." channel="sfx">
+  <soundFile fileName="training/80488__everdream__cmaj-direct.mp3" randomBalance="true"/>
+ </sound>
+ <sound pattern="The (.+) of The (.+) are now quite knowledgeable (.+) trainers\." channel="sfx">
+  <soundFile fileName="training/80488__everdream__cmaj-direct.mp3" randomBalance="true"/>
+ </sound>
+ <sound pattern="The (.+) of The (.+) are now expert (.+) trainers\." channel="sfx">
+  <soundFile fileName="training/80488__everdream__cmaj-direct.mp3" randomBalance="true"/>
+ </sound>
+ <sound pattern="(.+) has discovered the (.+)\." channel="sfx"/>
 </sounds>

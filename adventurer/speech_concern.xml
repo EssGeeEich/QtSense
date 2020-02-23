@@ -1,215 +1,75 @@
-<?xml version="1.1" encoding="UTF-8"?>
-<sounds defaultAnsiFormat="&#27;[31;1m" strictAttributions="true">
-
-	<sound pattern="(.+): Is this an attack?  What's going on?!" randomBalance="true" concurrency="5">
-
-		<soundFile fileName="../emotion/voices/Concern1_1.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Concern1_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Concern1_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Concern1_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Concern2_1.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Concern2_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Concern2_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Concern2_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Concern2_5.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Concern2_6.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-
-	</sound>
-
-
-	<sound pattern="(.+): There's fighting!  What's going on\?!" randomBalance="true" concurrency="5">
-
-		<soundFile fileName="../emotion/voices/Concern1_1.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Concern1_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Concern1_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Concern1_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Concern2_1.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Concern2_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Concern2_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Concern2_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Concern2_5.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Concern2_6.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-
-	</sound>
-
-	<sound pattern="(.+): A battle!  What's going on\?!" randomBalance="true" concurrency="5">
-
-		<soundFile fileName="../emotion/voices/Concern1_1.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Concern1_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Concern1_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Concern1_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Concern2_1.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Concern2_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Concern2_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Concern2_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Concern2_5.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Concern2_6.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-
-	</sound>
-
-	<sound pattern="(.+): A battle!  That's alarming!" randomBalance="true" concurrency="5">
-
-		<soundFile fileName="../emotion/voices/Concern1_1.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Concern1_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Concern1_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Concern1_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Concern2_1.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Concern2_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Concern2_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Concern2_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Concern2_5.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Concern2_6.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-
-	</sound>
-
-	<sound pattern="(.+): There's fighting!  That's alarming!" randomBalance="true" concurrency="5">
-
-		<soundFile fileName="../emotion/voices/Concern1_1.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Concern1_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Concern1_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Concern1_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Concern2_1.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Concern2_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Concern2_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Concern2_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Concern2_5.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Concern2_6.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-
-	</sound>
-
-	<sound pattern="(.+): Is that a weapon\?  That's alarming!" randomBalance="true" concurrency="5">
-
-		<soundFile fileName="../emotion/voices/Concern1_1.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Concern1_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Concern1_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Concern1_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Concern2_1.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Concern2_2.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Concern2_3.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Concern2_4.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Concern2_5.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-		<soundFile fileName="../emotion/voices/Concern2_6.mp3">
-			<attribution url="https://soundcloud.com/simonswerwer/" license=" CC BY-NC-SA 2.0" author="Simon Swerwer" description="Concern" />
-		</soundFile>
-
-	</sound>
-
+<!DOCTYPE EDITOR>
+<sounds>
+ <sound channel="sfx" pattern="(.+): Is this an attack?  What's going on?!" concurrency="5">
+  <soundFile fileName="../emotion/voices/Concern1_1.mp3"/>
+  <soundFile fileName="../emotion/voices/Concern1_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Concern1_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Concern1_4.mp3"/>
+  <soundFile fileName="../emotion/voices/Concern2_1.mp3"/>
+  <soundFile fileName="../emotion/voices/Concern2_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Concern2_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Concern2_4.mp3"/>
+  <soundFile fileName="../emotion/voices/Concern2_5.mp3"/>
+  <soundFile fileName="../emotion/voices/Concern2_6.mp3"/>
+ </sound>
+ <sound channel="sfx" pattern="(.+): There's fighting!  What's going on\?!" concurrency="5">
+  <soundFile fileName="../emotion/voices/Concern1_1.mp3"/>
+  <soundFile fileName="../emotion/voices/Concern1_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Concern1_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Concern1_4.mp3"/>
+  <soundFile fileName="../emotion/voices/Concern2_1.mp3"/>
+  <soundFile fileName="../emotion/voices/Concern2_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Concern2_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Concern2_4.mp3"/>
+  <soundFile fileName="../emotion/voices/Concern2_5.mp3"/>
+  <soundFile fileName="../emotion/voices/Concern2_6.mp3"/>
+ </sound>
+ <sound channel="sfx" pattern="(.+): A battle!  What's going on\?!" concurrency="5">
+  <soundFile fileName="../emotion/voices/Concern1_1.mp3"/>
+  <soundFile fileName="../emotion/voices/Concern1_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Concern1_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Concern1_4.mp3"/>
+  <soundFile fileName="../emotion/voices/Concern2_1.mp3"/>
+  <soundFile fileName="../emotion/voices/Concern2_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Concern2_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Concern2_4.mp3"/>
+  <soundFile fileName="../emotion/voices/Concern2_5.mp3"/>
+  <soundFile fileName="../emotion/voices/Concern2_6.mp3"/>
+ </sound>
+ <sound channel="sfx" pattern="(.+): A battle!  That's alarming!" concurrency="5">
+  <soundFile fileName="../emotion/voices/Concern1_1.mp3"/>
+  <soundFile fileName="../emotion/voices/Concern1_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Concern1_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Concern1_4.mp3"/>
+  <soundFile fileName="../emotion/voices/Concern2_1.mp3"/>
+  <soundFile fileName="../emotion/voices/Concern2_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Concern2_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Concern2_4.mp3"/>
+  <soundFile fileName="../emotion/voices/Concern2_5.mp3"/>
+  <soundFile fileName="../emotion/voices/Concern2_6.mp3"/>
+ </sound>
+ <sound channel="sfx" pattern="(.+): There's fighting!  That's alarming!" concurrency="5">
+  <soundFile fileName="../emotion/voices/Concern1_1.mp3"/>
+  <soundFile fileName="../emotion/voices/Concern1_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Concern1_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Concern1_4.mp3"/>
+  <soundFile fileName="../emotion/voices/Concern2_1.mp3"/>
+  <soundFile fileName="../emotion/voices/Concern2_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Concern2_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Concern2_4.mp3"/>
+  <soundFile fileName="../emotion/voices/Concern2_5.mp3"/>
+  <soundFile fileName="../emotion/voices/Concern2_6.mp3"/>
+ </sound>
+ <sound channel="sfx" pattern="(.+): Is that a weapon\?  That's alarming!" concurrency="5">
+  <soundFile fileName="../emotion/voices/Concern1_1.mp3"/>
+  <soundFile fileName="../emotion/voices/Concern1_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Concern1_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Concern1_4.mp3"/>
+  <soundFile fileName="../emotion/voices/Concern2_1.mp3"/>
+  <soundFile fileName="../emotion/voices/Concern2_2.mp3"/>
+  <soundFile fileName="../emotion/voices/Concern2_3.mp3"/>
+  <soundFile fileName="../emotion/voices/Concern2_4.mp3"/>
+  <soundFile fileName="../emotion/voices/Concern2_5.mp3"/>
+  <soundFile fileName="../emotion/voices/Concern2_6.mp3"/>
+ </sound>
 </sounds>
