@@ -8,7 +8,7 @@ CONFIG += c++11
 LIBS += -lopenal
 DEFINES += PRINT_LOADED_SOUNDS=1
 DEFINES += VERSION=\"\\\"$${VERSION}\\\"\"
-DEFINES += LOGGING=1
+#DEFINES += LOGGING=1
 #DEFINES += NOEDITOR=1
 
 # NOTE: Qt requires gst-plugins-good on Linux to decode files.
