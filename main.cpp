@@ -50,6 +50,8 @@ int main(int argc, char *argv[])
 			sd.error());
 		return a.exec();
 	}
+	
+	sd.loadEffects();
 
 	MainWindow w;
 	w.show();

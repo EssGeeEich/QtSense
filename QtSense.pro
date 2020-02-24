@@ -8,7 +8,8 @@ CONFIG += c++11
 LIBS += -lopenal
 DEFINES += PRINT_LOADED_SOUNDS=1
 DEFINES += VERSION=\"\\\"$${VERSION}\\\"\"
-DEFINES += DEBUG=1
+DEFINES += LOGGING=1
+#DEFINES += NOEDITOR=1
 
 # NOTE: Qt requires gst-plugins-good on Linux to decode files.
 
@@ -24,6 +25,7 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    eventeditor.cpp \
     main.cpp \
     mainwindow.cpp \
     mainwindow_editor.cpp \
@@ -44,6 +46,7 @@ SOURCES += \
     xmlutils.cpp
 
 HEADERS += \
+    eventeditor.h \
     mainwindow.h \
     mainwindow_editor.h \
     networkaccess.h \
@@ -64,6 +67,7 @@ HEADERS += \
     xmlutils.h
 
 FORMS += \
+    eventeditor.ui \
     mainwindow.ui \
     settings.ui
 

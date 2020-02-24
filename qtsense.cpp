@@ -1,6 +1,7 @@
 #include "qtsense.h"
 #include "settings.h"
 #include "xmlutils.h"
+#include "sounddevice.h"
 #include <QFile>
 #include <QDir>
 #include <QDirIterator>
@@ -183,6 +184,16 @@ void QtSense::processCommand(QStringList args)
 		{
 			processMessage(args[i]);
 		}
+	}
+	else if(args[0] == "SFX")
+	{
+		SoundEffect sfx = Snd::GetSoundEffectByName(args[2]);
+		g_soundDevice->channelMgr()->SetChannelSFX(args[1], sfx, 0);
+	}
+	else if(args[0] == "SFE")
+	{
+		SoundFilter sfe = Snd::GetSoundFilterByName(args[2]);
+		g_soundDevice->channelMgr()->SetChannelSFE(args[1], sfe);
 	}
 	
 	emit onCommandProcessed(args);

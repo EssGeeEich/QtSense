@@ -30,7 +30,7 @@
     <item>
      <widget class="QTabWidget" name="tabWidget">
       <property name="currentIndex">
-       <number>2</number>
+       <number>0</number>
       </property>
       <widget class="QWidget" name="volumeTab">
        <attribute name="title">
@@ -132,6 +132,9 @@
           </item>
           <item>
            <widget class="QPushButton" name="saveButton">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
             <property name="text">
              <string>Sa&amp;ve</string>
             </property>
@@ -141,6 +144,9 @@
         </item>
         <item>
          <widget class="QGroupBox" name="eventsGroup">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
           <property name="title">
            <string>Events</string>
           </property>
@@ -197,7 +203,7 @@
              <item>
               <widget class="QPushButton" name="deleteSelEvent">
                <property name="text">
-                <string>&amp;Delete Selected Event/s</string>
+                <string>&amp;Delete Selected Event</string>
                </property>
               </widget>
              </item>
@@ -344,8 +350,8 @@
      <y>119</y>
     </hint>
     <hint type="destinationlabel">
-     <x>384</x>
-     <y>267</y>
+     <x>-1</x>
+     <y>-1</y>
     </hint>
    </hints>
   </connection>

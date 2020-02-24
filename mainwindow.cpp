@@ -14,7 +14,7 @@ MainWindow::MainWindow(QWidget *parent)
 {
 	ui->setupUi(this);
 	
-#ifdef DEBUG
+#ifdef LOGGING
 	m_logging = new QStringListModel(this);
 	ui->logText->setModel(m_logging);
 #endif
@@ -26,14 +26,13 @@ MainWindow::MainWindow(QWidget *parent)
 		ui->tabWidget->removeTab(ui->tabWidget->indexOf(ui->debugTab));
 	}
 	
-	// *
+#ifdef NOEDITOR
 	{
 		ui->editorTab->setEnabled(false);
 		ui->editorTab->setVisible(false);
 		ui->tabWidget->removeTab(ui->tabWidget->indexOf(ui->editorTab));
 	}
-	
-	// */
+#endif
 	
 	
 	connect(m_sense, &QtSense::onPacksReloaded,
@@ -196,8 +195,8 @@ void MainWindow::packListItemChangedExternally(QString item, bool status)
 void MainWindow::on_actionSettings_triggered()
 {
 	Settings* s = new Settings(this);
-	s->show();
 	connect(s, &QDialog::finished, this, &MainWindow::settingsChanged);
+	s->show();
 }
 
 void MainWindow::on_actionReload_Packs_triggered()
@@ -216,7 +215,17 @@ void MainWindow::createChannelSlider(QString ch, int position)
 	
 	QLabel* nLabel = new QLabel(ui->volumeTab);
 	nLabel->setObjectName(QString::fromUtf8("Ch_%1_Label").arg(ch));
-	nLabel->setText(ch);
+	{
+		QString capitalized = ch;
+		for(int i = 0; i < capitalized.size(); ++i)
+		{
+			if(!i || (capitalized.at(i).isLetter() && !capitalized.at(i-1).isLetter()))
+			{
+				capitalized[i] = capitalized[i].toTitleCase();
+			}
+		}
+		nLabel->setText(capitalized);
+	}
 	ui->formLayout_2->setWidget(row, QFormLayout::LabelRole, nLabel);
 	
 	QSlider* nSlider = new QSlider(ui->volumeTab);

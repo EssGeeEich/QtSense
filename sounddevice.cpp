@@ -1,6 +1,7 @@
 #include "sounddevice.h"
 #include <iostream>
 
+
 SoundDevice::SoundDevice(QObject *parent, std::string deviceName)
 	: QObject(parent),
 	  m_name(std::move(deviceName)),
@@ -16,8 +17,11 @@ SoundDevice::SoundDevice(QObject *parent, std::string deviceName)
 				.arg(QString::fromStdString(m_name));
 		return;
 	}
-	
-	m_ctx = alcCreateContext(m_dev, nullptr);
+	ALint const hints[] = {
+		ALC_MAX_AUXILIARY_SENDS, MAX_SOURCE_SFX,
+		0, 0
+	};
+	m_ctx = alcCreateContext(m_dev, hints);
 	if(!m_ctx)
 	{
 		m_error = QObject::tr("OpenAL failed to initialize the Context for Audio Device '%1'.")
@@ -27,17 +31,40 @@ SoundDevice::SoundDevice(QObject *parent, std::string deviceName)
 	
 	m_multichannel = (alcIsExtensionPresent(m_dev, "AL_EXT_MCFORMATS") == AL_TRUE);
 	m_float32 = (alcIsExtensionPresent(m_dev, "AL_EXT_float32") == AL_TRUE);
+	m_sfx = (alcIsExtensionPresent(m_dev, "ALC_EXT_EFX") == AL_TRUE);
 	
 	std::cout << "Loaded device '" << m_name << "'." << std::endl
 			  << " With the following features:" << std::endl
 			  << " AL_EXT_MCFORMATS: " << (m_multichannel ? "Yes" : "No") << std::endl
-			  << " AL_EXT_FLOAT32: " << (m_float32 ? "Yes" : "No") << std::endl;
+			  << " AL_EXT_FLOAT32: " << (m_float32 ? "Yes" : "No") << std::endl
+			  << " ALC_EXT_EFX: " << (m_sfx ? "Yes" : "No") << std::endl;
+	if(m_sfx)
+	{
+		ALint iSends = 0;
+		alcGetIntegerv(m_dev, ALC_MAX_AUXILIARY_SENDS, 1, &iSends);
+		
+		std::cout << " ALC_MAX_AUXILIARY_SENDS: " << iSends << std::endl;
+		
+		if(iSends < MAX_SOURCE_SFX)
+		{
+			std::cout << "Not enough ALC_MAX_AUXILIARY_SENDS." << std::endl
+					  << " Required: " << MAX_SOURCE_SFX << std::endl
+					  << " Sound Extensions will be disabled." << std::endl;
+			m_sfx = false;
+		}
+	}
+}
+
+void SoundDevice::loadEffects()
+{
+	m_channelMgr->loadEffects();
 }
 
 SoundChannelManager* SoundDevice::channelMgr() const { return m_channelMgr; }
 SoundFadeManager* SoundDevice::fade() const { return m_fade; }
 bool SoundDevice::multichannel() const { return m_multichannel; }
 bool SoundDevice::float32() const { return m_float32; }
+bool SoundDevice::soundEffects() const { return m_sfx; }
 std::string SoundDevice::name() const { return m_name; }
 
 SoundDevice::~SoundDevice() {

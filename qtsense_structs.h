@@ -20,9 +20,8 @@ enum {
 };
 
 struct SoundVariant {
-	QString m_filename;
-	/*QString m_url;
-	QUrl m_chosenUrl;*/
+	QString m_relfilename; // SaveXML uses this field
+	QString m_filename; // This is basically a read-only field
 	int m_weight;
 	float m_volume;
 	float m_balance;
@@ -31,17 +30,13 @@ struct SoundVariant {
 	std::shared_ptr<Sound> m_sound;
 };
 
-/*
- * Some features have not been implemented yet.
- *
- */
-
+/* Some features have not been implemented yet. */
 struct GameLineInfo {
 	QRegExp m_regex;
 	QString m_channel;
 	bool m_loop;
 	Threshold m_threshold;
-	int m_delay;
+	int m_delay; // !ignored!
 	int m_concurrency; // 0-N [ <=0 : disabled ]
 	int m_timeout; // !ignored!
 	int m_probability; // 0-100

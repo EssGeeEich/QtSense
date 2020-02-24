@@ -18,8 +18,10 @@ public:
 	std::string name() const;
 	bool multichannel() const;
 	bool float32() const;
+	bool soundEffects() const;
 	SoundFadeManager* fade() const;
 	SoundChannelManager* channelMgr() const;
+	void loadEffects();
 private:
 	QString m_error;
 	std::string m_name;
@@ -30,6 +32,7 @@ private:
 	SoundChannelManager* m_channelMgr;
 	bool m_multichannel;
 	bool m_float32;
+	bool m_sfx;
 };
 
 extern SoundDevice* g_soundDevice;

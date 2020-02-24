@@ -50,7 +50,7 @@ bool SaveXMLPack(PackListInfo const& pack, PackProperties const& pp)
 		{
 			QDomElement sound = xml.createElement("sound");
 			sound.setAttribute("pattern", gli.m_regex.pattern());
-			sound.setAttribute("channel", gli.m_channel);
+			sound.setAttribute("channel", gli.m_channel.toLower());
 			if(gli.m_loop)
 				sound.setAttribute("loop", "true");
 			if(gli.m_threshold != TH_DEFAULT)
@@ -68,7 +68,7 @@ bool SaveXMLPack(PackListInfo const& pack, PackProperties const& pp)
 			{
 				QDomElement soundFile = xml.createElement("soundFile");
 				
-				soundFile.setAttribute("fileName", basePath.relativeFilePath(variant.m_filename));
+				soundFile.setAttribute("fileName", variant.m_relfilename);
 				if(variant.m_weight != DEFAULT_SOUND_WEIGHT)
 					soundFile.setAttribute("weight", variant.m_weight);
 				if(variant.m_volume != 1.f)
@@ -151,7 +151,7 @@ bool ParseXMLPack(PackListInfo const& pack, PackProperties& pp, bool loadAll)
 					continue;
 				}
 
-				gli.m_channel = domElStr(soundEl,"channel", "sfx");
+				gli.m_channel = domElStr(soundEl,"channel", "sfx").toLower();
 				if(gli.m_channel.isEmpty())
 					gli.m_channel = "sfx";
 
@@ -188,6 +188,7 @@ bool ParseXMLPack(PackListInfo const& pack, PackProperties& pp, bool loadAll)
 					if(randomBalance)
 						variant.m_rngBalance = std::make_shared<RandomDouble>(-0.5,0.5);
 					variant.m_filename = fileName;
+					variant.m_relfilename = soundFileEl.attribute("fileName");
 					/*
 						variant.m_url = url;
 						QUrl realUrl;

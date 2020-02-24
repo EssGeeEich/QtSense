@@ -1,12 +1,12 @@
 --------------------------------------
 ------------ Do not edit! ------------
 --------------------------------------
-if QtSense then return end
+--if QtSense then return end
 QtSense = true
 
 local OnConnect = {}
 local OnEventCheck = {}
-local Msg, DebugMsg, CustomMsg
+local Msg, DebugMsg, CustomMsg, Sfx, Sfe
 --------------------------------------
 --------------------------------------
 
@@ -28,8 +28,17 @@ local Server = {
 function OnEventCheck:Seasons()
 	local currentSeason = math.floor(df.global.cur_year_tick/100800)
 	if self.lastSeason ~= currentSeason then
-		CustomMsg("SEASON", currentSeason)
 		self.lastSeason = currentSeason
+
+		if currentSeason == 0 then
+			Msg("Spring has arrived on the calendar.")
+		elseif currentSeason == 1 then
+			Msg("Summer has arrived on the calendar.")
+		elseif currentSeason == 2 then
+			Msg("Autumn has arrived on the calendar.")
+		elseif currentSeason == 3 then
+			Msg("Winter has arrived on the calendar.")
+		end
 	end
 end
 
@@ -41,6 +50,192 @@ function OnEventCheck:Weather()
 			diffWeathers[df.global.current_weather[x][y] or 0] = true
 		end
 	end
+
+	local selWeather = 0
+	if diffWeathers[2] then
+		selWeather = 2
+	elseif diffWeathers[1] then
+		selWeather = 1
+	end
+
+	if self.lastWeather ~= selWeather then
+		if selWeather == 2 then
+			Msg("A snow storm has come.")
+		elseif selWeather == 1 then
+			Msg("It has started raining.")
+		else
+			Msg("The weather has cleared.")
+		end
+		self.lastWeather = selWeather
+	end
+end
+
+function OnEventCheck:Mouse()
+	if (({dfhack.maps.getSize()})[1] or 0) == 0 then
+		return
+	end
+
+	local zpos = df.global.window_z
+
+	local relpos
+	if df.global.gps.mouse_x ~= -1 then
+		relpos = {df.global.window_x + df.global.gps.mouse_x, df.global.window_y + df.global.gps.mouse_y, zpos}
+	else
+		relpos = {df.global.window_x + df.global.gps.dimx / 2, df.global.window_y + df.global.gps.dimy / 2, zpos}
+	end
+
+	if not self.occlusionTable then
+		self.lastFx = {
+			SFX = {},
+			SFE = {}
+		}
+		self.occlusionTable = {
+			{ minLevel = 19, Data = {
+				weather = {SFX="CAVE", SFE="MUFFLE_9"},
+				sfx = {SFX="CAVE"},
+				music = {SFX="CAVE", SFE="MUFFLE_4"}
+			} },
+			{ minLevel = 18, Data = {
+				weather = {SFX="CAVE", SFE="MUFFLE_8"},
+				sfx = {SFX="CAVE"},
+				music = {SFX="CAVE", SFE="MUFFLE_3"}
+			} },
+			{ minLevel = 17, Data = {
+				weather = {SFX="CAVE", SFE="MUFFLE_7"},
+				sfx = {SFX="CAVE"},
+				music = {SFX="CAVE", SFE="MUFFLE_2"}
+			} },
+			{ minLevel = 16, Data = {
+				weather = {SFX="CAVE", SFE="MUFFLE_6"},
+				sfx = {SFX="CAVE"},
+				music = {SFX="CAVE", SFE="MUFFLE_2"}
+			} },
+			{ minLevel = 15, Data = {
+				weather = {SFX="QUARRY", SFE="MUFFLE_5"},
+				sfx = {SFX="CAVE"},
+				music = {SFX="CAVE", SFE="MUFFLE_1"}
+			} },
+			{ minLevel = 13, Data = {
+				weather = {SFX="QUARRY", SFE="MUFFLE_4"},
+				sfx = {SFX="CAVE"},
+				music = {SFX="CAVE", SFE="MUFFLE_1"}
+			} },
+			{ minLevel = 10, Data = {
+				weather = {SFX="MOUNTAINS", SFE="MUFFLE_3"},
+				sfx = {SFX="QUARRY"},
+				music = {SFX="QUARRY", SFE="DISABLED"}
+			} },
+			{ minLevel = 4, Data = {
+				weather = {SFX="MOUNTAINS", SFE="MUFFLE_2"}},
+				sfx = {SFX="MOUNTAINS"},
+				music = {SFX="MOUNTAINS", SFE="DISABLED"}
+			 },
+			{ minLevel = 3, Data = {
+				weather = {SFX="FOREST", SFE="MUFFLE_1"},
+				sfx = {SFX="FOREST"},
+				music = {SFX="FOREST", SFE="DISABLED"}
+			} },
+			{ minLevel = 0, Data = {
+				weather = {SFX="FOREST", SFE="DISABLED"},
+				sfx = {SFX="FOREST"},
+				music = {SFX="FOREST", SFE="DISABLED"}
+			} }
+		}
+		self.isVerticallyOccluded = function(loc)
+			return (not (dfhack.maps.getTileFlags(math.floor(loc[1]+0.01), math.floor(loc[2]+0.01), math.floor(loc[3]+0.01)) or {}).outside)
+		end
+		self.openAirCheck = function(loc)
+			local occlusionScore = 0
+			if self.isVerticallyOccluded(loc) then
+				occlusionScore = 1
+				local neighbors = {
+					{-1, 0},
+					{1, 0},
+					{0, -1},
+					{0, 1}
+				}
+				for k,v in ipairs(neighbors) do
+					if self.isVerticallyOccluded({loc[1]+v[1], loc[2]+v[2], loc[3]}) then
+						occlusionScore = occlusionScore + 1
+					end
+				end
+
+				if occlusionScore == 5 then
+					neighbors = {
+						{-1, -1},
+						{1, -1},
+						{-1, 1},
+						{1, 1},
+						{-2, 0},
+						{2, 0},
+						{0, -2},
+						{0, 2}
+					}
+					for k,v in ipairs(neighbors) do
+						if self.isVerticallyOccluded({loc[1]+v[1], loc[2]+v[2], loc[3]}) then
+							occlusionScore = occlusionScore + 1
+						end
+					end
+				end
+
+				if occlusionScore == 13 then
+					for i=1,6 do
+						if self.isVerticallyOccluded({loc[1],loc[2],loc[3]+i}) then
+							occlusionScore = occlusionScore + 1
+						end
+					end
+				end
+			end
+
+			local AllChannels = {}
+			for k,v in ipairs(self.occlusionTable) do
+				for x,y in pairs(v.Data) do
+					AllChannels[x] = false
+				end
+			end
+
+			local Channels = {}
+
+			for k,v in ipairs(self.occlusionTable) do
+				if occlusionScore >= v.minLevel then
+					for x,y in pairs(v.Data) do
+						if not Channels[x] then
+							Channels[x] = y
+							AllChannels[x] = true
+						end
+					end
+					local breakNow = true
+					for x,y in pairs(AllChannels) do
+						if AllChannels[x] == false then
+							breakNow = false
+						end
+					end
+				end
+			end
+			return Channels
+		end
+	end
+
+	local ChannelInfos = self.openAirCheck(relpos)
+	for channel, info in pairs(ChannelInfos) do
+		for msg, value in pairs(info) do
+			if msg == "SFX" then
+				if self.lastFx.SFX[channel] ~= value then
+					self.lastFx.SFX[channel] = value
+					Sfx(channel, value)
+				end
+			elseif msg == "SFE" then
+				if self.lastFx.SFE[channel] ~= value then
+					self.lastFx.SFE[channel] = value
+					Sfe(channel, value)
+				end
+			end
+		end
+	end
+	--[[
+		Sfx("weather", "PRESETHERE")
+		Sfe("weather", "PRESETHERE")
+	--]]
 end
 
 
@@ -66,7 +261,7 @@ Eventful.onJobInitiated.QtSense =
 function(job)
 	local jobUser = dfhack.job.getWorker(job)
 	if jobUser and dfhack.units.isVisible(jobUser) then
-		CustomMsg("JOBSTART", dfhack.job.getName(job))
+		CustomMsg("JOBI", dfhack.job.getName(job))
 	end
 end
 Eventful.enableEvent(Eventful.eventType.JOB_INITIATED,1)
@@ -125,7 +320,9 @@ Eventful.enableEvent(Eventful.eventType.UNIT_ATTACK,1)
 
 Eventful.onUnload.QtSense =
 function(...)
-	DebugMsg("onUnload")
+	CustomMsg("STOP", "weather")
+	CustomMsg("STOP", "music")
+	Msg("*** STARTING NEW GAME ***")
 end
 Eventful.enableEvent(Eventful.eventType.UNLOAD,1)
 
@@ -305,6 +502,20 @@ Msg = function(m)
 	)
 end
 
+Sfx = function(chn, sfx)
+	SocketSend(
+		EscapedMessage("SFX", chn, sfx)
+		.. "\n"
+	)
+end
+
+Sfe = function(chn, sfe)
+	SocketSend(
+		EscapedMessage("SFE", chn, sfe)
+		.. "\n"
+	)
+end
+
 DebugMsg = function(...)
 	SocketSend(
 		EscapedMessage("DBG", ...)
@@ -314,7 +525,7 @@ end
 
 CustomMsg = function(...)
 	SocketSend(
-		EscapedMessage("CMG", ...)
+		EscapedMessage(...)
 		.. "\n"
 	)
 end
@@ -333,10 +544,11 @@ end
 AutoUpdate()
 
 function AutoEventCheck()
-	dfhack.timeout(30, 'frames', AutoEventCheck)
+	dfhack.timeout(15, 'frames', AutoEventCheck)
 	if socket == nil then return end
-	CheckForEvents()
+	dfhack.with_suspend(CheckForEvents)
 end
+AutoEventCheck()
 
 function AutoTryConnect()
 	dfhack.timeout(1000, 'frames', AutoTryConnect)

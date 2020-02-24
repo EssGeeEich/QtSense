@@ -24,12 +24,17 @@ private:
 	void prepareChannelSlider(QString ch);
 	
 	void settingsChanged();
+	void soundEdited();
 	void packsChanged();
 	void packListItemChanged(QListWidgetItem*);
 	void packListItemChangedExternally(QString, bool);
 	void sliderValueChanged(QString const& ch, int position);
 	void commandProcessed(QStringList);
 	
+	bool runDirtyUserCheck();
+	bool saveXML();
+protected:
+	void closeEvent(QCloseEvent* event);
 private slots:
 	void on_actionSettings_triggered();
 	void on_actionReload_Packs_triggered();
@@ -38,6 +43,9 @@ private slots:
 	void on_actionSave_Pack_triggered();
 	void on_browseSoundPackButton_clicked();
 	void on_loadButton_clicked();
+	void on_deleteSelEvent_clicked();
+	void on_editSelEvent_clicked();
+	void on_createNewEvent_clicked();
 	
 private:
 	Ui::MainWindow *ui;
