@@ -1,5 +1,5 @@
 #include "settings.h"
-#include "ui_Settings.h"
+#include "ui_settings.h"
 #include <QFileDialog>
 #include "qtsense.h"
 #include "sounddeviceenumerator.h"
