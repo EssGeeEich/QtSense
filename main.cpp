@@ -9,7 +9,10 @@
 int main(int argc, char *argv[])
 {
 	QApplication a(argc, argv);
-	
+	QCoreApplication::setOrganizationName("SGH");
+	QCoreApplication::setApplicationName("QtSense");
+	QCoreApplication::setApplicationVersion(VERSION);
+
 	SoundDeviceEnumerator sde;
 	std::vector<std::string> devices = sde.getSoundDevices();
 	if(devices.empty())
