@@ -264,6 +264,9 @@ void MainWindow::sliderValueChanged(QString const& ch, int position)
 {
 	g_soundDevice->channelMgr()->SetChannelVolume(ch, static_cast<float>(position) * 0.01f);
 	
+	if(m_loadingChannels)
+		return;
+	
 	Set::g_settings->beginGroup("Volume");
 	Set::g_settings->setValue(QString("Ch_") + ch, position);
 	Set::g_settings->endGroup();
@@ -272,6 +275,9 @@ void MainWindow::sliderValueChanged(QString const& ch, int position)
 void MainWindow::on_masterSlider_valueChanged(int position)
 {
 	g_currentListener->setGain(static_cast<float>(position) * 0.01f);
+	
+	if(m_loadingChannels)
+		return;
 	
 	Set::g_settings->beginGroup("Volume");
 	Set::g_settings->setValue("Master", position);
