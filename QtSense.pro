@@ -56,6 +56,7 @@ HEADERS += \
     qtsensefilemonitor.h \
     random.h \
     settings.h \
+    simpleton.h \
     sound.h \
     sound_shared.h \
     soundchannelmanager.h \

@@ -22,11 +22,11 @@ int main(int argc, char *argv[])
 			QObject::tr("No sound devices have been found."));
 		return a.exec();
 	}
-	
-	Set::g_settings.beginGroup("Sound");
+
+	Set::g_settings->beginGroup("Sound");
 	std::string prefDevice = Set::stringSetting("SelectedDevice").toStdString();
-	Set::g_settings.endGroup();
-	
+	Set::g_settings->endGroup();
+
 	std::string selDevice = devices.front();
 	for(auto& dev : devices)
 	{
@@ -36,7 +36,7 @@ int main(int argc, char *argv[])
 			break;
 		}
 	}
-	
+
 	SoundDevice sd(nullptr, selDevice);
 	if(!sd.isReady())
 	{
@@ -45,7 +45,7 @@ int main(int argc, char *argv[])
 			sd.error());
 		return a.exec();
 	}
-	
+
 	if(!sd.select())
 	{
 		QMessageBox::critical(nullptr,
@@ -53,7 +53,7 @@ int main(int argc, char *argv[])
 			sd.error());
 		return a.exec();
 	}
-	
+
 	sd.loadEffects();
 
 	MainWindow w;

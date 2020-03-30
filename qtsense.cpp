@@ -68,9 +68,9 @@ void QtSense::SetPackEnabled(QString const& packName, bool enabled)
 	{
 		it->m_enabled = enabled;
 
-		Set::g_settings.beginGroup("EnabledPacks");
-		Set::g_settings.setValue(packName, enabled);
-		Set::g_settings.endGroup();
+		Set::g_settings->beginGroup("EnabledPacks");
+		Set::g_settings->setValue(packName, enabled);
+		Set::g_settings->endGroup();
 
 		emit onPackStatusChanged(packName, enabled);
 	}
@@ -97,7 +97,7 @@ void QtSense::reloadPacks()
 		continue;
 	}
 
-	Set::g_settings.beginGroup("EnabledPacks");
+	Set::g_settings->beginGroup("EnabledPacks");
 	for(PackListInfo pack : packsList)
 	{
 		PackProperties pp;
@@ -115,7 +115,7 @@ void QtSense::reloadPacks()
 
 		m_loadedPacks.insert(pack.m_displayname, pp);
 	}
-	Set::g_settings.endGroup();
+	Set::g_settings->endGroup();
 
 	emit onPacksReloaded();
 }

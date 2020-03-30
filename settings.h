@@ -3,13 +3,14 @@
 
 #include <QDialog>
 #include <QSettings>
+#include "simpleton.h"
 
 namespace Ui {
 class Settings;
 }
 
 namespace Set {
-	extern QSettings g_settings;
+	extern Simpleton<QSettings> g_settings;
 	int intSetting(QString const&, int =0);
 	QString stringSetting(QString const&, QString =QString());
 	bool boolSetting(QString const&, bool =false);

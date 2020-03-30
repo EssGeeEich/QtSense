@@ -53,7 +53,7 @@ MainWindow::MainWindow(QWidget *parent)
 
 MainWindow::~MainWindow()
 {
-	Set::g_settings.sync();
+	Set::g_settings->sync();
 	delete ui;
 }
 
@@ -75,18 +75,18 @@ void MainWindow::commandProcessed(QStringList args)
 
 void MainWindow::settingsChanged()
 {
-	Set::g_settings.beginGroup("Paths");
+	Set::g_settings->beginGroup("Paths");
 	QString gamelog = Set::stringSetting("Gamelog");
 	QString gamelog_extra = Set::stringSetting("GamelogExtra");
 	QString packs = Set::stringSetting("Packs");
-	Set::g_settings.endGroup();
-	Set::g_settings.beginGroup("General");
+	Set::g_settings->endGroup();
+	Set::g_settings->beginGroup("General");
 	Threshold thres = static_cast<Threshold>(Set::intSetting("Threshold", Everything));
 	int port = Set::intSetting("Port", 27970);
 	bool allowRemote = Set::boolSetting("AllowRemote", false);
-	Set::g_settings.endGroup();
-	Set::g_settings.beginGroup("Volume");
-	QStringList keys = Set::g_settings.childKeys();
+	Set::g_settings->endGroup();
+	Set::g_settings->beginGroup("Volume");
+	QStringList keys = Set::g_settings->childKeys();
 	keys.sort(Qt::CaseInsensitive);
 	m_loadingChannels = true;
 	for(QString const& channel : keys)
@@ -113,7 +113,7 @@ void MainWindow::settingsChanged()
 		}
 	}
 	m_loadingChannels = false;
-	Set::g_settings.endGroup();
+	Set::g_settings->endGroup();
 
 	if(port > 0 && port <= 65535)
 	{
@@ -254,9 +254,9 @@ void MainWindow::prepareChannelSlider(QString ch)
 	if(m_loadingChannels)
 		return;
 	
-	Set::g_settings.beginGroup("Volume");
+	Set::g_settings->beginGroup("Volume");
 	int position = Set::intSetting(QString("Ch_") + ch, 100);
-	Set::g_settings.endGroup();
+	Set::g_settings->endGroup();
 	createChannelSlider(std::move(ch), position);
 }
 
@@ -264,16 +264,16 @@ void MainWindow::sliderValueChanged(QString const& ch, int position)
 {
 	g_soundDevice->channelMgr()->SetChannelVolume(ch, static_cast<float>(position) * 0.01f);
 	
-	Set::g_settings.beginGroup("Volume");
-	Set::g_settings.setValue(QString("Ch_") + ch, position);
-	Set::g_settings.endGroup();
+	Set::g_settings->beginGroup("Volume");
+	Set::g_settings->setValue(QString("Ch_") + ch, position);
+	Set::g_settings->endGroup();
 }
 
 void MainWindow::on_masterSlider_valueChanged(int position)
 {
 	g_currentListener->setGain(static_cast<float>(position) * 0.01f);
 	
-	Set::g_settings.beginGroup("Volume");
-	Set::g_settings.setValue("Master", position);
-	Set::g_settings.endGroup();
+	Set::g_settings->beginGroup("Volume");
+	Set::g_settings->setValue("Master", position);
+	Set::g_settings->endGroup();
 }

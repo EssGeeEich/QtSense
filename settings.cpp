@@ -5,10 +5,10 @@
 #include "sounddeviceenumerator.h"
 
 namespace Set {
-	QSettings g_settings;
+	Simpleton<QSettings> g_settings;
 	int intSetting(QString const& key, int defval)
 	{
-		QVariant var = g_settings.value(key);
+		QVariant var = g_settings->value(key);
 		bool rs=false;
 		int val = var.toInt(&rs);
 		if(rs)
@@ -17,12 +17,12 @@ namespace Set {
 	}
 	QString stringSetting(QString const& key, QString defval)
 	{
-		QVariant var = g_settings.value(key, defval);
+		QVariant var = g_settings->value(key, defval);
 		return var.toString();
 	}
 	bool boolSetting(QString const& key, bool defval)
 	{
-		QVariant var = g_settings.value(key, defval);
+		QVariant var = g_settings->value(key, defval);
 		return var.toBool();
 	}
 }
@@ -42,13 +42,13 @@ Settings::~Settings()
 
 void Settings::restore()
 {
-	Set::g_settings.sync();
-	Set::g_settings.beginGroup("Paths");
+	Set::g_settings->sync();
+	Set::g_settings->beginGroup("Paths");
 	ui->gameLogPathLineEdit->setText(Set::stringSetting("Gamelog"));
 	ui->extraGameLogPathLineEdit->setText(Set::stringSetting("GamelogExtra"));
 	ui->packsFolderLineEdit->setText(Set::stringSetting("Packs"));
-	Set::g_settings.endGroup();
-	Set::g_settings.beginGroup("General");
+	Set::g_settings->endGroup();
+	Set::g_settings->beginGroup("General");
 	ui->soundThresholdComboBox->setCurrentIndex(
 		std::max<int>(Nothing,
 			std::min<int>(Everything,
@@ -66,7 +66,7 @@ void Settings::restore()
 	ui->allowRemoteAccessCheckBox->setCheckState(
 		Set::boolSetting("AllowRemote", false) ? Qt::Checked : Qt::Unchecked
 	);
-	Set::g_settings.endGroup();
+	Set::g_settings->endGroup();
 	
 	ui->soundDeviceComboBox->clear();
 	
@@ -90,7 +90,7 @@ void Settings::restore()
 	else
 	{
 		ui->soundDeviceComboBox->setEnabled(true);
-		Set::g_settings.beginGroup("Sound");
+		Set::g_settings->beginGroup("Sound");
 		QString selDevice = Set::stringSetting("SelectedDevice");
 		bool mSel = false;
 		for(int i = 0; i < ui->soundDeviceComboBox->count(); ++i)
@@ -104,26 +104,26 @@ void Settings::restore()
 		}
 		if(!mSel)
 			ui->soundDeviceComboBox->setCurrentIndex(0);
-		Set::g_settings.endGroup();
+		Set::g_settings->endGroup();
 	}
 }
 
 void Settings::save()
 {
-	Set::g_settings.beginGroup("Paths");
-	Set::g_settings.setValue("Gamelog",ui->gameLogPathLineEdit->text());
-	Set::g_settings.setValue("GamelogExtra",ui->extraGameLogPathLineEdit->text());
-	Set::g_settings.setValue("Packs",ui->packsFolderLineEdit->text());
-	Set::g_settings.endGroup();
-	Set::g_settings.beginGroup("General");
-	Set::g_settings.setValue("Threshold", ui->soundThresholdComboBox->currentIndex());
-	Set::g_settings.setValue("Port", ui->socketIntegrationPortSpinBox->value());
-	Set::g_settings.setValue("AllowRemote", (ui->allowRemoteAccessCheckBox->checkState() == Qt::Checked));
-	Set::g_settings.endGroup();
-	Set::g_settings.beginGroup("Sound");
-	Set::g_settings.setValue("SelectedDevice", ui->soundDeviceComboBox->currentData().toString());
-	Set::g_settings.endGroup();
-	Set::g_settings.sync();
+	Set::g_settings->beginGroup("Paths");
+	Set::g_settings->setValue("Gamelog",ui->gameLogPathLineEdit->text());
+	Set::g_settings->setValue("GamelogExtra",ui->extraGameLogPathLineEdit->text());
+	Set::g_settings->setValue("Packs",ui->packsFolderLineEdit->text());
+	Set::g_settings->endGroup();
+	Set::g_settings->beginGroup("General");
+	Set::g_settings->setValue("Threshold", ui->soundThresholdComboBox->currentIndex());
+	Set::g_settings->setValue("Port", ui->socketIntegrationPortSpinBox->value());
+	Set::g_settings->setValue("AllowRemote", (ui->allowRemoteAccessCheckBox->checkState() == Qt::Checked));
+	Set::g_settings->endGroup();
+	Set::g_settings->beginGroup("Sound");
+	Set::g_settings->setValue("SelectedDevice", ui->soundDeviceComboBox->currentData().toString());
+	Set::g_settings->endGroup();
+	Set::g_settings->sync();
 }
 
 void Settings::on_browseGameLog_clicked()
