@@ -16,12 +16,17 @@ On Debian (untested):
 # apt install qtbase5-dev libopenal-dev gstreamer1.0-plugins-good
 ```
 
+On Fedora/CentOS:
+```
+# dnf install qt5-qtdeclarative-devel qt5-qtmultimedia-devel gstreamer1-plugins-good* openal-soft-devel
+```
+
 ### Installing
 
 ```
 $ git clone https://github.com/EssGeeEich/QtSense.git
 $ cd QtSense
-$ qmake
+$ qmake # qmake-qt5 on Fedora/CentOS
 $ make && echo You may want to run 'make install' as root now, or './QtSense' without root.
 ```
 
