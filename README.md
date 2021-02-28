@@ -18,7 +18,7 @@ On Debian (untested):
 
 On Fedora/CentOS:
 ```
-# dnf install qt5-qtdeclarative-devel qt5-qtmultimedia-devel gstreamer1-plugins-good* openal-soft-devel
+# dnf install qt5-qtdeclarative-devel qt5-qtmultimedia-devel gstreamer1-plugins-good* openal-soft-devel.x86_64
 ```
 
 ### Installing
